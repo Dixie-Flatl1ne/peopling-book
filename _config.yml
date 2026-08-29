@@ -10,3 +10,4 @@ kramdown:
   hard_wrap: false
 exclude:
   - README.md
+  - assets/_style.frag

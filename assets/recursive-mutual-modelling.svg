@@ -1,5 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 820" font-family="Helvetica, Arial, sans-serif">
-  <rect width="1000" height="820" fill="#ffffff"/>
+  <style>
+    [stroke="#222222"] { stroke: #22201d; }
+    [fill="#222222"] { fill: #22201d; }
+    [fill="#111111"] { fill: #22201d; }
+    [fill="#ff2e2e"] { fill: #9e4d35; }
+    [fill="#34d2e0"] { fill: #3f6b6b; }
+    .on-fill { fill: #f7f3ea; }
+    @media (prefers-color-scheme: dark) {
+      [stroke="#222222"] { stroke: #eee9df; }
+      [fill="#222222"] { fill: #eee9df; }
+      [fill="#111111"] { fill: #eee9df; }
+      [fill="#ff2e2e"] { fill: #d18165; }
+      [fill="#34d2e0"] { fill: #7fb3ad; }
+      .on-fill { fill: #1d1b18; }
+    }
+  </style>
 
   <!-- Heads (Alice faces right, Bob is the mirror) -->
   <g fill="none" stroke="#222222" stroke-width="2.5">
@@ -19,7 +34,7 @@
   <!-- Alice's nested models (left) -->
   <circle cx="278" cy="352" r="100" fill="#ff2e2e"/>
   <circle cx="250" cy="405" r="40" fill="#34d2e0"/>
-  <text x="278" y="300" text-anchor="middle" font-size="22" fill="#111111">
+  <text x="278" y="300" text-anchor="middle" font-size="22" fill="#111111" class="on-fill">
     <tspan x="278" dy="0">Alice's model</tspan>
     <tspan x="278" dy="26">of Bob</tspan>
   </text>
@@ -27,7 +42,7 @@
   <!-- Bob's nested models (right) -->
   <circle cx="722" cy="352" r="100" fill="#34d2e0"/>
   <circle cx="750" cy="405" r="40" fill="#ff2e2e"/>
-  <text x="722" y="300" text-anchor="middle" font-size="22" fill="#111111">
+  <text x="722" y="300" text-anchor="middle" font-size="22" fill="#111111" class="on-fill">
     <tspan x="722" dy="0">Bob's model</tspan>
     <tspan x="722" dy="26">of Alice</tspan>
   </text>

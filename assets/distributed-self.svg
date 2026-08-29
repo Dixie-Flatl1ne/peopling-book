@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 524" role="img" aria-label="The self distributed across many heads at different resolutions">
+  <style>
+    text { font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .ink { fill: #22201d; }
+    .muted { fill: #6f685e; }
+    .accent { fill: #9e4d35; }
+    .cool { fill: #3f6b6b; }
+    .panel { fill: #efe8da; }
+    .soft { fill: #e6d5cb; }
+    .softc { fill: #d6e2e0; }
+    .s-ink { stroke: #22201d; fill: none; }
+    .s-muted { stroke: #6f685e; fill: none; }
+    .s-line { stroke: #d8d0c3; fill: none; }
+    .s-accent { stroke: #9e4d35; fill: none; }
+    .s-cool { stroke: #3f6b6b; fill: none; }
+    .m-ink { fill: #22201d; }
+    .m-accent { fill: #9e4d35; }
+    .m-cool { fill: #3f6b6b; }
+    .m-muted { fill: #6f685e; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #eee9df; } .muted { fill: #aaa196; } .accent { fill: #d18165; } .cool { fill: #7fb3ad; }
+      .panel { fill: #26231f; } .soft { fill: #3d2c25; } .softc { fill: #26332f; }
+      .s-ink { stroke: #eee9df; } .s-muted { stroke: #aaa196; } .s-line { stroke: #3d3832; }
+      .s-accent { stroke: #d18165; } .s-cool { stroke: #7fb3ad; }
+      .m-ink { fill: #eee9df; } .m-accent { fill: #d18165; } .m-cool { fill: #7fb3ad; } .m-muted { fill: #aaa196; }
+    }
+  </style>
+  <defs>
+    <marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-ink"/></marker>
+    <marker id="a-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-accent"/></marker>
+    <marker id="a-cool" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-cool"/></marker>
+    <marker id="a-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-muted"/></marker>
+  </defs>
+  <path d="M500 95 L634 172 L634 328 L500 405 L366 328 L366 172 Z" class="s-line" stroke-width="2" stroke-dasharray="6 7"/>
+
+  <circle cx="500" cy="250" r="64" class="s-muted" stroke-width="2" stroke-dasharray="5 7"/>
+  <text x="500" y="244" font-size="18" text-anchor="middle" class="muted">no original</text>
+  <text x="500" y="268" font-size="18" text-anchor="middle" class="muted">at the centre</text>
+
+  <circle cx="500" cy="95" r="48" class="s-ink" stroke-width="2.5"/>
+  <circle cx="500" cy="95" r="20" class="accent"/>
+  <text x="500" y="34" font-size="19" font-weight="700" text-anchor="middle" class="ink">your own head</text>
+
+  <circle cx="634" cy="172" r="48" class="s-ink" stroke-width="2.5"/>
+  <circle cx="634" cy="172" r="17" class="accent"/>
+  <text x="694" y="167" font-size="19" font-weight="700" class="ink">your partner</text>
+  <text x="694" y="190" font-size="17" class="muted">high resolution, corrected daily</text>
+
+  <circle cx="634" cy="328" r="48" class="s-ink" stroke-width="2.5"/>
+  <circle cx="634" cy="328" r="13" class="cool"/>
+  <text x="694" y="323" font-size="19" font-weight="700" class="ink">your boss</text>
+  <text x="694" y="346" font-size="17" class="muted">tuned to one relationship only</text>
+
+  <circle cx="500" cy="405" r="48" class="s-ink" stroke-width="2.5"/>
+  <circle cx="500" cy="405" r="18" class="accent"/>
+  <text x="500" y="480" font-size="19" font-weight="700" text-anchor="middle" class="ink">your mother</text>
+  <text x="500" y="503" font-size="17" text-anchor="middle" class="muted">a version built over decades</text>
+
+  <circle cx="366" cy="328" r="48" class="s-ink" stroke-width="2.5"/>
+  <circle cx="366" cy="328" r="11" class="cool"/>
+  <text x="306" y="323" font-size="19" font-weight="700" text-anchor="end" class="ink">a worried-about colleague</text>
+  <text x="306" y="346" font-size="17" text-anchor="end" class="muted">consulted even when they are not there</text>
+
+  <circle cx="366" cy="172" r="48" class="s-ink" stroke-width="2.5"/>
+  <circle cx="366" cy="172" r="7" class="cool"/>
+  <text x="306" y="167" font-size="19" font-weight="700" text-anchor="end" class="ink">someone you met once</text>
+  <text x="306" y="190" font-size="17" text-anchor="end" class="muted">low resolution, and fairly so</text>
+
+</svg>

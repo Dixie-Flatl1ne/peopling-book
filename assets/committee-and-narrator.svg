@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 466" role="img" aria-label="The committee, the act, and the narrator writing the story afterwards">
+  <style>
+    text { font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .ink { fill: #22201d; }
+    .muted { fill: #6f685e; }
+    .accent { fill: #9e4d35; }
+    .cool { fill: #3f6b6b; }
+    .panel { fill: #efe8da; }
+    .soft { fill: #e6d5cb; }
+    .softc { fill: #d6e2e0; }
+    .s-ink { stroke: #22201d; fill: none; }
+    .s-muted { stroke: #6f685e; fill: none; }
+    .s-line { stroke: #d8d0c3; fill: none; }
+    .s-accent { stroke: #9e4d35; fill: none; }
+    .s-cool { stroke: #3f6b6b; fill: none; }
+    .m-ink { fill: #22201d; }
+    .m-accent { fill: #9e4d35; }
+    .m-cool { fill: #3f6b6b; }
+    .m-muted { fill: #6f685e; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #eee9df; } .muted { fill: #aaa196; } .accent { fill: #d18165; } .cool { fill: #7fb3ad; }
+      .panel { fill: #26231f; } .soft { fill: #3d2c25; } .softc { fill: #26332f; }
+      .s-ink { stroke: #eee9df; } .s-muted { stroke: #aaa196; } .s-line { stroke: #3d3832; }
+      .s-accent { stroke: #d18165; } .s-cool { stroke: #7fb3ad; }
+      .m-ink { fill: #eee9df; } .m-accent { fill: #d18165; } .m-cool { fill: #7fb3ad; } .m-muted { fill: #aaa196; }
+    }
+  </style>
+  <defs>
+    <marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-ink"/></marker>
+    <marker id="a-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-accent"/></marker>
+    <marker id="a-cool" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-cool"/></marker>
+    <marker id="a-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-muted"/></marker>
+  </defs>
+  <circle cx="175" cy="140" r="100" class="s-ink" stroke-width="2.5"/>
+  <circle cx="140" cy="105" r="34" class="muted" opacity="0.85"/>
+  <circle cx="212" cy="100" r="25" class="muted" opacity="0.7"/>
+  <circle cx="198" cy="172" r="30" class="muted" opacity="0.8"/>
+  <circle cx="129" cy="180" r="19" class="muted" opacity="0.6"/>
+  <circle cx="243" cy="149" r="10" class="accent"/>
+  <text x="175" y="256" font-size="18" font-weight="700" text-anchor="middle" class="ink">THE COMMITTEE</text>
+
+  <line x1="277" y1="140" x2="546" y2="140" class="s-ink" stroke-width="3" marker-end="url(#a-ink)"/>
+  <text x="411" y="126" font-size="17" text-anchor="middle" class="muted">the act, already decided</text>
+
+  <rect x="560" y="58" width="390" height="164" rx="8" class="panel" stroke="#9e4d35" stroke-width="2"/>
+  <text x="584" y="94" font-size="21" font-weight="700" class="accent">THE NARRATOR</text>
+  <line x1="584" y1="110" x2="926" y2="110" class="s-line" stroke-width="2"/>
+  <text x="584" y="140" font-size="17" font-style="italic" class="ink">“I decided that staying calm would lead to</text>
+  <text x="584" y="164" font-size="17" font-style="italic" class="ink">better outcomes, so I stayed calm.”</text>
+  <text x="584" y="198" font-size="16" class="muted">— written afterwards, believed instantly</text>
+
+  <text x="30" y="292" font-size="17" class="muted">habit · mood · chemistry · status anxiety · whatever you read this week — the loud ones write the official story</text>
+  <text x="30" y="316" font-size="17" class="accent">and one quiet voice, which registered a colleague’s flinch and got edited out of the script</text>
+
+  <path d="M150 372 L150 358 L540 358 L540 372" class="s-accent" stroke-width="2" fill="none"/>
+  <text x="345" y="348" font-size="17" text-anchor="middle" class="accent">already done, in the dark</text>
+
+  <line x1="90" y1="392" x2="950" y2="392" class="s-line" stroke-width="3"/>
+  <text x="950" y="378" font-size="16" text-anchor="end" class="muted">time →</text>
+  <g class="ink"><circle cx="150" cy="392" r="8"/><circle cx="400" cy="392" r="8"/></g>
+  <g class="accent"><circle cx="660" cy="392" r="8"/><circle cx="880" cy="392" r="8"/></g>
+  <text x="150" y="424" font-size="17" text-anchor="middle" class="muted">the brain signal</text>
+  <text x="150" y="446" font-size="17" text-anchor="middle" class="muted">fires</text>
+  <text x="400" y="424" font-size="17" text-anchor="middle" class="muted">the body</text>
+  <text x="400" y="446" font-size="17" text-anchor="middle" class="muted">moves</text>
+  <text x="660" y="424" font-size="17" text-anchor="middle" class="ink">“you” arrive and</text>
+  <text x="660" y="446" font-size="17" text-anchor="middle" class="ink">take the credit</text>
+  <text x="880" y="424" font-size="17" text-anchor="middle" class="ink">the story is</text>
+  <text x="880" y="446" font-size="17" text-anchor="middle" class="ink">published</text>
+
+</svg>
