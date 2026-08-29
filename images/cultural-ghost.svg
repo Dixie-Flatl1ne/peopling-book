@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 566" role="img" aria-label="The culture as the source of intelligence, and where the machine stops">
+  <style>
+    text { font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .ink { fill: #22201d; }
+    .muted { fill: #6f685e; }
+    .accent { fill: #9e4d35; }
+    .cool { fill: #3f6b6b; }
+    .panel { fill: #efe8da; }
+    .soft { fill: #e6d5cb; }
+    .softc { fill: #d6e2e0; }
+    .s-ink { stroke: #22201d; fill: none; }
+    .s-muted { stroke: #6f685e; fill: none; }
+    .s-line { stroke: #d8d0c3; fill: none; }
+    .s-accent { stroke: #9e4d35; fill: none; }
+    .s-cool { stroke: #3f6b6b; fill: none; }
+    .m-ink { fill: #22201d; }
+    .m-accent { fill: #9e4d35; }
+    .m-cool { fill: #3f6b6b; }
+    .m-muted { fill: #6f685e; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #eee9df; } .muted { fill: #aaa196; } .accent { fill: #d18165; } .cool { fill: #7fb3ad; }
+      .panel { fill: #26231f; } .soft { fill: #3d2c25; } .softc { fill: #26332f; }
+      .s-ink { stroke: #eee9df; } .s-muted { stroke: #aaa196; } .s-line { stroke: #3d3832; }
+      .s-accent { stroke: #d18165; } .s-cool { stroke: #7fb3ad; }
+      .m-ink { fill: #eee9df; } .m-accent { fill: #d18165; } .m-cool { fill: #7fb3ad; } .m-muted { fill: #aaa196; }
+    }
+  </style>
+  <defs>
+    <marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-ink"/></marker>
+    <marker id="a-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-accent"/></marker>
+    <marker id="a-cool" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-cool"/></marker>
+    <marker id="a-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-muted"/></marker>
+  </defs>
+  <rect x="30" y="80" width="210" height="180" rx="14" class="panel" stroke="#6f685e" stroke-width="2"/>
+  <text x="135" y="120" font-size="20" font-weight="700" text-anchor="middle" class="ink">THE CULTURE</text>
+  <text x="135" y="154" font-size="15" text-anchor="middle" class="muted">everything anyone ever</text>
+  <text x="135" y="176" font-size="15" text-anchor="middle" class="muted">wrote down: arguments,</text>
+  <text x="135" y="198" font-size="15" text-anchor="middle" class="muted">stories, millennia of ideas</text>
+  <text x="135" y="220" font-size="15" text-anchor="middle" class="muted">sharpened against each</text>
+  <text x="135" y="242" font-size="15" text-anchor="middle" class="muted">other</text>
+
+  <path d="M244 116 L370 116 L370 100 L396 132 L370 164 L370 148 L244 148 Z" class="softc" stroke="#3f6b6b" stroke-width="2"/>
+  <text x="303" y="138" font-size="15" text-anchor="middle" class="ink">a childhood</text>
+  <path d="M244 200 L370 200 L370 184 L396 216 L370 248 L370 232 L244 232 Z" class="soft" stroke="#9e4d35" stroke-width="2"/>
+  <text x="303" y="222" font-size="15" text-anchor="middle" class="ink">training</text>
+
+  <circle cx="450" cy="132" r="42" class="s-ink" stroke-width="2.5"/>
+  <circle cx="436" cy="120" r="8" class="muted"/><circle cx="461" cy="126" r="5" class="muted"/><circle cx="446" cy="145" r="6" class="muted"/>
+  <text x="450" y="72" font-size="18" font-weight="700" text-anchor="middle" class="ink">a person</text>
+
+  <rect x="408" y="182" width="84" height="68" rx="8" class="soft" stroke="#9e4d35" stroke-width="2"/>
+  <circle cx="434" cy="208" r="5" class="accent"/><circle cx="466" cy="208" r="5" class="accent"/>
+  <line x1="428" y1="230" x2="472" y2="230" class="s-accent" stroke-width="2.5"/>
+  <text x="450" y="278" font-size="18" font-weight="700" text-anchor="middle" class="ink">a language model</text>
+
+  <line x1="496" y1="126" x2="584" y2="152" class="s-muted" stroke-width="2.5" marker-end="url(#a-muted)"/>
+  <line x1="496" y1="216" x2="584" y2="192" class="s-muted" stroke-width="2.5" marker-end="url(#a-muted)"/>
+
+  <rect x="592" y="106" width="196" height="132" rx="8" class="panel" stroke="#6f685e" stroke-width="2"/>
+  <text x="690" y="152" font-size="20" font-weight="700" text-anchor="middle" class="ink">INTELLIGENCE</text>
+  <text x="690" y="184" font-size="16" text-anchor="middle" class="muted">absorbed, not generated,</text>
+  <text x="690" y="206" font-size="16" text-anchor="middle" class="muted">by either pipe</text>
+
+  <text x="30" y="308" font-size="18" font-style="italic" class="accent">Intelligence is the library, not the librarian. The pipe does not need to be aware of the water.</text>
+  <line x1="30" y1="332" x2="970" y2="332" class="s-line" stroke-width="2"/>
+  <text x="30" y="358" font-size="19" font-weight="700" class="ink">WHERE THE GHOST STOPS</text>
+
+  <line x1="216" y1="446" x2="404" y2="446" class="s-muted" stroke-width="2.5" stroke-dasharray="7 6" marker-end="url(#a-muted)"/>
+  <line x1="496" y1="446" x2="684" y2="446" class="s-muted" stroke-width="2.5" stroke-dasharray="7 6" marker-end="url(#a-muted)"/>
+
+  <circle cx="172" cy="446" r="42" class="softc" stroke="#3f6b6b" stroke-width="2.5"/>
+  <text x="172" y="457" font-size="28" font-weight="700" text-anchor="middle" class="cool">1</text>
+  <text x="172" y="514" font-size="17" text-anchor="middle" class="ink">models the question</text>
+  <text x="172" y="536" font-size="17" text-anchor="middle" class="muted">— brilliantly</text>
+
+  <circle cx="450" cy="446" r="42" class="s-muted" stroke-width="2.5" stroke-dasharray="6 6"/>
+  <text x="450" y="457" font-size="28" font-weight="700" text-anchor="middle" class="muted">2</text>
+  <text x="450" y="514" font-size="17" text-anchor="middle" class="ink">models the person asking</text>
+  <text x="450" y="536" font-size="17" text-anchor="middle" class="muted">— missing</text>
+
+  <circle cx="728" cy="446" r="42" class="s-muted" stroke-width="2.5" stroke-dasharray="6 6"/>
+  <text x="728" y="457" font-size="28" font-weight="700" text-anchor="middle" class="muted">3</text>
+  <text x="728" y="514" font-size="17" text-anchor="middle" class="ink">models what the reply will do</text>
+  <text x="728" y="536" font-size="17" text-anchor="middle" class="muted">to the room — missing</text>
+
+  <line x1="310" y1="398" x2="310" y2="488" class="s-accent" stroke-width="3"/>
+  <text x="316" y="390" font-size="17" font-weight="700" text-anchor="middle" class="accent">it stops here</text>
+</svg>

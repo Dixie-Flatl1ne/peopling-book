@@ -25,20 +25,29 @@ raw = SRC.read_text(encoding="utf-8")
 lines = raw.split("\n")
 
 # ---------------------------------------------------------------- parse
-IMG_TOKEN = "@@FIGURE_RECURSIVE_MIRROR@@"
-# swap the missing image reference + its italic caption for a token
+IMG_TOKEN = "@@FIGURE_RECURSIVE_MIRROR@@"   # the one figure drawn inline, further down
+FIG_RE = re.compile(r"^!\[(?P<alt>[^\]]*)\]\((?P<src>[^)]+)\)\s*$")
+FIG_CAPTION = ""
+FIGURES = []                                # (token, src, alt, caption) for the file-backed ones
+# swap every image reference + its italic caption for a token
 for i, l in enumerate(lines):
-    if l.startswith("!["):
-        cap = ""
-        j = i + 1
-        while j < len(lines) and lines[j].strip() == "":
-            j += 1
-        if j < len(lines) and lines[j].startswith("*") and lines[j].endswith("*"):
-            cap = lines[j].strip("*").strip()
-            lines[j] = ""
-        lines[i] = IMG_TOKEN
+    m = FIG_RE.match(l)
+    if not m:
+        continue
+    cap = ""
+    j = i + 1
+    while j < len(lines) and lines[j].strip() == "":
+        j += 1
+    if j < len(lines) and lines[j].startswith("*") and lines[j].endswith("*"):
+        cap = lines[j].strip("*").strip()
+        lines[j] = ""
+    if m.group("src").endswith("recursive-mutual-modelling.svg"):
+        lines[i] = IMG_TOKEN                # keep the hand-drawn version below
         FIG_CAPTION = cap
-        break
+    else:
+        token = f"@@FIGURE_{len(FIGURES)}@@"
+        FIGURES.append((token, m.group("src"), m.group("alt"), cap))
+        lines[i] = token
 
 # split on H1
 h1_idx = [i for i, l in enumerate(lines) if re.match(r"^# (?!#)", l)]
@@ -154,6 +163,62 @@ FIGURE = '''<figure class="fig">
 <figcaption>__CAP__</figcaption>
 </figure>'''
 
+# ---- the rest of the figures are standalone .svg files, inlined so the page stays one file.
+# Their class names get a prefix and their ids a suffix, so several of them can share a
+# document without colliding with each other or with this page's stylesheet.
+CLASS_ATTR = re.compile(r'class="([^"]+)"')
+
+def _scope_css(css, classes, n):
+    for c in sorted(classes, key=len, reverse=True):
+        css = re.sub(r"\.%s\b" % re.escape(c), ".pb-" + c, css)
+    # this page also has a manual light/dark toggle; mirror the media query onto it
+    key = "@media (prefers-color-scheme: dark)"
+    at = css.find(key)
+    if at == -1:
+        return css
+    start = css.index("{", at)
+    depth, k = 0, start
+    while k < len(css):
+        if css[k] == "{":
+            depth += 1
+        elif css[k] == "}":
+            depth -= 1
+            if depth == 0:
+                break
+        k += 1
+    inner = css[start + 1:k]
+    rules = re.findall(r"([^{}]+)\{([^{}]*)\}", inner)
+    auto = "".join('%s:root:not([data-theme="light"]) %s{%s}' % ("", sel.strip(), decl) for sel, decl in rules)
+    manual = "".join(':root[data-theme="dark"] %s{%s}' % (sel.strip(), decl) for sel, decl in rules)
+    return css[:at] + key + "{" + auto + "}" + manual + css[k + 1:]
+
+def inline_figure(src, alt, cap, n):
+    svg = (ROOT / src).read_text(encoding="utf-8")
+    svg = re.sub(r"<\?xml[^>]*\?>\s*", "", svg).strip()
+    for ident in set(re.findall(r'\bid="([^"]+)"', svg)):
+        svg = svg.replace('id="%s"' % ident, 'id="%s-f%d"' % (ident, n))
+        svg = svg.replace("url(#%s)" % ident, "url(#%s-f%d)" % (ident, n))
+    classes = set()
+    for c in CLASS_ATTR.findall(svg):
+        classes.update(c.split())
+    svg = re.sub(r"<style>(.*?)</style>",
+                 lambda m: "<style>%s</style>" % _scope_css(m.group(1), classes, n),
+                 svg, flags=re.S)
+    svg = CLASS_ATTR.sub(lambda m: 'class="%s"' % " ".join("pb-" + t for t in m.group(1).split()), svg)
+    svg = svg.replace("<svg ", '<svg aria-label="%s" ' % html.escape(alt), 1)
+    caption = "<figcaption>%s</figcaption>" % html.escape(cap).replace("'", "\u2019") if cap else ""
+    return '<figure class="fig">%s%s</figure>' % (svg, caption)
+
+FIG_HTML = {tok: inline_figure(src, alt, cap, n)
+            for n, (tok, src, alt, cap) in enumerate(FIGURES)}
+
+def render_with_figures(text):
+    out = render(text)
+    for _tok, _fig in FIG_HTML.items():
+        if _tok in out:
+            out = out.replace(f"<p>{_tok}</p>", _fig)
+    return out
+
 # ---------------------------------------------------------------- html
 def rungs_html(rungs):
     if not rungs:
@@ -201,6 +266,9 @@ for c in chapters:
         if IMG_TOKEN in inner:
             inner = inner.replace(f"<p>{IMG_TOKEN}</p>",
                                   FIGURE.replace("__CAP__", html.escape(FIG_CAPTION).replace("'", "’")))
+        for _tok, _fig in FIG_HTML.items():
+            if _tok in inner:
+                inner = inner.replace(f"<p>{_tok}</p>", _fig)
         if s["title"]:
             secs_html.append(f'<section class="sec" id="{s["id"]}">'
                              f'<h3>{html.escape(s["title"])}</h3>{inner}</section>')
@@ -281,7 +349,7 @@ page = f'''<title>Peopling</title>
 
   <section class="frontmatter" id="overview">
     <div class="fm-label">Overview</div>
-    {render(overview_md)}
+    {render_with_figures(overview_md)}
   </section>
 
   <section class="contents" id="contents">

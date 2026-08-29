@@ -53,6 +53,10 @@ So the book builds from the inside out. It starts in your own head, with how you
 
 It helps to hold the whole journey as a single ladder with four rungs, because it is really one idea climbed four times. The self: how you model yourself, and how little of you is actually in charge. The other: how you and one other person live as models inside each other's heads. The organisation: how a crowd holds one shared picture and calls the upkeep work. The machine: how an AI that has read more of our shared context than any of us can be brought onto the ladder as a participant rather than a tool. Self, other, organisation, machine. We climb it once to understand each rung, then climb it again to solve for it, and every rung runs the same engine: build the model, maintain the model, let the room build you back.
 
+![The ladder: self, pair, group, machine](images/the-ladder.svg)
+
+*One engine at four sizes. Every rung is the same trick — build the model, maintain the model, let the room build you back — asked of a bigger room.*
+
 I am not going to pretend leadership is about having the answers. Most of the time you won't have them, and the job isn't to fake it. The real job is duller and harder than that: making sure everyone is carrying roughly the same understanding of what matters and why. Get that one thing right and a surprising number of the problems you were treating as separate turn out to be the same problem.
 
 That is the operating system this book is trying to describe. The rest of it is just how the thing runs.
@@ -71,6 +75,10 @@ We start here, inside one head, your own, because everything else in this book i
 ## Reality is a controlled hallucination
 
 The first thing to give up is the idea that your brain is a camera. It is not recording the world and passing you the footage. It is a prediction engine. It runs a model of what should be out there and what is about to happen next, and it checks that model against the thin trickle of data coming in through your senses, correcting only where the two disagree. Most of what you are experiencing right now is not arriving from your eyes and ears. It is being generated from the inside, from memory and expectation, with your senses supplying the occasional edit. You are not seeing the room. You are seeing your brain's best guess about the room, lightly fact-checked.
+
+![Perception as prediction, lightly corrected](images/controlled-hallucination.svg)
+
+*Perception is not a recording. You are not seeing the room, you are seeing your brain’s best guess about it, corrected only where the senses disagree.*
 
 I know this from the inside, not just from the literature, because I spent a long time studying the version of it that runs when the fact-checking is switched off. I have lucid dreamed since I was a child, a dream in which you know you are dreaming, and in my mid-twenties I started keeping a dream diary, partly to hold onto them and partly to run experiments. A dream is your prediction engine with the sensory feed unplugged, generating the whole world out of nothing but your own memory and imagination. And when you push on it, it shows you its parts.
 
@@ -91,6 +99,10 @@ In a dream the committee falls out of sync and you get to watch it. In the offic
 In the cleanest experiments on this, the brain signal that initiates a movement fires measurably before the moment you become consciously aware of deciding to move. The decision is underway before "you" arrive to take credit for it. You are, in a real and slightly humbling sense, an after-the-fact observer of processes already running in your own head. And the brain does the only sensible thing a storytelling organ can do in that situation: it writes a narrative. It generates a plausible account of who you are and why you just did that, and it generates it regardless of what actually happened, because a confident story is more useful to a social animal than an honest "I have no idea why I did that."
 
 I caught my own narrator red-handed once. I had been brought in to rescue a project, running several teams, and I was usually wound tight, talking at a hundred miles an hour. One morning I noticed I was unusually slow and calm. I ran three team standups back to back, deliberately relaxed, and afterwards I told myself a clean little story: I had decided that staying calm would lead to better outcomes, so I had stayed calm. A leadership choice. Mature of me. Then I remembered that I had skipped my coffee that morning and taken L-theanine, having read it was good for flow. I was not calm because I had decided to be calm. I was calm because of a supplement. The decision narrative was pure confabulation, written after the fact, and I had believed it instantly and completely, because that is what the narrator does.
+
+![The committee, the act, and the narrator](images/committee-and-narrator.svg)
+
+*The signal fires, the body moves, and only then does “you” arrive to take the credit. The decision is underway before you get there, and the story is written last.*
 
 The honest picture of agency is less like a steering wheel than we want it to be. You are not sitting at the wheel deciding to turn right and turning right. You are more like a boat. The wind blows, you find yourself heading east, and then you tell yourself you wanted to go east. Some of the wind is mood and chemistry, some of it is whatever you read and watched this week, some of it is the people around you. The telling-yourself part is real and it matters, but it comes after the wind.
 
@@ -140,6 +152,10 @@ The cleanest way I know to put it comes from an essay by Sarah Perry on the esse
 We usually picture it the wrong way round. We imagine a sealed self inside the skull that then, as an optional second step, learns to deal with other people. Perry, following the psychologist Philippe Rochat, says it runs the other way. You do not start as a private self and reach outward. You get built into a self by other people being aware of you, the way you only ever learn your own face from a mirror. Descartes handed us "I think, therefore I am," the lone mind proving its own existence in an empty room. The older and truer version is "we think, therefore I am." The room comes first. The self precipitates out of it, like salt out of water left in the sun.
 
 So who you are is not one thing in one place. It is distributed. There is the you in your own head, and a version of you in your partner's head, another in your mother's, another in the head of someone you met last week. Each runs at a different resolution and behaves a little differently, exactly like those dream characters, because each is tuned to one particular relationship. You are one person with your mates, another with your parents, another on a first date. None of those is the real you wearing costumes. The self lives across all of them at once, and in the switching between them.
+
+![The self distributed across many heads](images/distributed-self.svg)
+
+*You are not one thing in one place. A version of you runs in every head that knows you, each at the resolution that relationship has earned, and none of them is the real you wearing costumes.*
 
 ## The recursive mirror
 
@@ -222,6 +238,10 @@ The next thing that scales up is status, and Perry is sharp on it. We do not mod
 
 Scale that up and you get the signature of hierarchy. The higher someone's status, the more people model them and the fewer they model back. The chief executive is held in the heads of thousands of staff who will never share a room with her, while she carries a working model of perhaps a dozen of them. That asymmetry, many modelling one who barely models back, is what status structurally is. It is the same shape as a celebrity or a god. Which is why an org chart is never just a reporting diagram. It is a map of who has to model whom, and a restructure is so violently disruptive not because the boxes moved but because you have just invalidated everyone's models at once and forced the whole building to rebuild them from scratch. The same asymmetry has a darker setting. To be publicly shamed is to be conscripted into modelling a crowd that does not model you back: thousands of people holding a flattened, hostile cartoon of you, while you are obliged to feel the weight of every one of them, none of whom think of you as a whole person. It is the celebrity's asymmetry turned into a punishment, and the modern feed can drop it on anyone overnight.
 
+![The modelling asymmetry that status is made of](images/status-asymmetry.svg)
+
+*Status is a modelling imbalance: many modelling one who barely models back. Which is why an org chart is not a reporting diagram but a map of who has to model whom — and why a restructure invalidates everyone’s models at once.*
+
 None of this is a corporate invention, and I learned it on a farm long before I saw an office. As a kid I had to move cows between paddocks, and cows, when you move them, sort themselves into a line. There is always a head cow, and a second in command, and the rest fall in behind, the same order every time. There must be an evolutionary reason, and it is not hard to guess: somebody has to decide the direction, because if every cow gets a say in whether to go or not go, the herd just mills about. Which puts leadership in a humbler light than the books like to. It is less that anyone is a born leader and more that the group needs the slot filled, and whoever has the most of the right characteristics ends up standing in it. The hierarchy is a coordination device that comes with the herd. The org chart just writes it down.
 
 This is the coordination layer from the last chapter showing its other face. The same process that builds a self also limits it. To be someone the group can coordinate with, you have to be someone the group can model, and that means staying roughly where they put you. The modelling budget is not free: people spend it on you, and the unspoken return is that you remain predictable enough to justify the investment. Change too fast or too far and you force everyone around you to rebuild their models from scratch, which is expensive, which is why they will push back. The coordination layer does not only produce the self. It polices it. Personhood is the price of being legible enough for others to work with, and the price is that other people get a quiet, persistent vote on who you are allowed to be.
@@ -247,6 +267,10 @@ And maintaining it is the job. That is the part nobody writes on the org chart.
 Sit through a week of corporate meetings and actually watch what they are for. The status update. The stand-up. The roll-up. The technical deep-dive that exists only so that six people walk out holding roughly the same picture. The "quick sync to get everyone on the same page," a phrase that gives the entire game away if you listen to it. Almost none of this is the work itself. It is the distribution of shared context so a group can keep acting as one thing. I would put it at something like ninety percent of corporate life being the synchronising of shared context towards an objective. I am making the exact number up, but the shape of it is right, and you know it is right because you have lived it.
 
 And the picture will not hold still. The moment you have everyone aligned, someone learns something new, the market moves, a person leaves, a priority shifts, and the shared model immediately starts drifting apart again. In a technical field it is worse, because the thing you are trying to get from one head into another is genuinely hard to explain, so the cost of keeping it synchronised climbs. You are not failing at your job when this eats your week. This is the job. We just never named it, so we treat the thing that consumes most of the working day as an interruption to the real work, when it is the real work.
+
+![Shared context drifting apart between meetings](images/sync-and-drift.svg)
+
+*The shared picture will not hold still. Every meeting drags it back together and the drift restarts on the way out of the room, which is where most of the working week actually goes.*
 
 Here is the cleanest way I know to picture what that shared context even is. Think about Google Maps. Maps knows which roads are busy, and not because anyone wrote it down: it knows because every driver is quietly feeding their position into one live picture, and that picture, assembled out of everybody's ordinary traffic, is something no single driver could ever hold. You cannot see the jam four streets ahead. The aggregate can. That is shared context in one image. It does not live in any one head. It lives in the overlap, and the overlap is worth more than any of the parts.
 
@@ -309,6 +333,10 @@ Before anyone gets swept away, look hard at what this ghost cannot do, because t
 
 Go back to the dolls from chapter two, the stack of models inside models. The ghost stops at the first doll. It models the question. It does not model the person asking it, or the group they are sitting in, or what its reply is going to do to what they think of it. In the language of an office, it is a brilliant individual contributor with no idea what room it is standing in, and you cannot build a team out of that. Not yet.
 
+![Where the intelligence comes from, and where the ghost stops](images/cultural-ghost.svg)
+
+*The intelligence was in the culture all along, and both pipes drank from it. But the ghost models the question and stops at the first doll.*
+
 That is the whole map laid out now. One head narrating a self into being. Two heads each holding a model of the other. Many heads maintaining a shared hallucination together and calling the upkeep "work." And now a fourth kind of node in the room: a cultural ghost that can speak everything and people nothing. We have spent this first part of the book exploring the machinery, in ourselves and in the machine. The rest of it is about what to do with all of it. And the place to start is not the team, and it is not the agent. It is you, because you cannot get in sync with anyone else while you are still out of sync with yourself.
 
 ---
@@ -345,6 +373,10 @@ It also does not mean turning into a single flat monotone, and it is worth being
 A friend gave me an image for this that is better than any I had. She thinks of herself as a planet. The core is solid and does not move. Around it sit looser layers, and depending on which other planets are nearby, different material gets drawn up to the surface. The people around you pull different parts of you up, and there is nothing wrong with that. The question that matters is how much of you is core and how much is loose surface dragged around by whoever happens to be in orbit.
 
 What makes the core solid is conviction. Anything you hold with genuine conviction becomes stable in your personality. People learn how you will respond in a given situation, and that stability is exactly what lets them understand you and trust you. Every real conviction is also one less thing to chameleon. It cuts your own modelling bill, because you stop tailoring that part of yourself to each audience, and it cuts everyone else's bill too, because there is one consistent thing to learn instead of a moving target. Being a chameleon is exhausting and the energy goes nowhere. Conviction is cheaper, and it compounds.
+
+![From many audience selves to one self with a core](images/collapse-the-selves.svg)
+
+*Not find yourself — collapse yourself. Retire the selves organised around an audience, keep the ones that are only the right part of you loading for the task. Every real conviction is one less thing to chameleon.*
 
 I see the difference most clearly in consulting, where the pull towards people-pleasing is strongest. It is easy to simply agree with the client, and the bill arrives later: a people-pleaser will let the client walk the project off a cliff, because all they ever did was listen, and the client ends up respecting them less for it. The useful person in that room is the one who can say, calmly, I have done this several times before and this is how we are going to do it, and watch the resistance dissolve, not through charm but because the conviction is load-bearing. It was earned by doing the thing. Which is also the difference between conviction and confidence, two words that get blurred constantly. Confidence can be trained, and a confident operator can run a beautiful meeting straight off a cliff, because nothing underneath the delivery knows what it is doing. Conviction cannot be trained. It can only be earned, and people can smell the difference at close range.
 
@@ -505,6 +537,10 @@ A context bridge without walls is a gossip engine. The value is not shared conte
 Underneath all three capabilities sits the thing I would actually tell an organisation to build, because the agents themselves are almost beside the point. Agents are context-free geniuses. The work is the shared context memory bank.
 
 Mine is built in layers, and the layering is the lesson. At the bottom, the raw record: every message, kept as evidence, so that every fact the system believes can be traced back to the original thing somebody actually said. That traceability is not a nicety. It is what makes the system accountable, what lets you ask "why do you believe that?" and get an answer instead of a shrug, the provenance that chapter four's protocol called blame. Above that, the validated facts: candidate observations promoted only after they survive checking, with the noise thrown away. Above that, a readable knowledge model, ordinary markdown pages for each person, project and idea, the kind a human can open and correct. And over the top, a search layer, so that anything can be found, with retrieval treated as retrieval and never as authority.
+
+![The layered shared-context memory bank](images/memory-bank.svg)
+
+*The agents are almost beside the point. The work is the layered memory bank underneath them, and nobody sits down to write it: it is collated out of the traffic that was happening anyway.*
 
 Notice what is missing from that description: a documentation project. Nobody sat down to write the wiki. The whole model is collated as a by-product of ordinary collaboration, from the chats and meetings and email that were happening anyway, distilled while everyone got on with the work. I noticed this while writing the book itself: if I took the conversations behind it and just distilled them, most of the writing would already be done. The same is true of your organisation. The enterprise context that chapter three said evaporates the moment people stop maintaining it can, for the first time, be captured as it forms, by something that was in the room anyway. The shared hallucination finally gets a substrate that does not forget.
 

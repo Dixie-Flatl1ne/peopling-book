@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 448" role="img" aria-label="The modelling asymmetry that status is made of">
+  <style>
+    text { font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .ink { fill: #22201d; }
+    .muted { fill: #6f685e; }
+    .accent { fill: #9e4d35; }
+    .cool { fill: #3f6b6b; }
+    .panel { fill: #efe8da; }
+    .soft { fill: #e6d5cb; }
+    .softc { fill: #d6e2e0; }
+    .s-ink { stroke: #22201d; fill: none; }
+    .s-muted { stroke: #6f685e; fill: none; }
+    .s-line { stroke: #d8d0c3; fill: none; }
+    .s-accent { stroke: #9e4d35; fill: none; }
+    .s-cool { stroke: #3f6b6b; fill: none; }
+    .m-ink { fill: #22201d; }
+    .m-accent { fill: #9e4d35; }
+    .m-cool { fill: #3f6b6b; }
+    .m-muted { fill: #6f685e; }
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #eee9df; } .muted { fill: #aaa196; } .accent { fill: #d18165; } .cool { fill: #7fb3ad; }
+      .panel { fill: #26231f; } .soft { fill: #3d2c25; } .softc { fill: #26332f; }
+      .s-ink { stroke: #eee9df; } .s-muted { stroke: #aaa196; } .s-line { stroke: #3d3832; }
+      .s-accent { stroke: #d18165; } .s-cool { stroke: #7fb3ad; }
+      .m-ink { fill: #eee9df; } .m-accent { fill: #d18165; } .m-cool { fill: #7fb3ad; } .m-muted { fill: #aaa196; }
+    }
+  </style>
+  <defs>
+    <marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-ink"/></marker>
+    <marker id="a-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-accent"/></marker>
+    <marker id="a-cool" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-cool"/></marker>
+    <marker id="a-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="m-muted"/></marker>
+  </defs>
+  <line x1="120" y1="241" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="190" y1="241" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="260" y1="241" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="330" y1="241" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="400" y1="241" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="132" y1="291" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="196" y1="291" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="260" y1="291" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="324" y1="291" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="388" y1="291" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="86" y1="341" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="144" y1="341" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="202" y1="341" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="260" y1="341" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="318" y1="341" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="376" y1="341" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <line x1="434" y1="341" x2="260" y2="108" class="s-cool" stroke-width="1.2" opacity="0.42"/>
+  <circle cx="120" cy="250" r="9" class="cool" opacity="0.75"/>
+  <circle cx="155" cy="250" r="9" class="cool" opacity="0.75"/>
+  <circle cx="190" cy="250" r="9" class="cool" opacity="0.75"/>
+  <circle cx="225" cy="250" r="9" class="cool" opacity="0.75"/>
+  <circle cx="260" cy="250" r="9" class="cool" opacity="0.75"/>
+  <circle cx="295" cy="250" r="9" class="cool" opacity="0.75"/>
+  <circle cx="330" cy="250" r="9" class="cool" opacity="0.75"/>
+  <circle cx="365" cy="250" r="9" class="cool" opacity="0.75"/>
+  <circle cx="400" cy="250" r="9" class="cool" opacity="0.75"/>
+  <circle cx="100" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="132" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="164" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="196" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="228" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="260" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="292" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="324" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="356" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="388" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="420" cy="300" r="9" class="cool" opacity="0.75"/>
+  <circle cx="86" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="115" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="144" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="173" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="202" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="231" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="260" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="289" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="318" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="347" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="376" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="405" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="434" cy="350" r="9" class="cool" opacity="0.75"/>
+  <circle cx="260" cy="80" r="28" class="soft" stroke="#9e4d35" stroke-width="2.5"/>
+  <text x="260" y="40" font-size="20" font-weight="700" text-anchor="middle" class="ink">WHO MODELS HER</text>
+  <text x="260" y="404" font-size="18" text-anchor="middle" class="cool">thousands hold a model of her</text>
+  <text x="260" y="428" font-size="17" text-anchor="middle" class="muted">most will never share a room with her</text>
+  <line x1="740" y1="110" x2="670" y2="239" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="775" y2="239" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="810" y2="239" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="880" y2="239" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="644" y2="289" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="740" y2="289" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="836" y2="289" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="566" y2="339" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="653" y2="339" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="740" y2="339" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="827" y2="339" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <line x1="740" y1="110" x2="885" y2="339" class="s-accent" stroke-width="1.8" marker-end="url(#a-accent)"/>
+  <circle cx="600" cy="250" r="9" class="muted" opacity="0.22"/>
+  <circle cx="635" cy="250" r="9" class="muted" opacity="0.22"/>
+  <circle cx="670" cy="250" r="9" class="accent" opacity="1"/>
+  <circle cx="705" cy="250" r="9" class="muted" opacity="0.22"/>
+  <circle cx="740" cy="250" r="9" class="muted" opacity="0.22"/>
+  <circle cx="775" cy="250" r="9" class="accent" opacity="1"/>
+  <circle cx="810" cy="250" r="9" class="accent" opacity="1"/>
+  <circle cx="845" cy="250" r="9" class="muted" opacity="0.22"/>
+  <circle cx="880" cy="250" r="9" class="accent" opacity="1"/>
+  <circle cx="580" cy="300" r="9" class="muted" opacity="0.22"/>
+  <circle cx="612" cy="300" r="9" class="muted" opacity="0.22"/>
+  <circle cx="644" cy="300" r="9" class="accent" opacity="1"/>
+  <circle cx="676" cy="300" r="9" class="muted" opacity="0.22"/>
+  <circle cx="708" cy="300" r="9" class="muted" opacity="0.22"/>
+  <circle cx="740" cy="300" r="9" class="accent" opacity="1"/>
+  <circle cx="772" cy="300" r="9" class="muted" opacity="0.22"/>
+  <circle cx="804" cy="300" r="9" class="muted" opacity="0.22"/>
+  <circle cx="836" cy="300" r="9" class="accent" opacity="1"/>
+  <circle cx="868" cy="300" r="9" class="muted" opacity="0.22"/>
+  <circle cx="900" cy="300" r="9" class="muted" opacity="0.22"/>
+  <circle cx="566" cy="350" r="9" class="accent" opacity="1"/>
+  <circle cx="595" cy="350" r="9" class="muted" opacity="0.22"/>
+  <circle cx="624" cy="350" r="9" class="muted" opacity="0.22"/>
+  <circle cx="653" cy="350" r="9" class="accent" opacity="1"/>
+  <circle cx="682" cy="350" r="9" class="muted" opacity="0.22"/>
+  <circle cx="711" cy="350" r="9" class="muted" opacity="0.22"/>
+  <circle cx="740" cy="350" r="9" class="accent" opacity="1"/>
+  <circle cx="769" cy="350" r="9" class="muted" opacity="0.22"/>
+  <circle cx="798" cy="350" r="9" class="muted" opacity="0.22"/>
+  <circle cx="827" cy="350" r="9" class="accent" opacity="1"/>
+  <circle cx="856" cy="350" r="9" class="muted" opacity="0.22"/>
+  <circle cx="885" cy="350" r="9" class="accent" opacity="1"/>
+  <circle cx="914" cy="350" r="9" class="muted" opacity="0.22"/>
+  <circle cx="740" cy="80" r="28" class="soft" stroke="#9e4d35" stroke-width="2.5"/>
+  <text x="740" y="40" font-size="20" font-weight="700" text-anchor="middle" class="ink">WHOM SHE MODELS</text>
+  <text x="740" y="404" font-size="18" text-anchor="middle" class="accent">about a dozen, at working resolution</text>
+  <text x="740" y="428" font-size="17" text-anchor="middle" class="muted">the rest are a category, not people</text>
+  <line x1="500" y1="26" x2="500" y2="440" class="s-line" stroke-width="2" stroke-dasharray="6 8"/>
+</svg>
