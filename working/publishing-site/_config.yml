@@ -1,0 +1,12 @@
+title: Peopling
+description: How Minds Stay in Sync, and Why Everything Depends on It
+author: Stefan van der Wel
+lang: en-AU
+url: https://dixie-flatl1ne.github.io
+baseurl: /peopling-book
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - README.md
