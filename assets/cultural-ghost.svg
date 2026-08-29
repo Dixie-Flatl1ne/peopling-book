@@ -75,17 +75,17 @@
   <circle cx="172" cy="446" r="42" class="softc" stroke="#3f6b6b" stroke-width="2.5"/>
   <text x="172" y="457" font-size="28" font-weight="700" text-anchor="middle" class="cool">1</text>
   <text x="172" y="514" font-size="17" text-anchor="middle" class="ink">models the question</text>
-  <text x="172" y="536" font-size="17" text-anchor="middle" class="muted">— brilliantly</text>
+  <text x="172" y="536" font-size="17" text-anchor="middle" class="muted">brilliantly</text>
 
   <circle cx="450" cy="446" r="42" class="s-muted" stroke-width="2.5" stroke-dasharray="6 6"/>
   <text x="450" y="457" font-size="28" font-weight="700" text-anchor="middle" class="muted">2</text>
   <text x="450" y="514" font-size="17" text-anchor="middle" class="ink">models the person asking</text>
-  <text x="450" y="536" font-size="17" text-anchor="middle" class="muted">— missing</text>
+  <text x="450" y="536" font-size="17" text-anchor="middle" class="muted">missing</text>
 
   <circle cx="728" cy="446" r="42" class="s-muted" stroke-width="2.5" stroke-dasharray="6 6"/>
   <text x="728" y="457" font-size="28" font-weight="700" text-anchor="middle" class="muted">3</text>
   <text x="728" y="514" font-size="17" text-anchor="middle" class="ink">models what the reply will do</text>
-  <text x="728" y="536" font-size="17" text-anchor="middle" class="muted">to the room — missing</text>
+  <text x="728" y="536" font-size="17" text-anchor="middle" class="muted">to the room, missing</text>
 
   <line x1="310" y1="398" x2="310" y2="488" class="s-accent" stroke-width="3"/>
   <text x="316" y="390" font-size="17" font-weight="700" text-anchor="middle" class="accent">it stops here</text>
