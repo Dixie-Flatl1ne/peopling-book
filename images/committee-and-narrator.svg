@@ -51,9 +51,9 @@
   <line x1="584" y1="110" x2="926" y2="110" class="s-line" stroke-width="2"/>
   <text x="584" y="140" font-size="17" font-style="italic" class="ink">“I decided that staying calm would lead to</text>
   <text x="584" y="164" font-size="17" font-style="italic" class="ink">better outcomes, so I stayed calm.”</text>
-  <text x="584" y="198" font-size="16" class="muted">— written afterwards, believed instantly</text>
+  <text x="584" y="198" font-size="16" class="muted">written afterwards, believed instantly</text>
 
-  <text x="30" y="292" font-size="17" class="muted">habit · mood · chemistry · status anxiety · whatever you read this week — the loud ones write the official story</text>
+  <text x="30" y="292" font-size="17" class="muted">habit · mood · chemistry · status anxiety · whatever you read this week. The loud ones write the official story</text>
   <text x="30" y="316" font-size="17" class="accent">and one quiet voice, which registered a colleague’s flinch and got edited out of the script</text>
 
   <path d="M150 372 L150 358 L540 358 L540 372" class="s-accent" stroke-width="2" fill="none"/>

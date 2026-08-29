@@ -47,7 +47,7 @@
   <circle cx="104" cy="55" r="4.5" class="muted"/>
   <circle cx="88" cy="71" r="4" class="muted"/>
   <circle cx="105" cy="69" r="5.5" class="muted"/>
-  <text x="180" y="54" font-size="23" font-weight="700" class="ink">Rung one — the self</text>
+  <text x="180" y="54" font-size="23" font-weight="700" class="ink">Rung one: the self</text>
   <text x="180" y="82" font-size="18" class="muted">One head, narrating a coherent “you” out of a committee it cannot see.</text>
 
   <rect x="20" y="118" width="960" height="88" rx="6" class="panel"/>
@@ -56,8 +56,8 @@
   <circle cx="74" cy="162" r="8" class="accent"/>
   <circle cx="116" cy="162" r="8" class="cool"/>
   <line x1="95" y1="138" x2="95" y2="186" class="s-muted" stroke-width="2" stroke-dasharray="5 5"/>
-  <text x="180" y="156" font-size="23" font-weight="700" class="ink">Rung two — the pair</text>
-  <text x="180" y="184" font-size="18" class="muted">Two heads, each holding a model of the other — and of the other’s model of them.</text>
+  <text x="180" y="156" font-size="23" font-weight="700" class="ink">Rung two: the pair</text>
+  <text x="180" y="184" font-size="18" class="muted">Two heads, each holding a model of the other, and of the other’s model of them.</text>
 
   <rect x="20" y="220" width="960" height="88" rx="6" class="panel"/>
   <path d="M95 251 L106 258 L106 271 L95 278 L84 271 L84 258 Z" class="soft" stroke="#9e4d35" stroke-width="2"/>
@@ -65,7 +65,7 @@
     <circle cx="127" cy="264" r="7"/><circle cx="111" cy="292" r="7"/><circle cx="79" cy="292" r="7"/>
     <circle cx="63" cy="264" r="7"/><circle cx="79" cy="236" r="7"/><circle cx="111" cy="236" r="7"/>
   </g>
-  <text x="180" y="258" font-size="23" font-weight="700" class="ink">Rung three — the group</text>
+  <text x="180" y="258" font-size="23" font-weight="700" class="ink">Rung three: the group</text>
   <text x="180" y="286" font-size="18" class="muted">Many heads maintaining one shared picture, and calling the upkeep “work”.</text>
 
   <rect x="20" y="322" width="960" height="88" rx="6" class="panel"/>
@@ -75,7 +75,7 @@
   </g>
   <rect x="82" y="362" width="26" height="26" rx="5" class="soft" stroke="#9e4d35" stroke-width="2"/>
   <circle cx="90" cy="375" r="2.6" class="accent"/><circle cx="100" cy="375" r="2.6" class="accent"/>
-  <text x="180" y="360" font-size="23" font-weight="700" class="ink">Rung four — the machine</text>
+  <text x="180" y="360" font-size="23" font-weight="700" class="ink">Rung four: the machine</text>
   <text x="180" y="388" font-size="18" class="muted">A node that has read the whole culture and has not met a single person.</text>
 
 </svg>

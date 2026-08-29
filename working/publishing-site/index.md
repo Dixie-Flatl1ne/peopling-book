@@ -61,7 +61,7 @@ It helps to hold the whole journey as a single ladder with four rungs, because i
 
 ![The ladder: self, pair, group, machine]({{ '/assets/the-ladder.svg' | relative_url }})
 
-*One engine at four sizes. Every rung is the same trick — build the model, maintain the model, let the room build you back — asked of a bigger room.*
+*One engine at four sizes. Every rung asks the same thing of a bigger room: build the model, maintain the model, let the room build you back.*
 
 I am not going to pretend leadership is about having the answers. Most of the time you won't have them, and the job isn't to fake it. The real job is duller and harder than that: making sure everyone is carrying roughly the same understanding of what matters and why. Get that one thing right and a surprising number of the problems you were treating as separate turn out to be the same problem.
 
@@ -246,7 +246,7 @@ Scale that up and you get the signature of hierarchy. The higher someone's statu
 
 ![The modelling asymmetry that status is made of]({{ '/assets/status-asymmetry.svg' | relative_url }})
 
-*Status is a modelling imbalance: many modelling one who barely models back. Which is why an org chart is not a reporting diagram but a map of who has to model whom — and why a restructure invalidates everyone’s models at once.*
+*Status is a modelling imbalance: many modelling one who barely models back. Which is why an org chart is not a reporting diagram but a map of who has to model whom, and why a restructure invalidates everyone’s models at once.*
 
 None of this is a corporate invention, and I learned it on a farm long before I saw an office. As a kid I had to move cows between paddocks, and cows, when you move them, sort themselves into a line. There is always a head cow, and a second in command, and the rest fall in behind, the same order every time. There must be an evolutionary reason, and it is not hard to guess: somebody has to decide the direction, because if every cow gets a say in whether to go or not go, the herd just mills about. Which puts leadership in a humbler light than the books like to. It is less that anyone is a born leader and more that the group needs the slot filled, and whoever has the most of the right characteristics ends up standing in it. The hierarchy is a coordination device that comes with the herd. The org chart just writes it down.
 
@@ -382,7 +382,7 @@ What makes the core solid is conviction. Anything you hold with genuine convicti
 
 ![From many audience selves to one self with a core]({{ '/assets/collapse-the-selves.svg' | relative_url }})
 
-*Not find yourself — collapse yourself. Retire the selves organised around an audience, keep the ones that are only the right part of you loading for the task. Every real conviction is one less thing to chameleon.*
+*Not find yourself. Collapse yourself. Retire the selves organised around an audience, keep the ones that are only the right part of you loading for the task. Every real conviction is one less thing to chameleon.*
 
 I see the difference most clearly in consulting, where the pull towards people-pleasing is strongest. It is easy to simply agree with the client, and the bill arrives later: a people-pleaser will let the client walk the project off a cliff, because all they ever did was listen, and the client ends up respecting them less for it. The useful person in that room is the one who can say, calmly, I have done this several times before and this is how we are going to do it, and watch the resistance dissolve, not through charm but because the conviction is load-bearing. It was earned by doing the thing. Which is also the difference between conviction and confidence, two words that get blurred constantly. Confidence can be trained, and a confident operator can run a beautiful meeting straight off a cliff, because nothing underneath the delivery knows what it is doing. Conviction cannot be trained. It can only be earned, and people can smell the difference at close range.
 
