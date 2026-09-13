@@ -211,6 +211,19 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 .chapter strong{font-weight:600}
 .chapter em{font-style:italic}
 
+/* ---------- reference table ---------- */
+.table-scroll{max-width:100%;overflow-x:auto;margin:1.5rem 0}
+.table-scroll:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.table-scroll table{
+  width:100%;min-width:38rem;border-collapse:collapse;
+  font-family:var(--ui);font-size:.85rem;line-height:1.5;
+}
+.table-scroll th,.table-scroll td{
+  padding:.8rem .7rem;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top;
+}
+.table-scroll th{font-weight:600;color:var(--ink)}
+.table-scroll td{color:var(--ink-2)}
+
 /* ---------- figure ---------- */
 .fig{margin:2.2rem 0;padding:0}
 .fig svg{display:block;width:100%;max-width:100%;height:auto;color:var(--ink)}
@@ -261,4 +274,6 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
   body{background:#fff;color:#000;font-size:11pt}
   .chapter{break-before:page;padding-top:0}
   .fig,.sec{break-inside:avoid}
+  .table-scroll{overflow:visible}
+  .table-scroll table{min-width:0;font-size:9pt}
 }

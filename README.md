@@ -60,6 +60,6 @@ Everything that isn't the book itself. Sorted by type. See `working/README.md`.
 
 - **No em-dashes or en-dashes.** Use full stop, comma, colon, or sentence split instead.
   This applies to figure labels and captions as well as prose.
-- Voice skill: `stefan-book-voice` (essay register, conversational academic)
+- Voice skill: `stefan-writing` (grounded in named interview turns, original Thoughtmash prose and attributed correspondence). The older guide in `working/drafts/` is secondary reference material.
 - The master manuscript is the single source of truth for "what's in the book"
 - Extracts and per-chapter files under `working/` are for sharing and review, not canonical

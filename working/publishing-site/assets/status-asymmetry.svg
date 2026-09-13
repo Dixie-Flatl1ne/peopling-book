@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 448" role="img" aria-label="The modelling asymmetry that status is made of">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 448" role="img" aria-label="An illustration of unequal attention in a hierarchy">
   <style>
     text { font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .ink { fill: #22201d; }
@@ -137,6 +137,6 @@
   <circle cx="740" cy="80" r="28" class="soft" stroke="#9e4d35" stroke-width="2.5"/>
   <text x="740" y="40" font-size="20" font-weight="700" text-anchor="middle" class="ink">WHOM SHE MODELS</text>
   <text x="740" y="404" font-size="18" text-anchor="middle" class="accent">about a dozen, at working resolution</text>
-  <text x="740" y="428" font-size="17" text-anchor="middle" class="muted">the rest are a category, not people</text>
+  <text x="740" y="428" font-size="17" text-anchor="middle" class="muted">others known less individually</text>
   <line x1="500" y1="26" x2="500" y2="440" class="s-line" stroke-width="2" stroke-dasharray="6 8"/>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 466" role="img" aria-label="The committee, the act, and the narrator writing the story afterwards">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 466" role="img" aria-label="A personal example of explaining behaviour and revising the explanation">
   <style>
     text { font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .ink { fill: #22201d; }
@@ -44,32 +44,32 @@
   <text x="175" y="256" font-size="18" font-weight="700" text-anchor="middle" class="ink">THE COMMITTEE</text>
 
   <line x1="277" y1="140" x2="546" y2="140" class="s-ink" stroke-width="3" marker-end="url(#a-ink)"/>
-  <text x="411" y="126" font-size="17" text-anchor="middle" class="muted">the act, already decided</text>
+  <text x="411" y="126" font-size="17" text-anchor="middle" class="muted">behaviour and its influences</text>
 
   <rect x="560" y="58" width="390" height="164" rx="8" class="panel" stroke="#9e4d35" stroke-width="2"/>
   <text x="584" y="94" font-size="21" font-weight="700" class="accent">THE NARRATOR</text>
   <line x1="584" y1="110" x2="926" y2="110" class="s-line" stroke-width="2"/>
   <text x="584" y="140" font-size="17" font-style="italic" class="ink">“I decided that staying calm would lead to</text>
   <text x="584" y="164" font-size="17" font-style="italic" class="ink">better outcomes, so I stayed calm.”</text>
-  <text x="584" y="198" font-size="16" class="muted">written afterwards, believed instantly</text>
+  <text x="584" y="198" font-size="16" class="muted">my first explanation</text>
 
-  <text x="30" y="292" font-size="17" class="muted">habit · mood · chemistry · status anxiety · whatever you read this week. The loud ones write the official story</text>
-  <text x="30" y="316" font-size="17" class="accent">and one quiet voice, which registered a colleague’s flinch and got edited out of the script</text>
+  <text x="30" y="292" font-size="17" class="muted">My first explanation omitted information I remembered later.</text>
+  <text x="30" y="316" font-size="17" class="accent">The change in routine suggested another possibility; it did not establish the cause.</text>
 
   <path d="M150 372 L150 358 L540 358 L540 372" class="s-accent" stroke-width="2" fill="none"/>
-  <text x="345" y="348" font-size="17" text-anchor="middle" class="accent">already done, in the dark</text>
+  <text x="345" y="348" font-size="17" text-anchor="middle" class="accent">the morning as I experienced it</text>
 
   <line x1="90" y1="392" x2="950" y2="392" class="s-line" stroke-width="3"/>
   <text x="950" y="378" font-size="16" text-anchor="end" class="muted">time →</text>
   <g class="ink"><circle cx="150" cy="392" r="8"/><circle cx="400" cy="392" r="8"/></g>
   <g class="accent"><circle cx="660" cy="392" r="8"/><circle cx="880" cy="392" r="8"/></g>
-  <text x="150" y="424" font-size="17" text-anchor="middle" class="muted">the brain signal</text>
-  <text x="150" y="446" font-size="17" text-anchor="middle" class="muted">fires</text>
-  <text x="400" y="424" font-size="17" text-anchor="middle" class="muted">the body</text>
-  <text x="400" y="446" font-size="17" text-anchor="middle" class="muted">moves</text>
-  <text x="660" y="424" font-size="17" text-anchor="middle" class="ink">“you” arrive and</text>
-  <text x="660" y="446" font-size="17" text-anchor="middle" class="ink">take the credit</text>
-  <text x="880" y="424" font-size="17" text-anchor="middle" class="ink">the story is</text>
-  <text x="880" y="446" font-size="17" text-anchor="middle" class="ink">published</text>
+  <text x="150" y="424" font-size="17" text-anchor="middle" class="muted">a changed</text>
+  <text x="150" y="446" font-size="17" text-anchor="middle" class="muted">morning routine</text>
+  <text x="400" y="424" font-size="17" text-anchor="middle" class="muted">three calm</text>
+  <text x="400" y="446" font-size="17" text-anchor="middle" class="muted">stand-ups</text>
+  <text x="660" y="424" font-size="17" text-anchor="middle" class="ink">a leadership</text>
+  <text x="660" y="446" font-size="17" text-anchor="middle" class="ink">explanation</text>
+  <text x="880" y="424" font-size="17" text-anchor="middle" class="ink">I remember</text>
+  <text x="880" y="446" font-size="17" text-anchor="middle" class="ink">the routine</text>
 
 </svg>

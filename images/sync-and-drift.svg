@@ -56,7 +56,7 @@
   <line x1="940" y1="88" x2="940" y2="308" class="s-ink" stroke-width="2" stroke-dasharray="6 6" opacity="0.55"/>
   <text x="934" y="76" font-size="17" text-anchor="end" class="ink">and again</text>
   <circle cx="940" cy="195" r="5" class="ink"/>
-  <text x="520" y="52" font-size="19" font-weight="700" text-anchor="middle" class="ink">EVERY MEETING IS A RE-SYNC. THE DRIFT RESTARTS IMMEDIATELY.</text>
+  <text x="520" y="52" font-size="19" font-weight="700" text-anchor="middle" class="ink">SHARED PICTURES DIVERGE; CONVERSATION CAN BRING THEM CLOSER.</text>
   <line x1="70" y1="88" x2="70" y2="322" class="s-line" stroke-width="2"/>
   <line x1="70" y1="322" x2="950" y2="322" class="s-line" stroke-width="2"/>
   <text x="950" y="346" font-size="16" text-anchor="end" class="muted">time →</text>

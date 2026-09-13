@@ -12,14 +12,18 @@ if not SRC.exists():                      # cloud session: manuscript comes from
 OUT = HERE / "peopling.html"              # body fragment, for publishing as an Artifact
 OUT_DOC = ROOT / "peopling_book.html"     # standalone page, opens straight from disk
 
-md = markdown.Markdown(extensions=["smarty", "attr_list"],
+md = markdown.Markdown(extensions=["smarty", "attr_list", "tables"],
                        extension_configs={"smarty": {"smart_dashes": False,
                                                      "smart_quotes": True,
                                                      "smart_ellipses": False}})
 
 def render(text):
     md.reset()
-    return md.convert(text.strip())
+    rendered = md.convert(text.strip())
+    return rendered.replace(
+        "<table>",
+        '<div class="table-scroll" role="region" aria-label="Reference table" tabindex="0"><table>'
+    ).replace("</table>", "</table></div>")
 
 raw = SRC.read_text(encoding="utf-8")
 lines = raw.split("\n")
@@ -341,9 +345,9 @@ page = f'''<title>Peopling</title>
     <h1>Peopling</h1>
     <p class="tp-sub">{html.escape(subtitle)}</p>
     <p class="tp-author">Stefan van der Wel</p>
-    <p class="tp-thesis">You don&#8217;t work with your colleagues. You work with the version of them you
-      carry in your head, and they work with the version of you they carry in theirs. The work goes well
-      exactly to the degree those two models line up.</p>
+    <p class="tp-thesis">You carry a model of the people you work with, and they carry a model of you.
+      Working together depends on how well those pictures hold up, what you value
+      and what you are trying to do.</p>
     <div class="tp-meta"><span>{words:,} words</span><span>{readtime} read</span><span>8 chapters</span></div>
   </header>
 
