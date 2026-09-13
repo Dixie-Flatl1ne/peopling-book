@@ -2,7 +2,7 @@
 
 **Author:** Stefan van der Wel
 
-Read it online: **https://dixie-flatl1ne.github.io/peopling-book/**
+Read it online: **https://qualiapartners.com.au/peopling/**
 
 ## Repository Structure
 
@@ -18,7 +18,15 @@ Read it online: **https://dixie-flatl1ne.github.io/peopling-book/**
 
 ### Publishing
 
-Two reading surfaces are built from the one manuscript.
+The main reading site is hosted on Qualia Partners. Its GitHub Action reads this
+repository's `main` branch and builds the book automatically. Commit and push
+manuscript or figure changes here; the website picks them up on its next hourly
+run (GitHub may delay scheduled runs). For an immediate update, run **Deploy to
+GitHub Pages** manually in [the website repository](https://github.com/Qualia-Partners/qualia-partners-website/actions/workflows/deploy.yml).
+Dixie already has Maintain access there. No account transfer or additional token
+is required. The workflow and publishing instructions live in that repository.
+
+The local standalone builder and the older GitHub Pages site also remain available:
 
 | Surface | Source | Output |
 |---------|--------|--------|
@@ -28,8 +36,8 @@ Two reading surfaces are built from the one manuscript.
 `site/build.py` needs the `markdown` package (`pip3 install markdown`). It inlines every
 figure, so the standalone page stays a single file.
 
-The Pages site is served from the `gh-pages` branch, not from `main`. Pushing to `main`
-does not update it: copy `working/publishing-site/` onto `gh-pages` and push that too.
+The older `dixie-flatl1ne.github.io/peopling-book/` site is served from `gh-pages`,
+not from `main`. To update that legacy site separately: copy `working/publishing-site/` onto `gh-pages` and push that too.
 Figures live in two places for the same reason — `images/` for the manuscript and
 `working/publishing-site/assets/` for the site. Keep them in step.
 
