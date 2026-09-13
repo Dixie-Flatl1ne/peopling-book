@@ -12,6 +12,7 @@ Read it online: **https://qualiapartners.com.au/peopling/**
 |------|-------------|
 | `peopling_book.md` | **Master manuscript** — the canonical single-source book file |
 | `images/` | Figures referenced by the manuscript (SVG, theme-aware) |
+| `audio/` | Published MP3 and chapter manifest for the current manuscript |
 | `peopling_book.html` | Generated standalone reading page — do not edit by hand |
 | `site/` | Builder for that page (`build.py`, `style.css`, `app.js`) |
 | `working/` | Everything that isn't the book itself |
@@ -34,7 +35,41 @@ The local standalone builder and the older GitHub Pages site also remain availab
 | Standalone page | `peopling_book.md` + `images/` via `site/build.py` | `peopling_book.html`, `site/peopling.html` |
 
 `site/build.py` needs the `markdown` package (`pip3 install markdown`). It inlines every
-figure, so the standalone page stays a single file.
+figure. Reading works as a single HTML file; listening also needs the adjacent
+`audio/` folder (or the published website).
+
+### Audiobook
+
+The player at the beginning of the book uses one continuous MP3, with chapter
+selection, speed controls and 15-second skips. It saves your listening position
+in this browser and supports media controls on compatible lock screens. The MP3
+download includes chapter markers and can be saved to an offline audio app.
+Narration uses Microsoft's stock Australian English William voice; it is labelled
+as AI narration. It is not a recording or imitation of Stefan's voice.
+
+To regenerate after changing the manuscript, use Python 3.10+ and `ffmpeg`:
+
+```sh
+python3 -m venv /tmp/peopling-audio-venv
+/tmp/peopling-audio-venv/bin/pip install -r site/audio-requirements.txt
+/tmp/peopling-audio-venv/bin/python site/build_audio.py --cache /tmp/peopling-narration
+/tmp/peopling-audio-venv/bin/python site/build.py
+```
+
+Generation sends only the public manuscript to the online speech service. It
+keeps reusable chunks and intermediate WAVs in the chosen cache, outside this
+repository. `--plan-only` writes the exact spoken text there without recording.
+The narration includes the overview, eight chapters, epilogue and appendix;
+diagram descriptions and captions are spoken, tables become labelled sentences,
+and the duplicate contents list and URL destinations are omitted.
+
+Commit the new `audio/manifest.json`, its referenced MP3 and the generated HTML.
+The manifest records the manuscript checksum, audio checksum and chapter times.
+The builder omits the player if the manuscript checksum no longer matches, so
+text edits can still deploy without presenting an old recording as current.
+Audio generation is a separate authoring step; the hourly website build only
+copies the finished recording. Only the current recording is deployed; downloaded
+copies remain available for offline use.
 
 The older `dixie-flatl1ne.github.io/peopling-book/` site is served from `gh-pages`,
 not from `main`. To update that legacy site separately: copy `working/publishing-site/` onto `gh-pages` and push that too.

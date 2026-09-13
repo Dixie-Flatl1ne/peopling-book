@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "manuscript_sha256": "31881adc8dafc6dcec0a7c16b1d83bfe88a3f2f44f3f7cc1f03379a06ad51083",
+  "generated_at": "2026-09-13T04:16:52.224732+00:00",
+  "narrator": {
+    "provider": "Microsoft Edge text to speech",
+    "voice": "en-AU-WilliamMultilingualNeural",
+    "rate": "-3%",
+    "synthetic": true
+  },
+  "file": "peopling-de1d6968c557.mp3",
+  "bytes": 42018117,
+  "sha256": "de1d6968c5574539e6236b40f579b853af9f01c7a283478365e629115e93035f",
+  "duration": 5252.024,
+  "chapters": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "start": 0.0,
+      "end": 128.312
+    },
+    {
+      "id": "ch1",
+      "title": "Chapter 1: Inside Your Head: Exploring You",
+      "start": 128.312,
+      "end": 600.56
+    },
+    {
+      "id": "ch2",
+      "title": "Chapter 2: Between Two Heads: Exploring Others",
+      "start": 600.56,
+      "end": 1417.008
+    },
+    {
+      "id": "ch3",
+      "title": "Chapter 3: Across Many Heads: Most of Work Is Just Sync",
+      "start": 1417.008,
+      "end": 2151.4
+    },
+    {
+      "id": "ch4",
+      "title": "Chapter 4: The Smart Cultural Ghost: Exploring the Machine",
+      "start": 2151.4,
+      "end": 2417.336
+    },
+    {
+      "id": "ch5",
+      "title": "Chapter 5: Solving for You: Meaning and a Congruent Self",
+      "start": 2417.336,
+      "end": 3093.256
+    },
+    {
+      "id": "ch6",
+      "title": "Chapter 6: Solving for the Corporation: Building Trust and Alignment",
+      "start": 3093.256,
+      "end": 3872.528
+    },
+    {
+      "id": "ch7",
+      "title": "Chapter 7: Peopling the Machine: Reading the Room",
+      "start": 3872.528,
+      "end": 4551.424
+    },
+    {
+      "id": "ch8",
+      "title": "Chapter 8: The Path Forward",
+      "start": 4551.424,
+      "end": 4706.76
+    },
+    {
+      "id": "epilogue",
+      "title": "Epilogue: The Universe Trying to Wake Up",
+      "start": 4706.76,
+      "end": 5159.688
+    },
+    {
+      "id": "appendix",
+      "title": "Appendix: Quick Reference Framework",
+      "start": 5159.688,
+      "end": 5252.024
+    }
+  ]
+}

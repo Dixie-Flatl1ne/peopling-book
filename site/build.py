@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build a reading-site HTML page from the Peopling manuscript."""
-import re, html, json, pathlib
+import re, html, json, pathlib, hashlib, math
 import markdown
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -312,6 +312,65 @@ readtime = f"{minutes // 60} hr {minutes % 60} min" if minutes >= 60 else f"{min
 CSS = (HERE / "style.css").read_text()
 JS = (HERE / "app.js").read_text()
 
+# Publish narration only when it belongs to this exact manuscript. Text-only
+# updates still build normally, without advertising an out-of-date recording.
+audio_player = ""
+manifest_path = ROOT / "audio/manifest.json"
+if manifest_path.exists():
+    audio = json.loads(manifest_path.read_text())
+    if audio["manuscript_sha256"] != hashlib.sha256(SRC.read_bytes()).hexdigest():
+        print("Audiobook omitted: manuscript changed. Regenerate with site/build_audio.py.")
+    else:
+        filename = audio["file"]
+        if not re.fullmatch(r"peopling-[a-f0-9]{12}\.mp3", filename):
+            raise ValueError("Invalid audiobook filename")
+        asset = ROOT / "audio" / filename
+        if not asset.is_file() or asset.stat().st_size != audio["bytes"]:
+            raise ValueError("Audiobook file is missing or incomplete")
+        if hashlib.sha256(asset.read_bytes()).hexdigest() != audio["sha256"]:
+            raise ValueError("Audiobook checksum does not match the manifest")
+        duration = audio["duration"]
+        if not isinstance(duration, (int, float)) or not math.isfinite(duration) or duration <= 0:
+            raise ValueError("Invalid audiobook duration")
+        audio_chapters = audio["chapters"]
+        if [c["id"] for c in audio_chapters] != ["overview"] + [c["id"] for c in chapters]:
+            raise ValueError("Audiobook chapter list differs from manuscript")
+        previous = 0
+        for c in audio_chapters:
+            if c["start"] != previous or not c["start"] < c["end"] <= duration:
+                raise ValueError("Invalid audiobook chapter timing")
+            previous = c["end"]
+        if previous != duration:
+            raise ValueError("Audiobook chapters do not cover the recording")
+        total_minutes = round(duration / 60)
+        length = f"{total_minutes // 60} hr {total_minutes % 60} min" if total_minutes >= 60 else f"{total_minutes} min"
+        options = "".join(f'<option value="{i}">{html.escape(c["title"])}</option>' for i, c in enumerate(audio_chapters))
+        data = json.dumps({"version": filename, "duration": duration, "chapters": audio_chapters}).replace("<", "\\u003c")
+        audio_player = f'''<section class="audiobook" id="listen" aria-labelledby="audio-heading">
+      <h2 id="audio-heading">Listen to the book</h2>
+      <p class="audio-meta">{length} &middot; Australian English &middot; AI narration</p>
+      <audio id="book-audio" controls preload="metadata" aria-label="Peopling audiobook" src="audio/{filename}">
+        <a href="audio/{filename}">Download the audiobook</a>
+      </audio>
+      <div id="audio-extras" hidden>
+        <div class="audio-tools">
+          <button type="button" id="audio-back" aria-label="Back 15 seconds" disabled>&minus;15s</button>
+          <button type="button" id="audio-forward" aria-label="Forward 15 seconds" disabled>+15s</button>
+          <label class="audio-speed">Speed <select id="audio-speed" aria-label="Playback speed">
+            <option value="0.75">0.75&times;</option><option value="1" selected>1&times;</option>
+            <option value="1.25">1.25&times;</option><option value="1.5">1.5&times;</option>
+            <option value="1.75">1.75&times;</option><option value="2">2&times;</option>
+          </select></label>
+        </div>
+        <label class="audio-chapter" for="audio-chapter">Chapter
+          <select id="audio-chapter" disabled>{options}</select>
+        </label>
+        <p class="audio-status" id="audio-status" role="status">Your place is saved on this device.</p>
+      </div>
+      <a class="audio-download" href="audio/{filename}" download="Peopling - Stefan van der Wel.mp3">Download MP3 for offline listening <span>({audio['bytes'] / 1000000:.0f} MB)</span></a>
+      <script type="application/json" id="audio-data">{data}</script>
+    </section>'''
+
 page = f'''<title>Peopling</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -328,6 +387,7 @@ page = f'''<title>Peopling</title>
 <nav class="rail" id="rail" aria-label="Contents">
   <div class="rail-in">
     <a class="rail-title" href="#top"><b>Peopling</b><span>Stefan van der Wel</span></a>
+    {'<a class="audio-download" href="#listen">Listen to the audiobook</a>' if audio_player else ''}
     <ul class="nav">
       <li class="nav-ch" data-ch="overview"><a href="#overview">Overview</a></li>
       {"".join(nav_parts)}
@@ -345,6 +405,7 @@ page = f'''<title>Peopling</title>
     <h1>Peopling</h1>
     <p class="tp-sub">{html.escape(subtitle)}</p>
     <p class="tp-author">Stefan van der Wel</p>
+    {audio_player}
     <p class="tp-thesis">You carry a model of the people you work with, and they carry a model of you.
       Working together depends on how well those pictures hold up, what you value
       and what you are trying to do.</p>
@@ -374,7 +435,7 @@ page = f'''<title>Peopling</title>
 <script>{JS}</script>
 '''
 
-OUT.write_text(page, encoding="utf-8")
+OUT.write_text(page.replace('src="audio/', 'src="../audio/').replace('href="audio/', 'href="../audio/'), encoding="utf-8")
 
 # standalone document: the same page wrapped so it opens straight from disk
 body_only = page.replace("<title>Peopling</title>\n", "", 1)

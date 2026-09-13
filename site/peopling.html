@@ -47,6 +47,26 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.18em}
 a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
 ::selection{background:var(--accent-wash)}
 
+/* ---------- audiobook ---------- */
+.audiobook{margin:1.5rem 0 2rem;padding:1.3rem;border:1px solid var(--rule-2);border-radius:12px;background:var(--paper-2);font-family:var(--ui);font-size:.875rem;line-height:1.5;min-width:0}
+.audiobook h2{font-family:var(--display);font-size:1.5rem;font-weight:500;line-height:1.25;margin:0 0 .35rem}
+.audio-meta{margin:0 0 1rem;color:var(--ink-2);font-size:.8rem}
+.audiobook audio{display:block;width:100%;min-width:0;height:54px}
+.audio-tools{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:.85rem 0}
+.audiobook button,.audiobook select{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--rule-2);border-radius:6px;min-height:44px;padding:.45rem .65rem}
+.audiobook button{min-width:55px;cursor:pointer;font-variant-numeric:tabular-nums}
+.audiobook button:hover{background:var(--accent-wash)}
+.audiobook button:disabled,.audiobook select:disabled{opacity:.5;cursor:default}
+.audiobook select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.audio-speed{margin-left:auto;display:flex;align-items:center;gap:.5rem;color:var(--ink-2)}
+.audio-chapter{display:flex;flex-direction:column;gap:.35rem;color:var(--ink-2)}
+.audio-chapter select{width:100%;min-width:0;text-overflow:ellipsis}
+.audio-status{margin:.7rem 0 0;font-size:.8rem;color:var(--ink-2)}
+.audio-download{display:inline-block;margin-top:.7rem;padding:.35rem 0;font-size:.8rem}
+.audio-download span{color:var(--ink-2)}
+@media(max-width:380px){.audiobook{padding:.9rem}.audio-speed{gap:.25rem}}
+@media print{.audiobook{display:none}}
+
 /* ---------- reading progress ---------- */
 .progress{position:fixed;inset:0 0 auto 0;height:2px;z-index:60;background:transparent;pointer-events:none}
 .progress i{display:block;height:100%;width:0;background:var(--accent);opacity:.85}
@@ -293,6 +313,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <nav class="rail" id="rail" aria-label="Contents">
   <div class="rail-in">
     <a class="rail-title" href="#top"><b>Peopling</b><span>Stefan van der Wel</span></a>
+    <a class="audio-download" href="#listen">Listen to the audiobook</a>
     <ul class="nav">
       <li class="nav-ch" data-ch="overview"><a href="#overview">Overview</a></li>
       <li class="nav-part">Part One <span>Foundation</span></li><li class="nav-ch" data-ch="ch1"><a href="#ch1"><em>1</em> Inside Your Head: Exploring You</a><ul class="nav-secs"><li><a href="#chapter-1-reality-is-a-controlled-hallucination">Reality is a controlled hallucination</a></li><li><a href="#chapter-1-the-committee-in-the-driver-s-seat">The committee in the driver&#x27;s seat</a></li><li><a href="#chapter-1-the-story-is-written-after-the-fact">The story is written after the fact</a></li><li><a href="#chapter-1-when-the-explanation-fills-a-gap">When the explanation fills a gap</a></li><li><a href="#chapter-1-you-are-the-story-and-you-are-not-the-only-author">You are the story, and you are not the only author</a></li></ul></li><li class="nav-ch" data-ch="ch2"><a href="#ch2"><em>2</em> Between Two Heads: Exploring Others</a><ul class="nav-secs"><li><a href="#chapter-2-a-person-is-a-verb">A person is a verb</a></li><li><a href="#chapter-2-the-recursive-mirror">The recursive mirror</a></li><li><a href="#chapter-2-other-ways-of-imagining-the-self">Other ways of imagining the self</a></li><li><a href="#chapter-2-carol-who-kept-running">Carol, who kept running</a></li><li><a href="#chapter-2-models-with-nobody-home">Models with nobody home</a></li><li><a href="#chapter-2-trust-needs-more-than-a-good-model">Trust needs more than a good model</a></li></ul></li><li class="nav-ch" data-ch="ch3"><a href="#ch3"><em>3</em> Across Many Heads: Most of Work Is Just Sync</a><ul class="nav-secs"><li><a href="#chapter-3-you-don-t-have-a-personality-you-have-one-per-room">You don&#x27;t have a personality, you have one per room</a></li><li><a href="#chapter-3-status-is-the-thing-everyone-is-actually-tracking">Status is the thing everyone is actually tracking</a></li><li><a href="#chapter-3-the-corporate-skinsuit">The corporate skinsuit</a></li><li><a href="#chapter-3-a-company-is-a-shared-hallucination-you-maintain-t">A company is a shared hallucination you maintain together</a></li><li><a href="#chapter-3-most-of-work-is-just-sync">Most of work is just sync</a></li><li><a href="#chapter-3-teams-form-by-renegotiating-who-everyone-is">Teams form by renegotiating who everyone is</a></li><li><a href="#chapter-3-we-used-to-get-this-for-free">We used to get this for free</a></li></ul></li><li class="nav-ch" data-ch="ch4"><a href="#ch4"><em>4</em> The Smart Cultural Ghost: Exploring the Machine</a><ul class="nav-secs"><li><a href="#chapter-4-the-culture-is-part-of-the-intelligence">The culture is part of the intelligence</a></li><li><a href="#chapter-4-a-smart-cultural-ghost">A smart cultural ghost</a></li><li><a href="#chapter-4-what-we-can-ask-it-to-do">What we can ask it to do</a></li><li><a href="#chapter-4-what-the-ghost-has-not-been-told">What the ghost has not been told</a></li></ul></li><li class="nav-part">Part Two <span>Application</span></li><li class="nav-ch" data-ch="ch5"><a href="#ch5"><em>5</em> Solving for You: Meaning and a Congruent Self</a><ul class="nav-secs"><li><a href="#chapter-5-the-tax-you-did-not-know-you-were-paying">The tax you did not know you were paying</a></li><li><a href="#chapter-5-choosing-what-to-organise-yourself-around">Choosing what to organise yourself around</a></li><li><a href="#chapter-5-bring-the-performed-selves-together">Bring the performed selves together</a></li><li><a href="#chapter-5-why-it-is-worth-the-nerve">Why it is worth the nerve</a></li><li><a href="#chapter-5-a-congruent-self-needs-something-to-be-congruent-a">A congruent self needs something to be congruent around</a></li><li><a href="#chapter-5-what-you-are-probably-worried-about">What you are probably worried about</a></li></ul></li><li class="nav-ch" data-ch="ch6"><a href="#ch6"><em>6</em> Solving for the Corporation: Building Trust and Alignment</a><ul class="nav-secs"><li><a href="#chapter-6-trust-needs-understanding-and-shared-values">Trust needs understanding and shared values</a></li><li><a href="#chapter-6-what-a-values-statement-is-trying-to-do">What a values statement is trying to do</a></li><li><a href="#chapter-6-other-ways-of-binding-a-group">Other ways of binding a group</a></li><li><a href="#chapter-6-the-stuff-that-looks-like-a-waste-of-time-is-the-w">The stuff that looks like a waste of time is the work</a></li><li><a href="#chapter-6-alignment-is-a-shared-picture-held-on-purpose">Alignment is a shared picture, held on purpose</a></li><li><a href="#chapter-6-tell-the-story-not-the-model">Tell the story, not the model</a></li><li><a href="#chapter-6-why-it-never-holds-still">Why it never holds still</a></li><li><a href="#chapter-6-who-you-put-in-the-room">Who you put in the room</a></li></ul></li><li class="nav-part">Part Three <span>Implementation</span></li><li class="nav-ch" data-ch="ch7"><a href="#ch7"><em>7</em> Peopling the Machine: Reading the Room</a><ul class="nav-secs"><li><a href="#chapter-7-give-it-the-second-doll">Give it the second doll</a></li><li><a href="#chapter-7-reading-the-room">Reading the room</a></li><li><a href="#chapter-7-the-context-bridge">The context bridge</a></li><li><a href="#chapter-7-the-memory-bank">The memory bank</a></li><li><a href="#chapter-7-the-consultant-that-builds">The consultant that builds</a></li><li><a href="#chapter-7-what-it-must-not-fake">What it must not fake</a></li><li><a href="#chapter-7-a-note-on-the-figures">A note on the figures</a></li></ul></li><li class="nav-part">Part Four <span>Synthesis</span></li><li class="nav-ch" data-ch="ch8"><a href="#ch8"><em>8</em> The Path Forward</a><ul class="nav-secs"></ul></li><li class="nav-part">Epilogue</li><li class="nav-ch" data-ch="epilogue"><a href="#epilogue">The Universe Trying to Wake Up</a><ul class="nav-secs"><li><a href="#epilogue-prologue">Prologue</a></li><li><a href="#epilogue-the-sequence-of-events">The sequence of events</a></li><li><a href="#epilogue-the-universe-is-trying-to-become-self-aware">The universe is trying to become self-aware</a></li><li><a href="#epilogue-the-trigger">The trigger</a></li><li><a href="#epilogue-the-moment-of-clarity">The moment of clarity</a></li><li><a href="#epilogue-my-purpose">My purpose</a></li><li><a href="#epilogue-the-idea">The idea</a></li></ul></li><li class="nav-part">Appendix</li><li class="nav-ch" data-ch="appendix"><a href="#appendix">Quick Reference Framework</a><ul class="nav-secs"></ul></li>
@@ -310,6 +331,30 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
     <h1>Peopling</h1>
     <p class="tp-sub">How Minds Stay in Sync, and Why Everything Depends on It</p>
     <p class="tp-author">Stefan van der Wel</p>
+    <section class="audiobook" id="listen" aria-labelledby="audio-heading">
+      <h2 id="audio-heading">Listen to the book</h2>
+      <p class="audio-meta">1 hr 28 min &middot; Australian English &middot; AI narration</p>
+      <audio id="book-audio" controls preload="metadata" aria-label="Peopling audiobook" src="../audio/peopling-de1d6968c557.mp3">
+        <a href="../audio/peopling-de1d6968c557.mp3">Download the audiobook</a>
+      </audio>
+      <div id="audio-extras" hidden>
+        <div class="audio-tools">
+          <button type="button" id="audio-back" aria-label="Back 15 seconds" disabled>&minus;15s</button>
+          <button type="button" id="audio-forward" aria-label="Forward 15 seconds" disabled>+15s</button>
+          <label class="audio-speed">Speed <select id="audio-speed" aria-label="Playback speed">
+            <option value="0.75">0.75&times;</option><option value="1" selected>1&times;</option>
+            <option value="1.25">1.25&times;</option><option value="1.5">1.5&times;</option>
+            <option value="1.75">1.75&times;</option><option value="2">2&times;</option>
+          </select></label>
+        </div>
+        <label class="audio-chapter" for="audio-chapter">Chapter
+          <select id="audio-chapter" disabled><option value="0">Overview</option><option value="1">Chapter 1: Inside Your Head: Exploring You</option><option value="2">Chapter 2: Between Two Heads: Exploring Others</option><option value="3">Chapter 3: Across Many Heads: Most of Work Is Just Sync</option><option value="4">Chapter 4: The Smart Cultural Ghost: Exploring the Machine</option><option value="5">Chapter 5: Solving for You: Meaning and a Congruent Self</option><option value="6">Chapter 6: Solving for the Corporation: Building Trust and Alignment</option><option value="7">Chapter 7: Peopling the Machine: Reading the Room</option><option value="8">Chapter 8: The Path Forward</option><option value="9">Epilogue: The Universe Trying to Wake Up</option><option value="10">Appendix: Quick Reference Framework</option></select>
+        </label>
+        <p class="audio-status" id="audio-status" role="status">Your place is saved on this device.</p>
+      </div>
+      <a class="audio-download" href="../audio/peopling-de1d6968c557.mp3" download="Peopling - Stefan van der Wel.mp3">Download MP3 for offline listening <span>(42 MB)</span></a>
+      <script type="application/json" id="audio-data">{"version": "peopling-de1d6968c557.mp3", "duration": 5252.024, "chapters": [{"id": "overview", "title": "Overview", "start": 0.0, "end": 128.312}, {"id": "ch1", "title": "Chapter 1: Inside Your Head: Exploring You", "start": 128.312, "end": 600.56}, {"id": "ch2", "title": "Chapter 2: Between Two Heads: Exploring Others", "start": 600.56, "end": 1417.008}, {"id": "ch3", "title": "Chapter 3: Across Many Heads: Most of Work Is Just Sync", "start": 1417.008, "end": 2151.4}, {"id": "ch4", "title": "Chapter 4: The Smart Cultural Ghost: Exploring the Machine", "start": 2151.4, "end": 2417.336}, {"id": "ch5", "title": "Chapter 5: Solving for You: Meaning and a Congruent Self", "start": 2417.336, "end": 3093.256}, {"id": "ch6", "title": "Chapter 6: Solving for the Corporation: Building Trust and Alignment", "start": 3093.256, "end": 3872.528}, {"id": "ch7", "title": "Chapter 7: Peopling the Machine: Reading the Room", "start": 3872.528, "end": 4551.424}, {"id": "ch8", "title": "Chapter 8: The Path Forward", "start": 4551.424, "end": 4706.76}, {"id": "epilogue", "title": "Epilogue: The Universe Trying to Wake Up", "start": 4706.76, "end": 5159.688}, {"id": "appendix", "title": "Appendix: Quick Reference Framework", "start": 5159.688, "end": 5252.024}]}</script>
+    </section>
     <p class="tp-thesis">You carry a model of the people you work with, and they carry a model of you.
       Working together depends on how well those pictures hold up, what you value
       and what you are trying to do.</p>
@@ -1443,5 +1488,121 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
   window.addEventListener('resize', onScroll);
   document.fonts && document.fonts.ready.then(update);
   update();
+})();
+
+/* A single recording keeps chapters continuous during background playback. */
+(function () {
+  var audio = document.getElementById('book-audio');
+  if (!audio) return;
+  var data = JSON.parse(document.getElementById('audio-data').textContent);
+  var chapters = data.chapters;
+  var select = document.getElementById('audio-chapter');
+  var speed = document.getElementById('audio-speed');
+  var back = document.getElementById('audio-back');
+  var forward = document.getElementById('audio-forward');
+  var status = document.getElementById('audio-status');
+  var key = 'peopling-audio:' + data.version;
+  var saved = null, ready = false, currentChapter = -1, lastSave = 0;
+  var storageOK = true;
+  var media = 'mediaSession' in navigator ? navigator.mediaSession : null;
+  try {
+    saved = JSON.parse(localStorage.getItem(key));
+    localStorage.setItem(key + ':check', '1');
+    localStorage.removeItem(key + ':check');
+  } catch (e) { storageOK = false; }
+
+  function message() {
+    status.textContent = storageOK ? 'Your place is saved on this device.' : 'Playback works, but this browser cannot save your place. Download the MP3 to keep it offline.';
+  }
+  function stamp(seconds) {
+    var n = Math.floor(seconds);
+    return (n >= 3600 ? Math.floor(n / 3600) + ':' : '') + String(Math.floor(n / 60) % 60).padStart(2, '0') + ':' + String(n % 60).padStart(2, '0');
+  }
+  function save() {
+    if (!ready || !storageOK) return;
+    try {
+      localStorage.setItem(key, JSON.stringify({ time: audio.ended ? 0 : audio.currentTime, rate: audio.playbackRate }));
+    } catch (e) { storageOK = false; message(); }
+    lastSave = Date.now();
+  }
+  function position() {
+    if (media && media.setPositionState && isFinite(audio.duration) && audio.duration > 0) {
+      try { media.setPositionState({ duration: audio.duration, playbackRate: audio.playbackRate, position: Math.min(audio.currentTime, audio.duration) }); } catch (e) { /* Optional on older browsers. */ }
+    }
+  }
+  function update() {
+    var index = 0;
+    for (var i = 1; i < chapters.length; i++) {
+      if (chapters[i].start <= audio.currentTime) index = i;
+    }
+    select.value = String(index);
+    if (index !== currentChapter) {
+      currentChapter = index;
+      if (media && 'MediaMetadata' in window) {
+        media.metadata = new MediaMetadata({ title: chapters[index].title, artist: 'Stefan van der Wel', album: 'Peopling · AI narration' });
+      }
+    }
+    position();
+  }
+  function seek(time) {
+    if (!ready || !isFinite(time)) return;
+    audio.currentTime = Math.max(0, Math.min(time, audio.duration));
+    update();
+    save();
+  }
+  function play() {
+    var pending = audio.play();
+    if (pending && pending.catch) pending.catch(function () { status.textContent = 'Press play on the audio controls to start listening.'; });
+  }
+  function metadata() {
+    if (ready || !isFinite(audio.duration) || audio.duration <= 0) return;
+    ready = true;
+    back.disabled = forward.disabled = select.disabled = false;
+    message();
+    if (saved && typeof saved.rate === 'number' && [].some.call(speed.options, function (option) { return Number(option.value) === saved.rate; })) {
+      audio.playbackRate = saved.rate;
+      speed.value = String(saved.rate);
+    }
+    if (saved && typeof saved.time === 'number' && isFinite(saved.time) && saved.time > 0 && saved.time < audio.duration - 2) {
+      audio.currentTime = saved.time;
+      if (storageOK) status.textContent = 'Ready to resume at ' + stamp(saved.time) + '. Press play.';
+    }
+    update();
+  }
+  back.addEventListener('click', function () { seek(audio.currentTime - 15); });
+  forward.addEventListener('click', function () { seek(audio.currentTime + 15); });
+  select.addEventListener('change', function () { seek(chapters[Number(select.value)].start); });
+  speed.addEventListener('change', function () { audio.playbackRate = Number(speed.value); });
+  audio.addEventListener('loadedmetadata', metadata);
+  audio.addEventListener('timeupdate', function () { update(); if (Date.now() - lastSave > 5000) save(); });
+  audio.addEventListener('seeked', function () {
+    save();
+    message();
+    if (storageOK && audio.paused && audio.currentTime > 0) status.textContent = 'Ready to resume at ' + stamp(audio.currentTime) + '. Press play.';
+  });
+  audio.addEventListener('ratechange', function () { speed.value = String(audio.playbackRate); save(); position(); });
+  audio.addEventListener('pause', function () { save(); if (media) media.playbackState = 'paused'; });
+  audio.addEventListener('play', function () { message(); if (media) media.playbackState = 'playing'; });
+  audio.addEventListener('ended', function () { save(); status.textContent = 'You have reached the end of the book.'; if (media) media.playbackState = 'none'; });
+  audio.addEventListener('error', function () { status.textContent = 'The recording could not load. Check your connection and reload, or use the MP3 download link.'; });
+  window.addEventListener('pagehide', save);
+  document.addEventListener('visibilitychange', function () { if (document.hidden) save(); });
+  if (media && media.setActionHandler) {
+    var actions = {
+      play: play,
+      pause: function () { audio.pause(); },
+      seekbackward: function (details) { seek(audio.currentTime - (details.seekOffset || 15)); },
+      seekforward: function (details) { seek(audio.currentTime + (details.seekOffset || 15)); },
+      seekto: function (details) { seek(details.seekTime); },
+      previoustrack: function () { seek(chapters[Math.max(0, currentChapter - 1)].start); },
+      nexttrack: function () { seek(chapters[Math.min(chapters.length - 1, currentChapter + 1)].start); }
+    };
+    Object.keys(actions).forEach(function (action) {
+      try { media.setActionHandler(action, actions[action]); } catch (e) { /* Not all actions are supported. */ }
+    });
+  }
+  document.getElementById('audio-extras').hidden = false;
+  message();
+  if (audio.readyState >= 1) metadata();
 })();
 </script>

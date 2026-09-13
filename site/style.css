@@ -43,6 +43,26 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.18em}
 a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
 ::selection{background:var(--accent-wash)}
 
+/* ---------- audiobook ---------- */
+.audiobook{margin:1.5rem 0 2rem;padding:1.3rem;border:1px solid var(--rule-2);border-radius:12px;background:var(--paper-2);font-family:var(--ui);font-size:.875rem;line-height:1.5;min-width:0}
+.audiobook h2{font-family:var(--display);font-size:1.5rem;font-weight:500;line-height:1.25;margin:0 0 .35rem}
+.audio-meta{margin:0 0 1rem;color:var(--ink-2);font-size:.8rem}
+.audiobook audio{display:block;width:100%;min-width:0;height:54px}
+.audio-tools{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:.85rem 0}
+.audiobook button,.audiobook select{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--rule-2);border-radius:6px;min-height:44px;padding:.45rem .65rem}
+.audiobook button{min-width:55px;cursor:pointer;font-variant-numeric:tabular-nums}
+.audiobook button:hover{background:var(--accent-wash)}
+.audiobook button:disabled,.audiobook select:disabled{opacity:.5;cursor:default}
+.audiobook select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.audio-speed{margin-left:auto;display:flex;align-items:center;gap:.5rem;color:var(--ink-2)}
+.audio-chapter{display:flex;flex-direction:column;gap:.35rem;color:var(--ink-2)}
+.audio-chapter select{width:100%;min-width:0;text-overflow:ellipsis}
+.audio-status{margin:.7rem 0 0;font-size:.8rem;color:var(--ink-2)}
+.audio-download{display:inline-block;margin-top:.7rem;padding:.35rem 0;font-size:.8rem}
+.audio-download span{color:var(--ink-2)}
+@media(max-width:380px){.audiobook{padding:.9rem}.audio-speed{gap:.25rem}}
+@media print{.audiobook{display:none}}
+
 /* ---------- reading progress ---------- */
 .progress{position:fixed;inset:0 0 auto 0;height:2px;z-index:60;background:transparent;pointer-events:none}
 .progress i{display:block;height:100%;width:0;background:var(--accent);opacity:.85}
