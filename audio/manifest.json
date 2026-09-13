@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "manuscript_sha256": "31881adc8dafc6dcec0a7c16b1d83bfe88a3f2f44f3f7cc1f03379a06ad51083",
-  "generated_at": "2026-09-13T04:16:52.224732+00:00",
+  "manuscript_sha256": "03819510c0539d9680dcc49c4952cedf4699b8ddbd9ef64076617ef3c99029a5",
+  "generated_at": "2026-09-13T14:43:43.437749+00:00",
   "narrator": {
     "provider": "Microsoft Edge text to speech",
     "voice": "en-AU-WilliamMultilingualNeural",
     "rate": "-3%",
     "synthetic": true
   },
-  "file": "peopling-de1d6968c557.mp3",
-  "bytes": 42018117,
-  "sha256": "de1d6968c5574539e6236b40f579b853af9f01c7a283478365e629115e93035f",
-  "duration": 5252.024,
+  "file": "peopling-f6103916382a.mp3",
+  "bytes": 40874757,
+  "sha256": "f6103916382a05204cc988cb7519af70cd52a6fc93c0bf526cabc583b5cf87d1",
+  "duration": 5109.104,
   "chapters": [
     {
       "id": "overview",
@@ -23,61 +23,61 @@
       "id": "ch1",
       "title": "Chapter 1: Inside Your Head: Exploring You",
       "start": 128.312,
-      "end": 600.56
+      "end": 676.432
     },
     {
       "id": "ch2",
       "title": "Chapter 2: Between Two Heads: Exploring Others",
-      "start": 600.56,
-      "end": 1417.008
+      "start": 676.432,
+      "end": 1633.312
     },
     {
       "id": "ch3",
       "title": "Chapter 3: Across Many Heads: Most of Work Is Just Sync",
-      "start": 1417.008,
-      "end": 2151.4
+      "start": 1633.312,
+      "end": 2367.704
     },
     {
       "id": "ch4",
       "title": "Chapter 4: The Smart Cultural Ghost: Exploring the Machine",
-      "start": 2151.4,
-      "end": 2417.336
+      "start": 2367.704,
+      "end": 2633.64
     },
     {
       "id": "ch5",
       "title": "Chapter 5: Solving for You: Meaning and a Congruent Self",
-      "start": 2417.336,
-      "end": 3093.256
+      "start": 2633.64,
+      "end": 2956.888
     },
     {
       "id": "ch6",
       "title": "Chapter 6: Solving for the Corporation: Building Trust and Alignment",
-      "start": 3093.256,
-      "end": 3872.528
+      "start": 2956.888,
+      "end": 3752.528
     },
     {
       "id": "ch7",
       "title": "Chapter 7: Peopling the Machine: Reading the Room",
-      "start": 3872.528,
-      "end": 4551.424
+      "start": 3752.528,
+      "end": 4408.504
     },
     {
       "id": "ch8",
       "title": "Chapter 8: The Path Forward",
-      "start": 4551.424,
-      "end": 4706.76
+      "start": 4408.504,
+      "end": 4563.84
     },
     {
       "id": "epilogue",
       "title": "Epilogue: The Universe Trying to Wake Up",
-      "start": 4706.76,
-      "end": 5159.688
+      "start": 4563.84,
+      "end": 5016.768
     },
     {
       "id": "appendix",
       "title": "Appendix: Quick Reference Framework",
-      "start": 5159.688,
-      "end": 5252.024
+      "start": 5016.768,
+      "end": 5109.104
     }
   ]
 }

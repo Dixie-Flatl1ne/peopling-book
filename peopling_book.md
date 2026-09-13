@@ -111,7 +111,15 @@ Sometimes agency feels less like turning a steering wheel and more like being in
 
 ## When the explanation fills a gap
 
-[Michael Gazzaniga's account of split-brain research](https://heritageproject.caltech.edu/interviews-updates/michael-gazzaniga) gives a striking version of the problem. When information is available to one hemisphere but not to the language-producing system, an explanation can be generated without access to the information that prompted the action. The resulting story can sound coherent while missing its cause. The example matters here because sincerity does not guarantee that an explanation is complete.
+Confabulation is when you fill a gap in what you know or remember with an account you believe to be true. Here, the gap is in why you did something. You give a plausible explanation afterwards, without realising that it leaves out what actually prompted the action.
+
+Neuroscientist Michael Gazzaniga studied this in people who had undergone surgery for severe epilepsy. Surgeons had cut connections between the brain's two hemispheres, including the main bundle of nerve fibres joining them, called the corpus callosum. These are the people described as having a split brain. The operation gave researchers a way to present information to one hemisphere without that information reaching the other through the usual route.
+
+In one experiment, the researchers showed a picture of a chicken claw to the patient's left hemisphere and a snowy scene to the right. They then asked the patient to choose related pictures from a selection. The right hand, controlled by the left hemisphere, pointed to a chicken. The left hand, controlled by the right hemisphere, pointed to a shovel. Each choice made sense: the claw belonged to a chicken, and a shovel could clear the snow.
+
+Then the researchers asked why the patient had chosen those pictures. The speaking left hemisphere could explain the chicken, but it had not seen the snow. In [Gazzaniga's account](https://mmp.planetary.org/scien/gazzm/gazzm82.htm), the patient explained the shovel by saying, "you need a shovel to clean out the chicken shed."
+
+The explanation connected the shovel to the chicken because the chicken was the information available to the part of the brain answering the question. It supplied a reason that fitted, while missing the snowy scene that had prompted the choice. That is what makes the example useful here: someone can sincerely explain their own action without knowing what caused it.
 
 The ordinary version is familiar: we reach a conclusion and then become much better at explaining why it was the right one. Sometimes that explanation is sound. Sometimes it is a story that makes an existing preference easier to live with.
 
@@ -174,7 +182,33 @@ There is a name for this whole structure, a loop that turns back on itself until
 
 The image of a private individual directing everything from inside a skull is one way of understanding agency. Other traditions put more emphasis on the relationships and forces acting through a person.
 
-Ancient stories give that influence a different form. In the Iliad, gods intervene in courage, judgement and action. In the biblical account of Saul, an evil spirit comes upon him. I find that language interesting because it pictures a person as open to forces they do not fully direct. It does not let us establish exactly what an ancient person experienced from the inside.
+There is a very direct example in the Iliad. Diomedes is a Greek warrior fighting at Troy, and Athena gives him courage for the battle. Samuel Butler's translation calls them Diomed and Minerva. Book V opens:
+
+> Then Pallas Minerva put valour into the heart of Diomed, son of Tydeus, that he might excel all the other Argives, and cover himself with glory.
+
+Later in the battle, an archer wounds Diomedes in the shoulder. His companion pulls out the arrow, and Diomedes prays to Athena for help against the man who shot him. She answers the prayer, makes his limbs supple and tells him:
+
+> Fear not, Diomed, to do battle with the Trojans, for I have set in your heart the spirit of your knightly father Tydeus.
+
+The change then shows up in what he does:
+
+> When she had said this Minerva went away, and the son of Tydeus again took his place among the foremost fighters, three times more fierce even than he had been before.
+
+Those are the words of [the Iliad, Book V, in Butler's translation](https://en.wikisource.org/wiki/The_Iliad_of_Homer_(Butler)/Book_5). Courage is something the goddess puts into him. He is wounded, asks for help, receives it and goes back into the fight. The story gives the change in his capacity to act a presence and a voice of its own.
+
+The story of Saul gives another version of something arriving in a person and changing how they act. Saul's servants suggest finding a musician to help when an evil spirit troubles him. David is brought to the king and plays for him. [The account describes what happens](https://www.biblegateway.com/passage/?search=1+Samuel+16%3A14-23&version=KJV):
+
+> And it came to pass, when the evil spirit from God was upon Saul, that David took an harp, and played with his hand: so Saul was refreshed, and was well, and the evil spirit departed from him.
+
+Later, the music is part of a much darker scene. David is playing while Saul sits with a spear in his hand. [The story continues](https://www.biblegateway.com/passage/?search=1+Samuel+19%3A9-10&version=KJV):
+
+> And the evil spirit from the Lord was upon Saul, as he sat in his house with his javelin in his hand: and David played with his hand.
+>
+> And Saul sought to smite David even to the wall with the javelin: but he slipped away out of Saul's presence, and he smote the javelin into the wall: and David fled, and escaped that night.
+
+Saul tries to pin David to the wall. David escapes, and the spear strikes the wall instead. The earlier passage describes Saul becoming well as the spirit departs; this one places the spirit's presence alongside his violence. The language pictures a person as open to forces that can arrive, act through them and leave.
+
+That is what interests me in these stories. I recognise the experience of a mood arriving before I have an explanation for it, or of another person changing what I feel capable of doing. The stories give that influence a form. They do not let us establish exactly what an ancient person experienced from the inside.
 
 In the interviews behind this book I wondered whether Protestant theology helped strengthen the more individual-centred picture I grew up with. That is a historical hunch, not a complete account of where the modern self came from. The point I want to keep is that the picture can be questioned. It is possible to take individual judgement seriously while also asking how a person's relationships help form it.
 
@@ -347,81 +381,49 @@ That difference is the starting point for the agent in chapter seven. Before bui
 
 You can spend a day in meetings doing two jobs at once. There is the project, and then there is keeping track of who you think each person expects you to be. You tailor what you say to a guess about the version of you in their head. That second job can be exhausting.
 
-I think it helps to bring those versions closer together where you can. You will still explain something differently to a client, a friend or your family. The aim is to stop maintaining performances that pull you in different directions, while keeping the judgement about what each person needs from you.
+Some of that attention helps the conversation. Some of it goes into winning approval or maintaining a position you no longer believe. I think it is worth finding out which part is costing you, because having several different selves is not, by itself, the problem.
 
-That is what I mean by a congruent self. The way you express yourself can change while the values underneath remain recognisable. You are choosing something to organise your life around, rather than searching for a finished, hidden self that will tell you what to do.
+## Different relationships need different parts of you
 
-## The tax you did not know you were paying
+Sarah Perry makes the limit explicit in [The Essence of Peopling](https://ribbonfarm.com/2015/04/08/the-essence-of-peopling/):
 
-The effort is easy to miss because it runs underneath the conversation. You may be tracking what someone thinks, how you are landing, what they expect and what they think you think of them. Sometimes that attention helps you understand the situation. Sometimes it turns into managing approval long after it has stopped helping the work.
+> There can never be one single, public self; to collapse all these multiple selves together would be akin to social death.
 
-This is one way I understand social exhaustion. It is a proposed explanation for part of the experience, not a definition of introversion or a claim that everybody who finds company tiring is doing the same thing. The useful question is where your own effort is going, and whether all of it needs to be spent.
+Her point is that a self exists across relationships and in the movement between them. None of those versions has an exclusive claim to being the real one. The differences are part of what makes each relationship possible.
 
-## Choosing what to organise yourself around
+Being a colleague, a close friend and a partner involves different kinds of attention and intimacy. Privacy matters. So do the responsibilities of a role. There are things you can properly share with one person that would be out of place with another. A professional manner can be useful and sincere, even when it is quite different from how you behave at home.
 
-The instruction to find your true self can imply that enough introspection will uncover a single answer. My experience is closer to deciding which commitments I want to live by, then noticing where my behaviour does not fit them. That leaves room to change my mind as I learn.
+There is also a limit to what you can settle on your own. Other people have their own histories with you. They will keep different pictures of you, and you cannot make those pictures identical by deciding to be more consistent.
 
-The earlier discussion of self-narration matters here. The account you give of yourself can be examined and revised. It need not be the same story you inherited, or the one that happened to make a difficult situation easier last year.
+So the change I am interested in is narrower: reducing the contradictions you keep alive to satisfy different audiences. Congruence, as I mean it here, is being able to stand behind your commitments across situations, while accepting that the situations ask different things of you. Some tensions will remain because the demands really do conflict.
 
-## Bring the performed selves together
+## Choose the conflicts worth changing
 
-The move is to consolidate the conflicting performances, not erase every difference between situations. The version of you managing a crisis will act differently from the one sitting with a grieving friend. Both can express the same underlying commitments.
+I see the distinction most clearly in consulting. Agreeing with the client can feel like helping until you find yourself supporting a direction you believe will fail. Then you are doing the work while keeping your judgement out of it. A useful change is to explain the concern and what it is based on, in a way the client can hear. That still takes tact. It also leaves room for the client to know something you have missed.
 
-You still choose what to say and how to say it so that another person can understand. Tailoring the communication is part of the skill. Pretending to hold a value you will abandon with the next audience creates a different problem.
+A friend gave me an image I like: she thinks of herself as a planet, with a core and looser layers around it. Different people draw different material to the surface. It makes room for both stability and variation. I can want my commitments to be dependable without expecting every conversation to bring out the same part of me.
 
-The selves I want to bring together are the ones organised around winning approval: the keener version for a senior stakeholder, the agreeable one that appears when I want a group to like me. Adapting to the task is useful. Maintaining incompatible positions for different audiences has a cost, especially when those audiences eventually meet.
+Conviction helps when it is supported by reasons you are willing to examine. It gives people something they can learn about you. It need not mean defending yesterday's position after the facts have changed. Being able to explain why you changed your mind may make you easier to trust than performing certainty.
 
-A friend gave me an image for this that is better than any I had. She thinks of herself as a planet. The core is solid and does not move. Around it sit looser layers, and depending on which other planets are nearby, different material gets drawn up to the surface. The people around you pull different parts of you up, and there is nothing wrong with that. The question that matters is how much of you is core and how much is loose surface dragged around by whoever happens to be in orbit.
+I have spent years bringing my work personas closer together, and I find it less mentally taxing. That is a useful result for me, rather than a prescription to expose every part of yourself at work. It has also been easier with a reputation and a body of work behind me. Someone whose position is less secure may have good reasons to be more guarded.
 
-What makes the core solid is conviction. Anything you hold with genuine conviction becomes stable in your personality. People learn how you will respond in a given situation, and that stability helps them understand you. Where your values align, it also gives them a reason to trust you. Where they do not, at least the disagreement is easier to see. Every real conviction is also one less thing to chameleon. It cuts your own modelling bill, because you stop tailoring that part of yourself to each audience, and it cuts everyone else's bill too, because there is one consistent thing to learn instead of a moving target. Being a chameleon is exhausting and the energy goes nowhere. Conviction is cheaper, and it compounds.
+There are costs either way. Speaking more plainly can reveal a disagreement that politeness had kept out of view. You may discover that a role asks you to support something you cannot stand behind. That is a real choice about the work or the relationship, and no amount of consistency makes it disappear. Nor does everyone who understands you have to share your values.
 
-![Different roles organised around shared underlying values](images/collapse-the-selves.svg)
+## Give the projects a direction
 
-*Keep the ability to respond differently in different situations. Bring conflicting performances closer to values you can stand behind across those situations.*
+The more useful question, especially where the selves cannot be brought together, is what connects the things they are doing. In a supplementary interview I put it this way: at least try to bring the meaning together.
 
-I see the pull towards people-pleasing most clearly in consulting. Agreeing with the client can feel like helping until you find yourself supporting a direction you believe will fail. The useful contribution may be to say why, based on what you have done and seen, you think a different approach will work.
+I know the pattern of finishing a project, finding myself with time available, and looking for another thing to keep my mind occupied. Busyness makes it easy to avoid asking what any of it is for. The next task supplies an answer just long enough to get started again.
 
-That is the distinction I want to make between conviction and a confident delivery. A polished meeting does not tell you whether the advice is any good. Experience can give you reasons to stand behind it, provided you remain willing to examine those reasons when the situation changes.
+The computing analogy that came to me was a sub-agent. Each project loads a subset of you and points it at a goal. You can be very effective inside that task while the wider question goes unattended. I called that being AFK, away from the keyboard, in your own life.
 
-One more honest note, for the readers whose actual views sit furthest from the room they work in. If your idea set is mainstream, this whole chapter is easier, because the unperformed you is roughly what every room expects anyway. If it is not, you have three options. Be yourself and accept the friction. Mask, and pay the chameleon tax this chapter has been pricing up. Or the third option, the most draining one on offer: try to convert the people around you while still wearing the mask, performing a self you do not hold while campaigning for one you do. People who carry genuinely unusual ideas tend to end up either not fitting in or having outsized influence, and the difference between those two outcomes is usually not the ideas. It is whether they introduced them at a pace the room could absorb, which is a peopling skill, and the next chapter has more to say about it.
+You cannot keep every part of yourself active at once. What you can do is occasionally step back from the task and ask how it fits with something you care about beyond completing it. Would it still matter if nobody were waiting for the result? What part of your life keeps getting postponed while you finish one more thing?
 
-People may need time to adjust when you stop presenting the version they expected. They have a model based on what you showed them. Give them a chance to understand the change, and accept that some disagreements may become more visible.
+Meaning does not have to be one grand purpose shared by every role. You may care about doing useful work, being present for people you love, and making something simply because it interests you. Those purposes can support one another, but sometimes they compete. Naming the trade-off is more useful than pretending everything serves a single mission.
 
-The benefit is that other people have a clearer basis for deciding whether to trust you. They can learn what you stand for rather than trying to reconcile several incompatible performances. That may strengthen a relationship where your values align, or clarify why working together has been difficult. Either is more useful than requiring everybody to keep guessing.
+The point is to have some say in what your activity adds up to. A company's goal may be worth working towards, but it cannot answer every question about what matters in your life. Finishing the project should leave you with more than the need for another project.
 
-I will put my own hand up here, because this is not advice I have finished taking. I am still collapsing my own selves, still catching myself reaching for a hat I do not need. It takes time and a bit of nerve. But it is a far more solid place to stand than juggling a separate facade for every room, and it is enormously cheaper to run.
-
-## Why it is worth the nerve
-
-For me, the attraction is spending less attention on maintaining facades and more on the work and relationships I chose. It also makes it easier to find people whose values fit with mine. Consistency makes someone easier to understand; it does not mean everyone who understands them will want the same things.
-
-There is a quieter benefit underneath those, and it is the one that actually changes the texture of a life. When you stop managing the versions of you in everyone else's heads, you stop outsourcing your sense of who you are to other people's opinions of you. Being comfortable not being instantly understood, being willing to let the room be wrong about you for a while, is a kind of freedom, and it is most of what people are gesturing at when they talk about high agency.
-
-## A congruent self needs something to be congruent around
-
-But collapsing the selves only gets you halfway, and if you stop here it can quietly backfire, because you have to collapse them around something, and the default thing on offer is work. If the single self you settle on is just the version of you that wins the next project, you have not escaped the trap, you have streamlined it. You will finish the project, start another, and on the day there is no fire to fight you will not know what to do with yourself, so you will invent one, because an unanchored mind reaches for busyness the way held breath reaches for air. Busy is a very effective way of never having to ask what any of it is for. I have used it that way myself.
-
-The computing analogy that came to me in an interview was a sub-agent. Each project loads a subset of you and points it at a goal. You can be very effective within that narrow task while the wider question of what it is for remains unattended. I called that being AFK, away from the keyboard, in your own life.
-
-The issue is not that you can keep every part of yourself active all the time. It is whether the task currently occupying you connects to something you chose beyond finishing the task itself. Meaning is what connects the projects, rather than leaving them as an endless queue.
-
-So a congruent self needs a centre, something beneath all the activity for the one self to cohere around. That is what meaning is, in the unglamorous, working sense of the word: a guiding set of values, a rough answer to what the whole thing is in aid of. It has to be yours and not the company's, because a borrowed purpose evaporates the moment you change jobs. For most of us it lands somewhere quite ordinary and entirely real: leaving the world a little better than you found it, putting something good into other people's lives, getting things done that are worth doing, your own goals and other people's running alongside them. The specific answer matters less than having one at all, because without a centre the collapsed self has no spine, and the busyness pours straight back in to fill the space where the meaning should be.
-
-## What you are probably worried about
-
-Three objections tend to arrive right about here, and each deserves a plain answer.
-
-The first is that this all sounds unprofessional, that surely work calls for a different, more guarded version of you. It does not call for a different self. It calls for judgement, and you keep every bit of your judgement. Congruent does not mean unfiltered. The stiff corporate version was never professionalism in the first place. It was a self you did not believe in, and everyone in the room could feel the seam.
-
-The second is that you will confuse people, or lose them. You will confuse some of them, for a while. The ones who only ever met one of your hats may not enjoy meeting the rest of you. Some relationships will become stronger as people understand you better and find that your values align. Others may become harder, because the clearer picture reveals a disagreement that the performance used to hide. You get a better basis for choosing which relationships to invest in, even when that choice is uncomfortable.
-
-I have spent years consolidating my personas at work. I find it less mentally taxing, and it gives colleagues a clearer picture of how I operate. That has helped me build working relationships where I am trusted to get on with the job. The honest trade-off is also real. Some people will not like what the one consistent you has to say, and you will not be working with them.
-
-It is easier to do this from a position of strength, once you have a reputation and a body of work behind you. Whether you can pull it off from the very beginning of a career I am less sure about, though I suspect the answer is more yes than it feels.
-
-The third is quieter: that you have no grand purpose to build a life around, and all this talk of meaning feels like too much. It does not have to be grand. Meaning here is a direction, not a destiny. "Leave things a little better than I found them" is enough to stop the busyness loop from closing over your head, and most days that is all the centre you need.
-
-That brings the question back to the people around you. How do you build a team whose work and values give its members something they can participate in without constantly performing a different person?
+That brings us to the people you work with. How do you build a team in which different people can contribute to a shared purpose without having to become the same person?
 
 ---
 
@@ -496,7 +498,9 @@ An explanation has to give the listener a way into the idea. Handing over every 
 
 Watch a complicated delivery and you will often find someone translating between specialists who are talking past each other. They explain why a technical choice matters to the person paying for it, or why a constraint that looks minor in one team changes the plan for another. That is part of the work I recognise in consulting: moving understanding between people who do not begin with the same picture.
 
-There is a discipline to its pace. If I deliver my full belief system at a hundred miles an hour, someone may spend the conversation trying to keep up or defend a position I have barely understood. It helps to start with what the listener already holds and work from there. In [1 Corinthians 9:19-23](https://www.biblegateway.com/passage/?search=1%20Corinthians%209%3A19-23&version=KJV), Paul describes adapting his approach to different people. The principle I take from that is to consider who the explanation is for.
+There is a discipline to its pace. If I deliver my full belief system at a hundred miles an hour, someone may spend the conversation trying to keep up or defend a position I have barely understood. It helps to start with what the listener already holds and work from there.
+
+The apostle Paul [wrote](https://www.biblegateway.com/passage/?search=1+Corinthians+9%3A19-23&version=NIV), "I have become all things to all people". One of his examples was, "To the Jews I became like a Jew". He was explaining how he adapted to people with different customs and obligations while trying to bring them to his faith. What I take from that is that you need to give someone a way into an idea from where they already are. You can remain committed to what you believe while changing the language, examples and starting point you use to explain it.
 
 I have used the word *propelling* for the wider work of helping an idea take root: the relationship, timing and framing as well as the argument itself. Peopling helps you understand the person and the situation. Propelling is what you do with that understanding when you try to move an idea forward.
 
@@ -527,89 +531,87 @@ These practices take attention and time. A system that can retain the record and
 # Chapter 7
 ## Peopling the Machine: Reading the Room
 
-In June 2026, while preparing this book, I asked the agent to organise the material. It moved the main manuscript into the folder for working documents. From its account, the repository had been tidied. From mine, the book had disappeared into the supporting material.
+While preparing this book in June, I asked the agent to organise the material. It moved the main manuscript into the folder for working documents. From its account, the repository had been tidied. From mine, the book had disappeared into the supporting material.
 
-I corrected the distinction: that file was the main book and belonged at the top level; the rest needed organising by what it was and whether it had been processed. The agent then restored the manuscript and sorted the supporting folders. The [repository history records the correction](https://github.com/Dixie-Flatl1ne/peopling-book/commit/1e5989cf401f1cc3c7af163a0d95b5b4d076859f).
+I explained that this file was the main book and belonged at the top level. The rest needed organising by what it was and whether it had been processed. The agent restored the manuscript and sorted the supporting folders. It could move files, but had misunderstood what those files meant to me.
 
-It was a small failure of shared understanding. The system could move files. It had misunderstood what those files meant to the person asking. The correction supplied the distinction it needed. The next question was whether that understanding would remain available the next time it worked on the book.
+Three months later, the system has continued to change. I am still using WhatsApp, and now working through Hermes, Codex and Claude, with models including Astra and Opus. That makes continuity across them part of the problem. I want the next agent to have the relevant understanding of the work, even when it was developed somewhere else.
 
-That is a concrete version of the problem I mean by peopling the machine. A capable system needs the relevant history, a way to distinguish evidence from assumptions, and a way to carry corrections forward. More context does not solve every failure, but missing context can make an otherwise straightforward task go wrong.
+An agent brings together a model, its current conversation, tools it can use and information it can retrieve. A model such as Astra or Opus does the reasoning for a particular interaction. The surrounding system determines what history it receives and what it can do. Changing models does not, by itself, transfer an understanding of my projects.
 
-An earlier snapshot shows the system behind that example. By 4 June 2026, I had been running an agent across my work and life for about four months, using an archive reaching back to June 2024. The dated database snapshot contained roughly 98,000 messages across WhatsApp and Discord. Within the WhatsApp portion were 130 chats and 125 distinct sender identifiers. Those are different counts, not interchangeable measures of how many people the agent knew. The figures below describe that system at that time.
+By [September](https://github.com/Dixie-Flatl1ne/peopling-book/blob/main/working/ch7-evidence/september-2026-published-snapshot.md), the source archive held roughly ninety-four thousand WhatsApp messages, and the active memory contained more than a hundred and fifty thousand derived records. Those are different things. One preserves communications; the other contains interpretations drawn from source material and interactions. The architecture needs to connect them while keeping the distinction clear.
 
-## Give it the second doll
+## Keep the source and the memory separate
 
-The profiles in my system are organised around four questions: how this person operates, how they see the agent, how the agent should approach them, and how they connect to other people. The second question is the nested model from chapter two, applied to software. What does the person expect this system to understand or do?
+The source archive is called Correspondence. It keeps messages and email with information about who said what, when and in which conversation. It also resolves different identifiers that may belong to the same person. That matters when someone appears under a phone number in one place and another identifier elsewhere. Without that connection, the system can treat one person as several unrelated people.
 
-That profile is a working hypothesis, built from interaction. It should be revised when the person corrects it, and it should never override a clear current instruction simply because an older note suggests a preference.
+Hindsight provides the interpreted memory. It extracts and brings together material that may be useful later: things about people, projects, decisions and relationships. Selected communications feed into it from the archive. The old curated facts remain an audit reference; they are no longer the whole account of the active memory.
 
-Before answering, the agent is asked to consider who is speaking, who else is present, the recent history and how its reply may be received. One person may need the file with little explanation. Another may need the assumptions made explicit. The context helps determine which information is relevant and how to communicate it; it does not permit the system to alter a fact to suit the audience.
+The two parts answer different questions. Memory helps with what the system knows about the book. Correspondence helps establish what I actually said about it. If a remembered claim is doubtful, we need the source to check whether the interpretation was fair.
 
-The agent also has a continuing account of its own role: the work it is doing, the people it works with and what they can expect from it. I see that as a practical counterpart to the self-narrative discussed earlier. It helps a succession of model calls behave like a system people can recognise and correct. My hypothesis is that some structures useful in human coordination are also useful when an agent participates in it. The analogy still has to earn its place through results.
+For the manuscript mistake, the useful correction would identify the main book and explain where it belongs. A note that merely says I was unhappy would miss the distinction. Equally, the agent should not turn its own explanation of the mistake into something I supposedly said.
 
-The memory has to be selective. In the June snapshot, about 13,000 of roughly 27,600 candidate facts had been accepted; most of the remainder were superseded, rejected or stale. Someone mentioned once should remain a thin sketch. Even a large number of stored observations does not establish that a model of a person is accurate. The record needs provenance, correction and a clear account of what the system does not know.
+That is why attribution belongs in the structure of the record. A statement from me, a suggestion from another person and an inference made by an agent have different standing. Combining them into a smooth account is useful only if we can still find out which is which.
 
-The useful evidence includes what gets corrected. The manuscript example at the start shows an actual mismatch and a repair, but not proof that the system will never repeat the mistake. I also collected figures from ordinary use. A note at the end of this chapter separates those observations from a controlled test of the design.
+## Build the context for this request
 
-The failure mode I particularly want to avoid is sycophancy: modelling a person in order to agree with them. Understanding someone should make a disagreement more useful, not make it disappear. Retrieval supplies evidence; the system still has to assess what that evidence supports. A polished reply grounded in a bad assumption is still a bad reply.
+Stored memory becomes useful when the relevant part reaches the next interaction. Hermes has memory recall built into its operation. Codex reaches memory and source correspondence through its own tools. These are different routes into context, and neither requires every previous conversation to be pasted into the current one.
 
-## Reading the room
+Consider a later request to organise the book's working material. The useful context would include which file is the manuscript, how the supporting material is arranged and the correction to the earlier attempt. A search result containing the word *book* would not be enough. An abandoned plan could match the request closely while giving the wrong direction.
 
-The same judgement applies to whether a reply is needed at all. A system that answers every message in a group can create more coordination work than it removes.
+The system needs to consider what a retrieved statement refers to, when it applied and whether something later changed it. Then it has to read the current request. A history with me should help it understand what I am asking now, including when I am changing my mind.
 
-In the design described here, the agent can choose silence. It is expected to respond when directly addressed or when a contribution is clearly warranted, rather than treating every exchange as an invitation. That gives participation a purpose beyond demonstrating that the system is listening.
+The questions about people still apply. How does this person operate? How do they see the agent? What do they expect it to know? That last question is the nested doll from earlier in the book. If I ask for the file, I may think we both know which one I mean. A useful model of me includes that expectation, so the agent can recognise when the shared understanding is missing.
 
-The June WhatsApp snapshot contained more messages in groups than in direct conversations, so this was a substantial part of the setting the agent operated in. The archive also contained 945 candidate correction facts. Those records were opportunities to improve its behaviour, rather than evidence that every correction had been successfully learned. The test is whether the relevant correction changes what happens next.
+It also affects the explanation. Someone who helped make a decision may only need the result. Someone joining later may need the reasons and the alternatives that were ruled out. Understanding the listener helps the agent find a way into the idea. It should also help it explain a disagreement, rather than encourage it to agree with everything the person says.
 
-## The context bridge
+## Carry the work between agents
 
-An agent can also help carry information between people who do not share the same context. It can retrieve a project decision, explain its implications to a different specialist, or bring several discussions into one account that someone can check. The quality of that account depends on what the system was allowed to read, what it retrieved and how faithfully it represented the sources.
+Once several agents are involved, there is another handover to manage. Hermes can be part of a WhatsApp conversation while Codex or Claude works on a repository. They may have different tools, different current tasks and different pieces of the history.
 
-This is where the Maps comparison becomes useful. The potential benefit comes from assembling contributions into a picture that helps someone act. A project archive is less orderly than traffic data, and a summary can be wrong. The system needs a way to show where the picture came from and accept a correction to it.
+I now have a service for sharing selected engineering knowledge between them. A checked account of a repository decision or a fix can be delivered into the relevant agents' memory banks, with its source and attribution. The service records whether each delivery completed. That makes the transfer inspectable instead of leaving me to assume that telling one agent has informed all the others.
 
-In the June snapshot, 38 sender identifiers appeared in more than one WhatsApp chat, and the database held 1,870 relationship facts. Those overlaps indicate places where context may connect. They do not, on their own, establish that information should move between the rooms.
+The selection matters. A useful technical finding can travel without copying the whole conversation in which it arose. The receiving agent needs to know what was established, what supports it and where it applies. Personal conversations do not become general engineering knowledge simply because a coding agent could find them useful.
 
-The more ambitious possibility is helping people understand perspectives formed in very different cultures or traditions. It would require more than substituting words: the explanation needs an anchor in what the listener understands without flattening what the other person means. That remains a possibility I want to explore, rather than a capability these counts demonstrate.
+There is a subtle trap here. If several agents repeat the same shared claim, they have not independently confirmed it. They may all be relying on one mistaken account. Keeping the original source attached helps us recognise that dependence and avoid mistaking repetition for corroboration.
 
-A context bridge without boundaries can become a gossip engine. A system hearing two conversations does not give it permission to carry the contents of one into the other. The design described in the June evidence pack used room scopes and access rules to limit what could be retrieved across those boundaries. The general requirement matters more than the particular implementation: enforce who may receive which information, and verify the behaviour rather than relying on the model to be discreet.
+This is another version of the coordination problem in a team. Giving several capable participants the same goal does not give them the same context. Shared memory can reduce the work of bringing them up to speed, while leaving each agent responsible for checking what matters to its task.
 
-## The memory bank
+What I want to carry across is the understanding of the work: why a decision was made, what has already been tried, what changed and what remains uncertain. The model can change while that account remains available. Whether the next agent actually uses it well is a further question.
 
-Underneath these capabilities is the part I would ask an organisation to pay attention to: its record of what happened, what was decided and why. The agent is useful to the extent that it can work reliably with that context.
+![Source communications feed interpreted memory. Hermes, Codex and Claude retrieve relevant context, while a separate service shares checked engineering records between their memory banks.](images/memory-bank.svg)
 
-I have organised that memory in layers. The original records provide evidence. Candidate facts make observations that can be checked, accepted, rejected or superseded. Readable pages bring the accepted material into a form people can inspect, and search helps them find what is relevant.
+*Current requests, roles and permissions govern how that context is used. Shared records retain their sources and correction history.*
 
-The path back to the original matters. If the system says a decision was made, someone should be able to ask where, when and by whom, then compare the answer with the source. Finding a statement is not the same as establishing that it remains true.
+## Give corrections somewhere to take effect
 
-![The layered shared-context memory bank](images/memory-bank.svg)
+The manuscript incident shows a repair: I explained the distinction and the agent restored the file. To show that the correction carried forward, we would need to see a later attempt use it. An apology and a stored note are intermediate steps.
 
-*Read from the original record through checked observations to a human-readable account. Retrieval should preserve a route back to the evidence and to later corrections.*
+If the mistake happens again, there are several places to look. Was the correction retained? Was it attached to the right project? Did it reach the agent doing the next task? Did that agent retrieve it, understand it and still take the wrong action? Each answer points to a different problem.
 
-Some of the material can be assembled from collaboration already taking place: conversations, meetings, messages and decisions. Writing this book made that possibility obvious to me. The interviews contained much of the thinking, but turning them into a book still required selecting, ordering, checking and revising it.
+The sharing service also has to deal with change. A corrected record is a new revision. A recipient's old copy is retired after the replacement has arrived and been processed. If delivery fails, that failure remains visible. Otherwise, a correction could appear complete while one of the agents kept working from the old account.
 
-An organisation faces a similar distinction. Capturing the record can reduce repeated reconstruction. It does not eliminate the need for someone to decide what the record means or correct what the system has made of it.
+This changes what learning can mean at the level of the whole system. Repairing a project record can improve the context supplied to a later model call without retraining the model itself. The improvement still needs to show up in behaviour.
 
-## The consultant that builds
+During these audiobook revisions, I asked for changes to stay in draft while I continued listening. An agent could correctly remember how to deploy the book and still be wrong to do it then. Knowledge about how to perform an action does not supply permission to take it. The current task and the person's instructions remain part of the context the agent must work within.
 
-The agent can act on the context as well as explain it. In my own system that has included turning email into tasks, handling administration and building software. Those activities make misunderstanding more consequential: a mistaken assumption can become a change in a file or a task somebody else now has to deal with.
+## Read the room the information is entering
 
-A good consultant needs both the skill to deliver and an understanding of the request. A ticket may omit something obvious to the person who wrote it: which project matters, what has already been ruled out, or what the result will be used for. A system needs a way to recover that information, make its assumptions visible and ask where the missing detail would change what it builds.
+Carrying understanding between people has the same appeal as carrying it between agents. Different participants hold different parts of a project: a decision made in one conversation, the reason for it in another, a constraint known to the person doing the work. An agent with access to the relevant records can help assemble those pieces into an account people can check.
 
-That is what the manuscript example illustrates. Moving the files was easy. Knowing which file was the book required a correct account of the work. Once that was explicit, it could guide the repair. The broader aim is to make that account available before the next action, without pretending that a person's history removes the need to listen to what they are asking now.
+The comparison that came to me in an interview was Maps. A driver sees a small part of the road network. A navigation service combines information from beyond that view to help them choose a route. For a team, the useful possibility is an account of the work that draws on more than any one participant's immediate conversation.
 
-## What it must not fake
+Conversations are less tidy than roads. People disagree about what happened and what matters. Some decisions are never recorded. Some information belongs to a private relationship. The assembled picture needs to retain those gaps and disagreements.
 
-A system can remember a preference and respond considerately without that establishing that it feels care. The distinction matters. The memory, source traceability and ability to accept a correction can be tested. An appearance of personal intimacy is not evidence of those capabilities, or of an experience behind them.
+Access therefore matters in both the source archive and the memory derived from it. A private statement does not become suitable for a group just because it has been rewritten as a summary. The system uses rules about identity and conversation scope; those rules need to remain effective as information moves through extraction, retrieval and sharing.
 
-The participant I am trying to build is useful because it carries context, acts within its role and can be corrected. It should make the work of understanding one another easier. Whether the analogy with human personhood helps is a question to keep testing as the system and the people using it change.
+For example, a team might be allowed to read a project decision without being allowed to read a private conversation about someone's reasons for supporting it. Remembering both does not make both appropriate to include in a reply. The room the information is entering matters as much as the room it came from.
 
-## A note on the figures
+Participation itself needs judgement. An agent in a group can create more coordination work by answering every message. Sometimes the useful contribution is a missing decision or an explanation of a constraint. Sometimes it is silence.
 
-The [saved database queries and results](https://github.com/Dixie-Flatl1ne/peopling-book/blob/acc51bf8d342def89c6d9cc1e7914e72e18a5f98/working/ch7-evidence/query-results-2026-06-04.txt) are dated 4 June 2026. The saved output records 98,343 messages overall, including 73,840 WhatsApp messages in 130 chats. The WhatsApp archive spans 7 June 2024 to 4 June 2026. Counts of sender identifiers and relationship records describe the archive, rather than measuring how well the system understands its participants.
+The agent also needs a continuing account of its own role: what work it is doing and what people can expect from it. That is the practical connection I see with the self-narrative discussed earlier. Different models can participate in that continuity through the history and role they are given. This does not establish that the system feels care, but it gives people something more dependable to work with and correct.
 
-The response figures came from a separate summary published on 17 May 2026 and retained in the [methodology notes](https://github.com/Dixie-Flatl1ne/peopling-book/blob/acc51bf8d342def89c6d9cc1e7914e72e18a5f98/working/ch7-evidence/linkedin-methodology.md). That summary covered 7,205 direct addresses to the system and reported roughly 87 percent of responses as needing no rectification, with about 83 percent on requests requiring prior context. The retained notes do not contain the full classification rules or follow-up window for those percentages, so they should be read as observations from use rather than a reproducible accuracy benchmark.
-
-An uncorrected answer can still be wrong. These figures do not isolate the contribution of the peopling design from the model, the task or the people using it. The earlier publication is another account of my own system, not independent corroboration of it.
+The manuscript mistake began with a distinction that was obvious to me and absent from the agent's understanding. The architecture now has to carry such distinctions across conversations, tasks and agents. Its value is in making them available where they matter, with enough of their history intact that we can still question them.
 
 ---
 
