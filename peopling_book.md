@@ -133,6 +133,10 @@ If some of your sense of self is a story you keep revising, there is room to wor
 
 The account changes with experience. A bad night's sleep, an argument at breakfast or a small win at work can alter the way you see yourself for the rest of the day. You may recognise that shift before you can explain it. The committee image helps me remember to look for influences that the official story has left out.
 
+There is another question underneath that: where did you learn how to tell the story? In his 1976 book, *The Origin of Consciousness in the Breakdown of the Bicameral Mind*, [Julian Jaynes describes an imagined "I" operating in a mental space](https://www.julianjaynes.org/book/ooc/en/consciousness/). You can put yourself into a conversation that has not happened, try an answer and imagine what follows. His suggestion is that language helps construct this capacity, with metaphors giving us ways to picture and work on our own thoughts.
+
+Consider rehearsing an email. The words you might send, the response you expect, the person you are trying to be: all of them are available for revision before anyone else hears a thing. The story can prepare an action as well as explain one afterwards. And the language you use to do it was learned among other people.
+
 And the story is populated. There is the version of your boss you consult before sending an email, the partner whose reaction you anticipate, the colleague you are worried about. You can rehearse an entire conversation without the other person being there. That is where the question moves from your own head into a relationship.
 
 ---
@@ -210,7 +214,13 @@ Saul tries to pin David to the wall. David escapes, and the spear strikes the wa
 
 That is what interests me in these stories. I recognise the experience of a mood arriving before I have an explanation for it, or of another person changing what I feel capable of doing. The stories give that influence a form. They do not let us establish exactly what an ancient person experienced from the inside.
 
-In the interviews behind this book I wondered whether Protestant theology helped strengthen the more individual-centred picture I grew up with. That is a historical hunch, not a complete account of where the modern self came from. The point I want to keep is that the picture can be questioned. It is possible to take individual judgement seriously while also asking how a person's relationships help form it.
+Jaynes took the possibility much further. [Brian J. McVeigh's defence of his theory, "Homer's Greeks had no inner life"](https://iai.tv/articles/homers-greeks-had-no-inner-life-auid-3724), proposes that people once experienced commands as the voices of gods and ancestors, before a narrating self took over that authority. On this account, introspective self-awareness emerged through language and cultural change around three thousand years ago. "Consciousness" has a particular meaning here: being able to picture and narrate yourself from the inside. It does not mean being awake, perceiving or simply being able to think.
+
+That is a much larger historical bet than I need to make. Homer also gives us [Odysseus, left alone in battle, weighing whether to flee or stand his ground](https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:11.384/). In Book XI, lines 401 to 410, he considers the danger and talks himself towards a decision. How we interpret that passage matters, but it makes the claim that nobody had an inner life much harder to carry. A poem gives us evidence about ways of describing a mind. Getting from there to what every mind could experience takes another argument.
+
+What I want to borrow is the question about where we learn the voice that says "I decided". Think of asking what your father would say, or hearing a former manager's objection before you send a proposal. Someone else's way of judging can remain available inside your own thinking. That is familiar peopling, whatever verdict we reach on Jaynes's ancient world.
+
+In the interviews behind this book I wondered whether Protestant theology helped strengthen the more individual-centred picture I grew up with. That is a historical hunch, not a complete account of where the modern self came from. It is also a different question from when people became capable of introspection: an account of individual responsibility can change among people who already reflect on themselves. The point I want to keep is that the picture can be questioned. It is possible to take individual judgement seriously while also asking how a person's relationships help form it.
 
 Bakunin offered a political version of the social self: our awareness of ourselves is reflected through the people around us, and freedom depends on the freedom of others. His [discussion of the individual and society](https://www.marxists.org/reference/archive/bakunin/works/1871/principle-of-the-state.html) makes recognition part of freedom rather than a limit placed on an otherwise complete, isolated person. That is another route into the relationship this book is exploring.
 
@@ -357,6 +367,8 @@ The old idea of a spirit speaking through someone offers another way to picture 
 ## What we can ask it to do
 
 My own hunch is that the model is something like a philosophical zombie: capable of producing intelligent behaviour without subjective experience. That is a view about an unresolved question. It is not something the system's performance establishes, and the practical argument here does not depend on proving it.
+
+The distinction in Jaynes's use of consciousness is useful here too. A system might describe itself, rehearse a conversation and give reasons for a decision. We can inspect those abilities without having settled whether anything feels like something to it. If an agent says "I thought you meant", I want to know what information led it there and whether it can revise the assumption. The first person in the sentence does not answer the question about experience.
 
 The questions I can do something with are more specific. Can it hold relevant context? Can someone correct it and have that correction survive the conversation? Can it explain what evidence it used? Can it keep one person's information out of a room where it does not belong?
 
