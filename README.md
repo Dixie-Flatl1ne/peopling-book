@@ -2,7 +2,7 @@
 
 **Author:** Stefan van der Wel
 
-Read it online: **https://qualiapartners.com.au/peopling/**
+Read it online: **https://peopling.vanderwel.au/**
 
 ## Repository Structure
 
@@ -19,24 +19,32 @@ Read it online: **https://qualiapartners.com.au/peopling/**
 
 ### Publishing
 
-The main reading site is hosted on Qualia Partners. Its GitHub Action reads this
-repository's `main` branch and builds the book automatically. Commit and push
-manuscript or figure changes here; the website picks them up on its next hourly
-run (GitHub may delay scheduled runs). For an immediate update, run **Deploy to
-GitHub Pages** manually in [the website repository](https://github.com/Qualia-Partners/qualia-partners-website/actions/workflows/deploy.yml).
-Dixie already has Maintain access there. No account transfer or additional token
-is required. The workflow and publishing instructions live in that repository.
+The reading site is published from this repository's `main` branch by
+`.github/workflows/deploy.yml`. Push manuscript, figure or layout changes here to
+publish them, or run **Deploy to GitHub Pages** manually in this repository.
+Qualia Partners no longer hosts or builds the book. Its old `/peopling/` address
+redirects readers to the new site, preserving chapter anchors in browsers.
 
-The local standalone builder and the older GitHub Pages site also remain available:
+`site/build_web.py` runs the existing reading-page builder in a temporary directory.
+Only the rendered book and a matching audiobook are published. Working material,
+Git metadata and build tools are excluded. Chapter anchors, figures and local links
+are validated before deployment. `/source.json` records the deployed source commit.
+The production canonical URL is `https://peopling.vanderwel.au/`.
 
-| Surface | Source | Output |
-|---------|--------|--------|
-| GitHub Pages site | `working/publishing-site/` (Jekyll) | the `gh-pages` branch |
-| Standalone page | `peopling_book.md` + `images/` via `site/build.py` | `peopling_book.html`, `site/peopling.html` |
+```sh
+python3 -m venv /tmp/peopling-web-venv
+/tmp/peopling-web-venv/bin/pip install -r site/requirements.txt
+/tmp/peopling-web-venv/bin/python site/build_web.py --output /tmp/peopling-web
+```
 
-`site/build.py` needs the `markdown` package (`pip3 install markdown`). It inlines every
-figure. Reading works as a single HTML file; listening also needs the adjacent
-`audio/` folder (or the published website).
+Use a new output directory for each build. The standalone authoring command,
+`python site/build.py`, still generates `peopling_book.html` and `site/peopling.html`.
+It inlines the figures; listening also needs the adjacent `audio/` folder.
+
+GitHub Pages uses the **GitHub Actions** build source and custom domain
+`peopling.vanderwel.au`, with HTTPS enforced. DNS has a `peopling` CNAME pointing
+to `dixie-flatl1ne.github.io`. The old `gh-pages` branch and
+`working/publishing-site/` are historical and are no longer deployed.
 
 ### Audiobook
 
@@ -67,14 +75,9 @@ Commit the new `audio/manifest.json`, its referenced MP3 and the generated HTML.
 The manifest records the manuscript checksum, audio checksum and chapter times.
 The builder omits the player if the manuscript checksum no longer matches, so
 text edits can still deploy without presenting an old recording as current.
-Audio generation is a separate authoring step; the hourly website build only
+Audio generation is a separate authoring step; the website build only
 copies the finished recording. Only the current recording is deployed; downloaded
 copies remain available for offline use.
-
-The older `dixie-flatl1ne.github.io/peopling-book/` site is served from `gh-pages`,
-not from `main`. To update that legacy site separately: copy `working/publishing-site/` onto `gh-pages` and push that too.
-Figures live in two places for the same reason — `images/` for the manuscript and
-`working/publishing-site/assets/` for the site. Keep them in step.
 
 ### `working/` — Supporting Material
 
@@ -88,7 +91,7 @@ Everything that isn't the book itself. Sorted by type. See `working/README.md`.
 | `transcripts/` | Talk and conversation transcripts, some mined, some pending |
 | `reviews/` | Manuscript feedback |
 | `feature-requests/` | Ideas and future book directions, not yet actioned |
-| `publishing-site/` | Jekyll source for the GitHub Pages site |
+| `publishing-site/` | Historical Jekyll site source (not deployed) |
 | `archive/` | Superseded versions. Dead — do not edit |
 
 ## Writing Conventions
