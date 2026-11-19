@@ -1,0 +1,103 @@
+{
+  "batch": 5,
+  "files_written": 9,
+  "report_path": "/home/hermes/projects/book/working/blog-cleanup/batches/batch-5-report.json",
+  "entries": [
+    {
+      "id": "7300426704999117712",
+      "title": "Bernie Sanders - No Empire at the expense of the people",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2015-08-23-bernie-sanders-no-empire-at-the-expense-of-the-people-7300426704999117712.md",
+      "change_level": "medium",
+      "summary": "Second-pass QA corrected remaining agreement, spelling, punctuation and proper-noun casing issues, repaired a malformed sentence about the Roman Empire, and restored the raw HTML's omitted Late Show YouTube video (bGv2SPB8pNU) as a Markdown link.",
+      "flags": []
+    },
+    {
+      "id": "1425789440223626772",
+      "title": "Journalists I read",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2015-09-27-journalists-i-read-1425789440223626772.md",
+      "change_level": "light",
+      "summary": "Second-pass QA repaired punctuation around The High Life, hyphenated 'week-by-week', and corrected 'patron podcast' to 'Patreon podcast'.",
+      "flags": []
+    },
+    {
+      "id": "4782556395964908694",
+      "title": "Chomsky, Sanders, SOPA, TPP and the migration of popular movements online",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2016-01-11-chomsky-sanders-sopa-tpp-and-the-migration-of-popular-movements-online-4782556395964908694.md",
+      "change_level": "light",
+      "summary": "Corrected grammar and links, removed the internal author placeholder, and clarified the final TPP paragraph without changing the argument.",
+      "flags": []
+    },
+    {
+      "id": "1113211543431750554",
+      "title": "Letting future self have more say on decisions",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2018-04-22-letting-future-self-have-more-say-on-decisions-1113211543431750554.md",
+      "change_level": "none",
+      "summary": "Second-pass QA repaired missing words and agreement in the brainstorming paragraph, clarified the malformed C3PO sentence, and corrected Google Maps casing and compound-word punctuation while preserving the stream-of-consciousness ending.",
+      "flags": []
+    },
+    {
+      "id": "9067798512113491779",
+      "title": "Boston bombers radicalisation memetic cookbook",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2018-07-31-bostom-bombers-radicalisation-memetic-cook-book-9067798512113491779.md",
+      "change_level": "medium",
+      "summary": "Corrected the title and proper nouns, restored the omitted Dennett video, removed orphan planning notes, and added a short conclusion drawn from the existing memetic argument.",
+      "flags": [
+        "Claims about self-radicalisation and a possible CIA-sponsored workshop were preserved and not fact-checked."
+      ]
+    },
+    {
+      "id": "5874481736599967280",
+      "title": "The problem of consciousness and the singularity",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2018-11-07-the-problem-of-consciousness-and-the-singularity-5874481736599967280.md",
+      "change_level": "light",
+      "summary": "Second-pass QA corrected title and YouTube casing, removed the duplicate extraction-residue line 'Youtube presentation.', and verified that both the YouTube talk (KPnuW6NNgP0) and SlideShare deck remain represented.",
+      "flags": [
+        "Body remains a short link stub consisting of a one-sentence introduction, the YouTube talk and the SlideShare deck; all recoverable source material is represented."
+      ]
+    },
+    {
+      "id": "5413361667760777557",
+      "title": "Steel production was key to great power status",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2020-01-01-steel-production-was-key-to-great-power-status-5413361667760777557.md",
+      "change_level": "light",
+      "summary": "Corrected spelling and formatting, preserved both charts and their full-size links, and replaced the unfinished teaser with a short conclusion drawn from the existing argument.",
+      "flags": [
+        "The steel-production comparison and trade-war claims were preserved as published and not fact-checked."
+      ]
+    },
+    {
+      "id": "7104409826739640808",
+      "title": "No Empire at the expense of the people - review",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2020-02-09-no-empire-at-the-expense-of-the-people-review-7104409826739640808.md",
+      "change_level": "medium",
+      "summary": "Second-pass QA corrected Blogger, Middle East, British Empire and Bretton Woods naming, repaired 'U.S. Troop withdraw' and 'U.S. Korean troops', and removed double-dot punctuation while preserving the dated review and its two-question structure.",
+      "flags": []
+    },
+    {
+      "id": "2076728422531757130",
+      "title": "My health routine",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2023-09-07-my-health-routine-2076728422531757130.md",
+      "change_level": "none",
+      "summary": "Recovered the Google Slides and YouTube presentations omitted by the plain-text export and preserved both as usable links.",
+      "flags": []
+    }
+  ],
+  "flagged": [
+    "9067798512113491779 - incomplete source fragment 'Dennett's analogy talks about the:' preserved because completing it would require invention.",
+    "5874481736599967280 - body remains a short media-link stub; YouTube and SlideShare sources are represented.",
+    "2076728422531757130 - body remains a media-link stub; recovered Google Slides and YouTube sources are represented."
+  ],
+  "second_pass_qa": {
+    "files_checked": 9,
+    "files_patched": 9,
+    "source_images_verified": true,
+    "long_dashes_in_cleaned_prose": 0,
+    "recovered_media": [
+      "bGv2SPB8pNU",
+      "KzGjEkp772s",
+      "KPnuW6NNgP0",
+      "JfVjUu8scvs",
+      "Google Slides 2PACX-1vSLE82XN8omNiV5DQrm7cxNmRhiWBMBX1qzNb405EI7v3BKOaIaX6wGiia4wqUNEJUWnx8U3PyXe6A7"
+    ]
+  }
+}

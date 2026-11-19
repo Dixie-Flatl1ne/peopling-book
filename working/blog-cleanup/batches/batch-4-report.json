@@ -1,0 +1,86 @@
+[
+  {
+    "id": "8544762229486567714",
+    "title": "Russo-German Alliance?",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-07-03-russo-german-alliance-8544762229486567714.md",
+    "change_level": "medium",
+    "summary": "Corrected grammar and punctuation, repaired formatting around quotations, removed duplicated bare image URLs, and preserved the geopolitical argument and blunt closing joke.",
+    "flags": [
+      "Contains geopolitical predictions and characterisations that were preserved without fact-checking."
+    ]
+  },
+  {
+    "id": "4531264327426820161",
+    "title": "Malaysia Airlines MH17 - Shot down by Donetsk Republic separatists",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-07-19-malaysia-airlines-mh17-shot-down-by-donetsk-republic-separatists-4531264327426820161.md",
+    "change_level": "medium",
+    "summary": "Repaired empty headings, captions, paragraphing, grammar, punctuation, duplicated image residue, and the malformed final link; restored the omitted embedded YouTube video as a usable link while preserving the original claims and tone.",
+    "flags": [
+      "Contains serious, potentially unverified allegations about responsibility, a cover-up, and the killing of Buk operators. These were preserved and require research before publication."
+    ]
+  },
+  {
+    "id": "3566757528292357307",
+    "title": "Social engineering and brain computer interfaces",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-08-24-social-engineering-and-brain-computer-interfaces-3566757528292357307.md",
+    "change_level": "medium",
+    "summary": "Corrected spelling, grammar, punctuation, paragraph flow, title styling, malformed links, and duplicated image residue while preserving the speculative argument, humour, and uncertainty.",
+    "flags": []
+  },
+  {
+    "id": "1443007217703977471",
+    "title": "Religions explained",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-09-07-religions-explained-1443007217703977471.md",
+    "change_level": "medium",
+    "summary": "Corrected extensive spelling and grammar problems, repaired headings and links, joined extraction-broken captions and paragraphs, removed duplicated image URLs, and preserved the original historical thesis and opinions.",
+    "flags": [
+      "Contains broad and disputed historical and religious claims, including claims about Constantine, early Islam, the Sunni-Shia split, and the causes of later Christian schisms. These were preserved and require research before publication."
+    ]
+  },
+  {
+    "id": "4553376930093392984",
+    "title": "Cloud data an extension of the Self",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-10-02-cloud-data-an-extension-of-the-self-4553376930093392984.md",
+    "change_level": "light",
+    "summary": "Cleaned the prose and replaced the unfinished \"More to come\" marker with a short conclusion drawn from the article's existing argument.",
+    "flags": []
+  },
+  {
+    "id": "825434560019224835",
+    "title": "Franco-British Empire - Alternative History",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-10-05-franco-british-empire-alternative-history-825434560019224835.md",
+    "change_level": "medium",
+    "summary": "Corrected spelling, grammar, punctuation, title case, heading structure, malformed inline links, quotation formatting, captions, and duplicated image residue while preserving the counterfactual argument and emphatic voice.",
+    "flags": [
+      "Contains sweeping and potentially disputed historical and geopolitical claims about empire, decolonisation, Israel, Suez, and colonial outcomes. These were preserved and require research before publication."
+    ]
+  },
+  {
+    "id": "6372435285046373908",
+    "title": "Analytical engines will breath life into your online identity",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-11-29-analytical-engines-will-breath-life-into-your-online-identity-6372435285046373908.md",
+    "change_level": "medium",
+    "summary": "Fixed the title typo, grammar, apostrophes, punctuation, heading case, paragraph flow, and duplicated image residue while preserving the pizza example, professional context, and argument about decisioning agents.",
+    "flags": []
+  },
+  {
+    "id": "5925115215171928014",
+    "title": "Obama's valedictory should Echo Eisenhower's: Beware the Military-Industrial Complex",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-12-13-obama-s-valedictory-should-echo-eisenhower-s-beware-the-military-industrial-comp-5925115215171928014.md",
+    "change_level": "medium",
+    "summary": "Corrected title and heading case, grammar, apostrophes, punctuation, capitalisation, and several awkward sentences while preserving the political argument and Roman analogy.",
+    "flags": [
+      "Contains potentially inaccurate or disputed claims about Roman demographics, slavery, imperial decline, and Obama's foreign-policy record. These were preserved and require research before publication."
+    ]
+  },
+  {
+    "id": "5174573207895245014",
+    "title": "Kevin Kelly - Critical Uncertainties",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-12-20-kevin-kelly-critical-uncertainties-5174573207895245014.md",
+    "change_level": "medium",
+    "summary": "Removed Facebook interface residue, retained attribution and the original-post link, separated run-together questions and answers, and corrected obvious missing words and malformed phrasing.",
+    "flags": [
+      "This is a cleaned Facebook-post excerpt with no original commentary beyond the attribution and link."
+    ]
+  }
+]

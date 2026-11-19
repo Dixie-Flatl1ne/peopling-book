@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1026887421224059046",
+    "title": "Idea creation and propagation: Good TED talks",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2010-12-05-idea-creation-and-propagation-good-ted-talks-1026887421224059046.md",
+    "change_level": "medium",
+    "summary": "Corrected grammar, punctuation and paragraph flow; repaired and labelled links while preserving the argument and examples.",
+    "flags": []
+  },
+  {
+    "id": "699798323019472823",
+    "title": "Lucid Dreaming: reality construction defects encountered",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2010-12-05-lucid-dreaming-reality-construction-defects-encountered-699798323019472823.md",
+    "change_level": "medium",
+    "summary": "Corrected extensive spelling, grammar and sentence-boundary issues; regularised lists and paragraphing, then repaired several lingering malformed phrases without changing the dream account.",
+    "flags": []
+  },
+  {
+    "id": "2868200514357757488",
+    "title": "Reality construction: terminal-server analogy",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2010-12-13-reality-construction-terminal-server-analogy-2868200514357757488.md",
+    "change_level": "medium",
+    "summary": "Repaired inline links and quotations, corrected grammar and punctuation, and clarified paragraph boundaries while preserving the analogy and tone.",
+    "flags": []
+  },
+  {
+    "id": "8990026033186183595",
+    "title": "Lucid Dreaming: reality construct flaws & useful reality check cues",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2010-12-17-lucid-dreaming-reality-construct-flaws-useful-reality-check-cues-8990026033186183595.md",
+    "change_level": "medium",
+    "summary": "Corrected grammar and spelling, standardised headings and lists, repaired the film link, and restored the source meaning of the general reality-check description while preserving the practical observations.",
+    "flags": []
+  },
+  {
+    "id": "1752882587207890821",
+    "title": "Trade-off between quality of dream and level of lucidity?",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2011-02-15-trade-off-between-quality-of-dream-and-level-of-lucidity-1752882587207890821.md",
+    "change_level": "light",
+    "summary": "Fixed typos, possessives, punctuation and a clear final-sentence fragment while preserving the tentative argument.",
+    "flags": []
+  },
+  {
+    "id": "2269288690090332502",
+    "title": "Unrest in the Middle East - history repeating",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2011-02-18-unrest-in-middle-east-history-repeating-2269288690090332502.md",
+    "change_level": "medium",
+    "summary": "Removed extraction residue, converted image pairs into linked images, repaired quotation formatting, and corrected grammar and case.",
+    "flags": [
+      "Historical and geopolitical comparisons, including the closing sequence of conquests and the dated Mubarak wealth estimate, were preserved but require research before factual revision."
+    ]
+  },
+  {
+    "id": "317249899591749051",
+    "title": "US targeted killings: Osama-Yamamoto comparison",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2011-05-06-us-targeted-killings-osama-yamamoto-comparison-317249899591749051.md",
+    "change_level": "medium",
+    "summary": "Removed image extraction residue, repaired links and emphasis, and corrected spelling, grammar, title typography and paragraphing while preserving the blunt argument and edits.",
+    "flags": [
+      "The article makes disputed operational and political claims about the bin Laden raid and Yamamoto comparison; these were preserved and not fact-checked."
+    ]
+  },
+  {
+    "id": "6149321049009423405",
+    "title": "An argument against Chinese economic collapse",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2011-11-05-an-argument-against-chinese-economic-collapse-6149321049009423405.md",
+    "change_level": "medium",
+    "summary": "Repaired links and image markup, corrected grammar and punctuation, and retained the explicitly speculative forecasts and dated statistics.",
+    "flags": [
+      "The economic forecast and dated Chinese internet statistics were preserved as published and not updated or fact-checked."
+    ]
+  },
+  {
+    "id": "1733066040977566920",
+    "title": "The managerial technocratic aristocracy",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2012-01-01-the-managerial-technocratic-aristocracy-1733066040977566920.md",
+    "change_level": "medium",
+    "summary": "Cleaned pasted-formatting residue, repaired links and image markup, restored quotation layout, and corrected grammar and punctuation.",
+    "flags": [
+      "The Citigroup quotations, distribution figures and economic claims were preserved from the source and not independently checked."
+    ]
+  }
+]

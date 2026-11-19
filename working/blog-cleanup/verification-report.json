@@ -1,0 +1,421 @@
+{
+  "expected": 45,
+  "present": 45,
+  "errors": [],
+  "warnings": [
+    "2020-01-01-steel-production-was-key-to-great-power-status-5413361667760777557.md: word-count ratio 1.22 (132 -> 161)",
+    "2018-07-31-bostom-bombers-radicalisation-memetic-cook-book-9067798512113491779.md: word-count ratio 1.20 (432 -> 519)",
+    "2014-12-20-kevin-kelly-critical-uncertainties-5174573207895245014.md: removed or changed 2 URL(s): ['https://www.facebook.com/#', 'https://www.facebook.com/ajax/sharer/?s=22&appid=25554907596&id=10152879661419002&p%5B0%5D=500654001&p%5B1%5D=10152879661419002&share_source_type=unknown']",
+    "2014-10-05-franco-british-empire-alternative-history-825434560019224835.md: removed or changed 1 URL(s): ['http://en.wikipedia.org/wiki/French_President']",
+    "2014-09-07-religions-explained-1443007217703977471.md: removed or changed 2 URL(s): ['https://en.wikipedia.org%20%E2%80%BA%20wiki%20%E2%80%BA%20Thirty_Years', 'https://www.blogger.com/Thirty%20Years']",
+    "2014-03-20-crimea-ukraine-and-the-polish-lithuanian-commonwealth-1485578474579062362.md: removed or changed 1 URL(s): ['https://www.blogger.com/']",
+    "2011-05-06-us-targeted-killings-osama-yamamoto-comparison-317249899591749051.md: removed or changed 1 URL(s): ['http://xkcd.com']"
+  ],
+  "metrics": [
+    {
+      "id": "2076728422531757130",
+      "title": "My health routine",
+      "source_words": 24,
+      "cleaned_words": 9,
+      "ratio": 0.375,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "7104409826739640808",
+      "title": "No Empire at the expense of the people - review",
+      "source_words": 340,
+      "cleaned_words": 337,
+      "ratio": 0.991,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "5413361667760777557",
+      "title": "Steel production was key to great power status",
+      "source_words": 132,
+      "cleaned_words": 161,
+      "ratio": 1.22,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "5874481736599967280",
+      "title": "The problem of Consciousness and the Singularity",
+      "source_words": 23,
+      "cleaned_words": 34,
+      "ratio": 1.478,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "9067798512113491779",
+      "title": "Bostom bombers radicalisation memetic cook book",
+      "source_words": 432,
+      "cleaned_words": 519,
+      "ratio": 1.201,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "1113211543431750554",
+      "title": "Letting future self have more say on decisions",
+      "source_words": 187,
+      "cleaned_words": 186,
+      "ratio": 0.995,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "4782556395964908694",
+      "title": "Chomsky, Sanders, SOPA, TPP and the migration of popular movements online",
+      "source_words": 829,
+      "cleaned_words": 796,
+      "ratio": 0.96,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "1425789440223626772",
+      "title": "Journalists I read",
+      "source_words": 158,
+      "cleaned_words": 171,
+      "ratio": 1.082,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "7300426704999117712",
+      "title": "Bernie Sanders - No Empire at the expense of the people",
+      "source_words": 1340,
+      "cleaned_words": 1387,
+      "ratio": 1.035,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "5174573207895245014",
+      "title": "Kevin Kelly - Critical Uncertainties",
+      "source_words": 298,
+      "cleaned_words": 277,
+      "ratio": 0.93,
+      "images_preserved": true,
+      "all_urls_preserved": false
+    },
+    {
+      "id": "5925115215171928014",
+      "title": "Obama's valedictory should Echo Eisenhower's: Beware the Military-Industrial Complex",
+      "source_words": 315,
+      "cleaned_words": 310,
+      "ratio": 0.984,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "6372435285046373908",
+      "title": "Analytical engines will breath life into your online identity",
+      "source_words": 896,
+      "cleaned_words": 859,
+      "ratio": 0.959,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "825434560019224835",
+      "title": "Franco-British Empire - Alternative History",
+      "source_words": 1687,
+      "cleaned_words": 1623,
+      "ratio": 0.962,
+      "images_preserved": true,
+      "all_urls_preserved": false
+    },
+    {
+      "id": "4553376930093392984",
+      "title": "Cloud data an extension of the Self",
+      "source_words": 93,
+      "cleaned_words": 124,
+      "ratio": 1.333,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "1443007217703977471",
+      "title": "Religions explained",
+      "source_words": 1826,
+      "cleaned_words": 1671,
+      "ratio": 0.915,
+      "images_preserved": true,
+      "all_urls_preserved": false
+    },
+    {
+      "id": "3566757528292357307",
+      "title": "Social engineering and brain computer interfaces",
+      "source_words": 640,
+      "cleaned_words": 583,
+      "ratio": 0.911,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "4531264327426820161",
+      "title": "Malaysia Airlines MH17 - Shot down by Donetsk Republic separatists",
+      "source_words": 295,
+      "cleaned_words": 297,
+      "ratio": 1.007,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "8544762229486567714",
+      "title": "Russo-German Alliance?",
+      "source_words": 345,
+      "cleaned_words": 307,
+      "ratio": 0.89,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "8298277916888086978",
+      "title": "German media rift with USA over Ukraine, Russia",
+      "source_words": 273,
+      "cleaned_words": 247,
+      "ratio": 0.905,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "3005990135999890740",
+      "title": "Russian And Ukraine Troop Movements",
+      "source_words": 57,
+      "cleaned_words": 40,
+      "ratio": 0.702,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "1485578474579062362",
+      "title": "Crimea, Ukraine and the Polish-Lithuanian Commonwealth",
+      "source_words": 204,
+      "cleaned_words": 163,
+      "ratio": 0.799,
+      "images_preserved": true,
+      "all_urls_preserved": false
+    },
+    {
+      "id": "7512993691112914527",
+      "title": "Ukrainian protests - Russia vs West",
+      "source_words": 166,
+      "cleaned_words": 146,
+      "ratio": 0.88,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "5783439634000686440",
+      "title": "Will technology empower the individual or lead to our demise?",
+      "source_words": 577,
+      "cleaned_words": 560,
+      "ratio": 0.971,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "785309882996188252",
+      "title": "Syrian crisis - hegemony via chaos",
+      "source_words": 287,
+      "cleaned_words": 286,
+      "ratio": 0.997,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "5284621662194904983",
+      "title": "Google glasses and our future as Borg",
+      "source_words": 320,
+      "cleaned_words": 304,
+      "ratio": 0.95,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "5519698088520153147",
+      "title": "German colonisation of Europe",
+      "source_words": 281,
+      "cleaned_words": 280,
+      "ratio": 0.996,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "2017743159516275214",
+      "title": "Syrian chemical weapons use, a fraudulent casus belli to justify western intervention?",
+      "source_words": 620,
+      "cleaned_words": 588,
+      "ratio": 0.948,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "3739433736813708752",
+      "title": "Brain to brain communication - paradigm shift",
+      "source_words": 193,
+      "cleaned_words": 205,
+      "ratio": 1.062,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "8198780431924090618",
+      "title": "Demographic decline will hurt Russia the most",
+      "source_words": 505,
+      "cleaned_words": 515,
+      "ratio": 1.02,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "1844580372135678888",
+      "title": "Fear based memes drive technology R&D",
+      "source_words": 249,
+      "cleaned_words": 246,
+      "ratio": 0.988,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "4080107743796537927",
+      "title": "Space Race: China vs USA",
+      "source_words": 904,
+      "cleaned_words": 899,
+      "ratio": 0.994,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "723205711008250347",
+      "title": "Planetary Resources: Sci Fi Geek adventure IRL",
+      "source_words": 678,
+      "cleaned_words": 677,
+      "ratio": 0.999,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "3037385404541459373",
+      "title": "Second Economy, decline of Democracy?",
+      "source_words": 1485,
+      "cleaned_words": 1477,
+      "ratio": 0.995,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "6268025256148877974",
+      "title": "North Korean failed rocket analysis: Not enough Nazis",
+      "source_words": 227,
+      "cleaned_words": 240,
+      "ratio": 1.057,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "1783953370192441250",
+      "title": "Post-postmodern state: Corporates and Intellectual Property",
+      "source_words": 1273,
+      "cleaned_words": 1272,
+      "ratio": 0.999,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "3566407908880920052",
+      "title": "Stratfor's Reva Bhalla - Take control of him",
+      "source_words": 803,
+      "cleaned_words": 798,
+      "ratio": 0.994,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "1733066040977566920",
+      "title": "The managerial technocratic aristocracy",
+      "source_words": 706,
+      "cleaned_words": 705,
+      "ratio": 0.999,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "6149321049009423405",
+      "title": "An argument against Chinese economic collapse",
+      "source_words": 645,
+      "cleaned_words": 634,
+      "ratio": 0.983,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "317249899591749051",
+      "title": "US targeted killings: Osama - Yamamoto comparison",
+      "source_words": 1078,
+      "cleaned_words": 1054,
+      "ratio": 0.978,
+      "images_preserved": true,
+      "all_urls_preserved": false
+    },
+    {
+      "id": "2269288690090332502",
+      "title": "Unrest in Middle East - history repeating",
+      "source_words": 396,
+      "cleaned_words": 406,
+      "ratio": 1.025,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "1752882587207890821",
+      "title": "Trade-off between quality of dream and level of lucidity?",
+      "source_words": 171,
+      "cleaned_words": 173,
+      "ratio": 1.012,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "8990026033186183595",
+      "title": "Lucid Dreaming: reality construct flaws & useful reality check cues",
+      "source_words": 896,
+      "cleaned_words": 902,
+      "ratio": 1.007,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "2868200514357757488",
+      "title": "Reality construction: terminal - server analogy",
+      "source_words": 748,
+      "cleaned_words": 749,
+      "ratio": 1.001,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "699798323019472823",
+      "title": "Lucid Dreaming: reality construction defects encountered",
+      "source_words": 755,
+      "cleaned_words": 748,
+      "ratio": 0.991,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    },
+    {
+      "id": "1026887421224059046",
+      "title": "Idea creation and propagation: Good TED talks",
+      "source_words": 770,
+      "cleaned_words": 756,
+      "ratio": 0.982,
+      "images_preserved": true,
+      "all_urls_preserved": true
+    }
+  ]
+}

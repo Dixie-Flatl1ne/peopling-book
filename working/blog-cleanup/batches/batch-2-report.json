@@ -1,0 +1,86 @@
+[
+  {
+    "id": "3566407908880920052",
+    "title": "Stratfor's Reva Bhalla - Take control of him",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2012-02-29-stratfor-s-reva-bhalla-take-control-of-him-3566407908880920052.md",
+    "change_level": "medium",
+    "summary": "Converted both image extraction placeholders to valid Markdown linked-image syntax with captions and repaired bare URL fragments. Second-pass QA corrected LinkedIn and Syria casing/spelling, 'political sciences major', Christmas Day and '20-something', alongside the earlier Venezuela, comparison and Cosmo typo fixes. Preserved the profanity, blunt commentary, Joy Division lyrics and Cosmo extract.",
+    "flags": [
+      "The article paraphrases a private Stratfor email; the underlying email is not quoted verbatim and the paraphrase was preserved as written."
+    ]
+  },
+  {
+    "id": "1783953370192441250",
+    "title": "Post-postmodern state: Corporates and Intellectual Property",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2012-03-19-post-postmodern-state-corporates-and-intellectual-property-1783953370192441250.md",
+    "change_level": "medium",
+    "summary": "Converted pasted blockquote and bold residues into Markdown blockquotes, repaired links and promoted the two bold subheads to ATX headings. Second-pass QA fixed several comma splices and malformed constructions, including the inverted whole/sum phrase, 'what they do show as an increase', 'it's totalitarian state' and 'large increasing of spying'. Preserved the speculative libertarian-progressive framing, quotations and Orwellian conclusion.",
+    "flags": [
+      "Multiple embedded quotations (Stross, Kinsella, Adams) are preserved verbatim from the source but were not independently re-verified against the originals."
+    ]
+  },
+  {
+    "id": "6268025256148877974",
+    "title": "North Korean failed rocket analysis: Not enough Nazis",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2012-04-18-north-korean-failed-rocket-analysis-not-enough-nazis-6268025256148877974.md",
+    "change_level": "light",
+    "summary": "Converted the xkcd image placeholder to a valid Markdown linked image. Second-pass QA fixed the possessive 'North Korean's', 'jump started', a run-on sentence and the missing article in 'and whole Lebensraum thing', alongside the earlier superpowers possessive and ellipsis fixes. Preserved the joke framing, Lebensraum aside and Tom Lehrer quote.",
+    "flags": []
+  },
+  {
+    "id": "3037385404541459373",
+    "title": "Second Economy, decline of Democracy?",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2012-05-25-second-economy-decline-of-democracy-3037385404541459373.md",
+    "change_level": "medium",
+    "summary": "Converted the stipend passage and Michael Ferguson rebuttal to Markdown blockquotes and repaired bare links. Second-pass QA fixed agreement and missing-word errors in the main argument, proper-noun casing, and obvious spelling/agreement errors in the guest commentary, including Aldous, dystopian, Reserves and millennium-long. Preserved the speculative 'Second Economy' argument, historical analogy and rebuttal.",
+    "flags": [
+      "The 25% Great Depression unemployment figure, the 50% robotic-future unemployment claim, the suffrage table reference, and Michael Ferguson's rebuttal predictions were preserved as published and not fact-checked."
+    ]
+  },
+  {
+    "id": "723205711008250347",
+    "title": "Planetary Resources: Sci Fi Geek adventure IRL",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2012-05-31-planetary-resources-sci-fi-geek-adventure-irl-723205711008250347.md",
+    "change_level": "medium",
+    "summary": "Converted both image placeholders to valid Markdown linked images, repaired links and italics, and restored the raw-HTML Planetary Resources YouTube embed as a usable link. Second-pass QA corrected Planetary Resources, knobs, NASA's 'its', International Space Station, Earth, nowhere and Arthur C. Clarke. Preserved the Sci Fi framing, asterank critique, quotations and transcension reference.",
+    "flags": [
+      "Planetary Resources business-case figures, asterank asteroid valuations, and the $5k-$40k/kg launch cost range were preserved as published in 2012 and not updated."
+    ]
+  },
+  {
+    "id": "4080107743796537927",
+    "title": "Space Race: China vs USA",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2012-07-10-space-race-china-vs-usa-4080107743796537927.md",
+    "change_level": "medium",
+    "summary": "Converted both image placeholders to valid Markdown linked images, repaired links and formatted the Heritage Foundation extracts as blockquotes. Second-pass QA corrected missing punctuation, repeated 'Lets', led/lead errors, geographic casing and several malformed sentences in the historical comparison and closing rebuttal. Preserved the Vernor Vinge quote, Heritage recommendations and blunt commercial-rivalry framing.",
+    "flags": [
+      "The Heritage Foundation's 2012 space-policy recommendations are quoted verbatim; the surrounding framing and the 1848 first-Chinese-ship-in-Europe claim were preserved and not independently checked."
+    ]
+  },
+  {
+    "id": "1844580372135678888",
+    "title": "Fear-based memes drive technology R&D",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2012-09-22-fear-based-memes-drive-technology-r-d-1844580372135678888.md",
+    "change_level": "light",
+    "summary": "Re-wrapped the heavily linked Wikipedia phrase soup into valid Markdown links and restored the omitted Noam Chomsky YouTube embed as a usable link. Second-pass QA repaired the missing subject before 'highly recommend', proper-noun casing and fear-based/self-driving compounds. Argument and Chomsky framing preserved.",
+    "flags": []
+  },
+  {
+    "id": "8198780431924090618",
+    "title": "Demographic decline will hurt Russia the most",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2012-10-03-demographic-decline-will-hurt-russia-the-most-8198780431924090618.md",
+    "change_level": "light",
+    "summary": "Converted the Putin, Vishnevsky, Lee and American Thinker extracts into Markdown blockquotes, repaired links and restored the omitted demographic-decline YouTube embed as a usable link. Second-pass QA fixed missing articles and verbs, know-how, intellectual property, possessives and proper-noun casing. Preserved the Friedman framing and speculative immigration scenario.",
+    "flags": [
+      "Putin's 154M / 107M population projections, Michal Lee's speculative immigration scenario, and the American Thinker China-Manifest-Destiny claim were preserved as published and not updated."
+    ]
+  },
+  {
+    "id": "3739433736813708752",
+    "title": "Brain-to-brain communication - paradigm shift",
+    "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2012-11-20-brain-to-brain-communication-paradigm-shift-3739433736813708752.md",
+    "change_level": "light",
+    "summary": "Wrapped the run-on Google/Internet/AI citation and closing reference in Markdown links and restored the omitted brain-to-brain YouTube embed as a usable link. Second-pass QA corrected the title compound, a malformed question, inconsistent subconscious spelling and Internet/superintelligence casing. No argument was added or restructured.",
+    "flags": []
+  }
+]

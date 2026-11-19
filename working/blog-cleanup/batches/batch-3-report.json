@@ -1,0 +1,84 @@
+{
+  "batch": 3,
+  "files_written": 9,
+  "report_path": "/home/hermes/projects/book/working/blog-cleanup/batches/batch-3-report.json",
+  "flagged": [
+    "3005990135999890740"
+  ],
+  "articles": [
+    {
+      "id": "2017743159516275214",
+      "title": "Syrian chemical weapons use, a fraudulent casus belli to justify Western intervention?",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2013-04-27-syrian-chemical-weapons-use-a-fraudulent-casus-belli-to-justify-western-interven-2017743159516275214.md",
+      "change_level": "medium",
+      "summary": "Capitalized 'United States' (was 'United states'), split a long run-on opening sentence with a full stop, and turned three pasted Blogger/Markdown link fragments into working Markdown links for the three cited sources (CNN, RT, Stratfor). Second-pass QA removed four unrelated CNN headline snippets embedded in the quoted passage, changed 'will' to 'would' for agreement, and corrected Western, Alawite-led and Mediterranean Sea casing and compounds. All claims, the political spin, image URLs and dates preserved unchanged.",
+      "flags": []
+    },
+    {
+      "id": "5519698088520153147",
+      "title": "German colonisation of Europe",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2013-07-16-german-colonisation-of-europe-5519698088520153147.md",
+      "change_level": "medium",
+      "summary": "Corrected 'Fresians' to 'Frisians', 'often' from 'oft' in a likely contraction typo, 'World War II' from lowercase 'world war II', and 'France' capitalised mid-sentence. Fixed the duplicated word 'the the' (to 'to the') and the misused 'reigns' to 'reins'. Wrapped the Thatcher and Mitterrand quotes as blockquotes, and turned the broken Telegraph citation link into a clean Markdown link. Second-pass QA corrected Western Roman Empire and Roman Empire casing, 'intermittent' to 'intervening', a comma splice, compound hyphenation, introductory punctuation and the vocative comma in 'Nice try, France'. Image URL, Wikipedia link and URL preserved unchanged.",
+      "flags": []
+    },
+    {
+      "id": "5284621662194904983",
+      "title": "Google glasses and our future as Borg",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2013-07-18-google-glasses-and-our-future-as-borg-5284621662194904983.md",
+      "change_level": "light",
+      "summary": "Corrected obvious typos: 'show casing' to 'showcasing', 'wont' to 'won't', 'Borge' to 'Borg', 'matrix' to 'Matrix' (the film) in the parallel construction, and 'Seven of Nine' from 'seven of nine'. Replaced the standalone 'prediction number 6!' hanging fragment with a tighter intro sentence. Second-pass QA capitalised Earth in both references. All image URLs, dates, jokes and the closing 'Resistance is futile!' preserved.",
+      "flags": []
+    },
+    {
+      "id": "785309882996188252",
+      "title": "Syrian crisis - hegemony via chaos",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2013-09-03-syrian-crisis-hegemony-via-chaos-785309882996188252.md",
+      "change_level": "light",
+      "summary": "Fixed 'in to' to 'into', replaced a bare-paragraph URL to War Tard with a Markdown link, wrapped the Chomsky quote as a blockquote with a Markdown link to the source talk, and split a comma-splice ('France, and western strikes...') with a full stop. Second-pass QA capitalised Western, hyphenated 'mini-states' and supplied the missing 'that' and punctuation around the Iraq aside. Map image URL, URL, labels and Chomsky quote preserved verbatim.",
+      "flags": []
+    },
+    {
+      "id": "5783439634000686440",
+      "title": "Will technology empower the individual or lead to our demise?",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2013-09-03-will-technology-empower-the-individual-or-lead-to-our-demise-5783439634000686440.md",
+      "change_level": "medium",
+      "summary": "Repaired a mangled book-title Markdown link ('Dialectic of Enlightenment *...p.125') and two stray Wikipedia links that were inline with text. Rejoined an accidentally line-broken sentence in the Kelly paragraph. Fixed 'provents' to 'prevent', inserted 'a' before 'clear understanding', fixed the inline 'Cody Wilson' quote to a blockquote, and wrapped the Kelly and Waking Life quotes as blockquotes. Wired-up the Foreign Policy Cody Wilson article into a single Markdown link. Second-pass QA fixed 'civilisation-sized', punctuation after 'On the one hand', 'Here are a couple', the missing 'of' after 'understanding', and Earth and Telescopic Evolution casing. All factual claims, the Kelly quotes and image URL preserved unchanged.",
+      "flags": []
+    },
+    {
+      "id": "7512993691112914527",
+      "title": "Ukrainian protests - Russia vs West",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-02-25-ukrainian-protests-russia-vs-west-7512993691112914527.md",
+      "change_level": "light",
+      "summary": "Capitalised 'European Union' consistently (was 'European union' in places), fixed the apostrophe-in-numbered-list ('2)' '2.'), corrected 'Austrio-Hungarian' to 'Austro-Hungarian', dropped an extraneous 'the' before 'Ukraine' where the country was used directly, and changed the colon/comma structure on the opening sentence to make the choice readable. Second-pass QA hyphenated 'Russian-led', standardised 'substates', and restored the source's closing exclamation mark. Crimea facts, image URL, dates and labels preserved.",
+      "flags": []
+    },
+    {
+      "id": "1485578474579062362",
+      "title": "Crimea, Ukraine and the Polish-Lithuanian Commonwealth",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-03-20-crimea-ukraine-and-the-polish-lithuanian-commonwealth-1485578474579062362.md",
+      "change_level": "light",
+      "summary": "Removed a stray empty '(https://www.blogger.com/)' line (Blogger link artefact), corrected 'Ukranian' to 'Ukrainian', '&' to 'and' in a body sentence, added a period to the closing 'You get the gist.' and broke a long comma-splice sentence into two. Second-pass QA repaired the comma splice between the Ukrainian-speaking and Russian-speaking regions and supplied the missing article in 'Yanukovych, the pro-Russian president'. All image URLs and the historical claims preserved unchanged.",
+      "flags": []
+    },
+    {
+      "id": "3005990135999890740",
+      "title": "Russian and Ukrainian Troop Movements",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-05-03-russian-and-ukraine-troop-movements-3005990135999890740.md",
+      "change_level": "light",
+      "summary": "Stub post. Body is a single image link with no commentary. Second-pass QA corrected the obvious title typo from 'Russian And Ukraine Troop Movements' to 'Russian and Ukrainian Troop Movements'. The source link to a ZeroHedge map is preserved unchanged.",
+      "flags": [
+        "stub: only an image link, no article body"
+      ]
+    },
+    {
+      "id": "8298277916888086978",
+      "title": "German media rift with USA over Ukraine, Russia",
+      "output_file": "/home/hermes/projects/book/working/blog-cleanup/cleaned/2014-05-15-german-media-rift-with-usa-over-ukraine-russia-8298277916888086978.md",
+      "change_level": "medium",
+      "summary": "Replaced three stray '#' lines (Blogger heading residue) with proper Markdown links to the Newsweek, ZeroHedge and Economist/Telegraph sources. Fixed 'it's' to 'its' as possessive for 'military alliance', 'US lead' to 'US-led' compound, 'mirky' to 'murky', and 'German's' to 'Germany's' (possessive of the country, not the language). Comma-splices in the closing paragraphs split into separate sentences. Second-pass QA repaired the malformed 'opinion on the Ukraine to the US' construction and hyphenated 'German-manufactured'. All image URLs, the Hunter Biden claim, dates and the central economic-incentive argument preserved.",
+      "flags": []
+    }
+  ]
+}

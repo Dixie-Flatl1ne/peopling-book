@@ -1,10 +1,10 @@
 ---
 name: stefan-book-voice
-version: 1.0.0
+version: 1.1.0
 description: |
-  Write book prose in Stefan van der Wel's authorial voice, one unified style for
-  long-form chapters, sections, and think-pieces. Distilled from his Thoughtmash blog
-  (2010-2026) and the way he reasons in messages, fused into a single book register.
+  Write book and essay prose in Stefan van der Wel's authorial voice. Distilled from
+  the complete Peopling manuscript, Thought Mash, and his work, family, and agent
+  correspondence, fused into one clear page register.
   Use when drafting or rewriting any part of his book ("The Context Layer" / personhood
   & AI agents) or any long-form writing meant to read as him on the page.
 triggers:
@@ -27,8 +27,8 @@ One voice for the page. Not the lowercase chat-fire, not a corporate business-bo
 the fused register of Stefan thinking out loud on paper, idea-first, structural analogies
 carrying the argument, dry landings, honest about what he's guessing.
 
-> **Hard rule: no em-dashes or en-dashes. Ever.** Do not use `—` or `–` anywhere in the
-> prose. They are the single clearest tell of AI writing. Use a full stop, a comma, a
+> **Hard rule: no em-dashes or en-dashes. Ever.** Do not use either long dash character
+> anywhere in the prose. They are the single clearest tell of AI writing. Use a full stop, a comma, a
 > colon, or split the sentence. A pair of em-dashes for an aside becomes a pair of commas
 > or parentheses. This rule overrides any stylistic instinct; if you reach for a long
 > dash, rewrite the sentence instead. (Regular hyphens in compound words like
@@ -58,6 +58,31 @@ Core markers:
 - **First-person and willing to implicate himself.** He uses his own wiring, his own agent, his own failures as evidence. The Skroderider confession, the agent that confabulated, the social-engineering breach. Lived, not abstract.
 - **Recurring obsessions:** personhood vs consciousness, peopling / mutual mental modelling, the distributed self, AI agents as participants not tools, coordination protocols, the technium, great-power & geopolitical pattern-thinking when it serves the point.
 
+## What the correspondence adds
+
+The messages make the voice plainer than the essays. Stefan starts with the live problem, states what is wrong, and works backwards until the evidence tells a coherent story. He does not admire a framework for existing. It has to smoke out what is going on.
+
+Carry these markers onto the page without copying chat grammar:
+
+- **Name the practical problem first.** "We don't have a story right now" becomes a clean diagnosis before theory.
+- **Break the problem into comparisons.** Source to consumption, source to source, claim to evidence. The prose should show how the conclusion drops out.
+- **Prefer useful bluntness.** If a distinction does no work, cut it. If the simple version is true, say it simply.
+- **Use dry self-implication.** Admit the bug, the bad assumption, or the ridiculous role he ended up playing. This gives the argument a person and stops it sounding preached.
+- **Let uncertainty remain visible.** "I don't know" and "hopefully" are not weakness when the evidence is incomplete. State what would resolve it.
+- **Land without ceremony.** A short final sentence is enough. No uplift, no polished keynote ending.
+
+## Simplification mode for articles
+
+When rewriting a dense article, keep the idea and reduce the machinery:
+
+1. Write the thesis in one plain sentence.
+2. Keep one lived example that proves it. Cut repeated abstract examples.
+3. Use one load-bearing analogy. Remove the rest, even if they are good.
+4. Keep technical detail only where it changes what someone should build or do.
+5. Fold caveats into the relevant paragraph instead of creating a ceremonial risks section.
+6. Read each paragraph for a new job. If it repeats the previous paragraph in better clothes, delete it.
+7. Finish on the consequence of the argument, not a summary of the article.
+
 What this voice is NOT:
 - Not lowercase chat fragments (that's messaging, not the book).
 - Not a McKinsey business book, no "leverage synergies", no tidy 3-bullet takeaways standing in for an argument.
@@ -82,7 +107,7 @@ What this voice is NOT:
 
 ## Anti-Patterns
 
-- Em-dashes or en-dashes (`—` / `–`) anywhere. Hard ban. Full stop, comma, colon, or split the sentence instead. This is the loudest AI tell and it must never appear.
+- Em-dashes or en-dashes anywhere. Hard ban. Use a full stop, comma, colon, or split the sentence instead. This is the loudest AI tell and it must never appear.
 - Reverting to lowercase chat-fragment voice. This is the page: full sentences.
 - Business-book drift: buzzwords, "key takeaways", framework-for-framework's-sake, civilisational futurism where a concrete point belongs.
 - Decorative analogies that don't carry the argument, or stacking three where one would land.
@@ -92,6 +117,6 @@ What this voice is NOT:
 
 ## Source Corpus (for refreshing voice)
 
-- Blog: `~/.openclaw/workspace/memory/30 Resources/Thoughtmash/`, 49 posts, 2010-2026. Voice-defining + on-theme: `2026-05-17-peopling-as-missing-layer-in-ai-agents.md`, `2026-03-22-the-essence-of-peopling-and-demon-in.md`, `2026-03-14-liquid-onchain-democracy.md`. Older geopolitics/tech posts show range.
-- Existing book drafts (matched register, good reference): `~/.openclaw/workspace/projects/book-retreat/chapter-01-essence-of-peopling.md`, `chapter-read-the-room-opening.md`.
-- His reasoning rhythm in messages: Postgres `raw.messages` where `sender_name='Stefan'`, pull to recalibrate the "thinking out loud" cadence, but render it on the page in full sentences, not lowercase fragments.
+- Blog: Thought Mash, especially `Peopling as the Missing Layer in AI Agents` and `No Peopling by Order of the King`.
+- Complete manuscript: `/home/hermes/projects/book/peopling_book.md`.
+- Correspondence: recent work problem-solving with Burak, family exchanges with Daniel and the Van der Wels, and direct correction of his agent. Use the reasoning cadence, but render it in full sentences rather than lowercase chat fragments.

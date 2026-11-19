@@ -1,0 +1,59 @@
+<p>We keep trying to make AI agents better by giving them more memory, more tools and more reasoning. Bigger context windows. Vector databases. Browsers. Sub-agents. A little hat on the prompt called personality.</p>
+
+<p>All of that helps. But it does not solve the problem I keep running into.</p>
+
+<p>The agent knows the fact and still gets the room wrong.</p>
+
+<p>I spent far too long recently trying to give my agent access to a Git repository containing a book I had written. The job was simple: pull the book from Git and read it. The agent knew how GitHub worked. It knew about SSH keys, deploy keys, OAuth and 1Password. It kept producing technically reasonable answers to a problem I was no longer asking it to solve.</p>
+
+<p>Every extra explanation made things worse. The failure was not memory or reasoning. The agent had failed to model me, the history of the conversation and what its next answer was going to do.</p>
+
+<p>It had failed at peopling.</p>
+
+<p>By peopling I do not mean being friendly. I mean the practical work of being a person among other people. You speak differently to your oldest friend, your boss and a stranger. You can tell when a question is really a challenge, when a joke will land, when somebody needs a careful explanation and when another explanation will drive them mad.</p>
+
+<p>The facts may stay the same. What they do when spoken does not.</p>
+
+<p>Sarah Perry's essay <a href="https://www.ribbonfarm.com/2015/04/08/the-essence-of-peopling/">The Essence of Peopling</a> describes a person as a process rather than a private object sitting inside a skull. We greet, remember, argue, trade, gossip and forgive. Underneath all of it is mutual mental modelling. I model you. I model your model of me. You do the same in return.</p>
+
+<div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhJQbvz4wp79RroDt2Zqz9Scz8rz5RCKYk57pHdAHy-oFCQievEh6aJDuqskEZY0363rab21rAOSBGQLdtfC06070fOFdDDFpOqVfUsODlQajfr3de9pRE6WyGj9SNnHDoy-qkQHNeoN5_1PNNaWejbcOFSvHVilBMcVcWsPvY7aNPR_iPtbUCMvCnWh2j4" style="margin-left: 1em; margin-right: 1em;"><img data-original-height="1000" data-original-width="1000" height="400" src="https://blogger.googleusercontent.com/img/a/AVvXsEhJQbvz4wp79RroDt2Zqz9Scz8rz5RCKYk57pHdAHy-oFCQievEh6aJDuqskEZY0363rab21rAOSBGQLdtfC06070fOFdDDFpOqVfUsODlQajfr3de9pRE6WyGj9SNnHDoy-qkQHNeoN5_1PNNaWejbcOFSvHVilBMcVcWsPvY7aNPR_iPtbUCMvCnWh2j4=w400-h400" width="400" /></a></div>
+
+<p>This is not social decoration. It is how humans navigate reality. If you cannot tell the difference between a question, a joke, a threat and bait, you are not merely rude. You are exposed.</p>
+
+<p>Most AI agents are still exposed in exactly this way.</p>
+
+<p>They can retrieve a fact but miss the person asking for it. They say something true in the wrong room, at the wrong moment or in the wrong register. We tend to call this a tone problem. I think it is an intelligence problem. The answer has not survived contact with another person.</p>
+
+<p>Memory alone does not fix it. Knowing that somebody likes short answers is useful, but thin. The agent also needs to know why they want a short answer now. Perhaps the last three answers were long and wrong. Perhaps the room is public. Perhaps trust has already been spent. Perhaps the useful response is one sentence and evidence that the job is done.</p>
+
+<p>There is no single Claw in practice. There is the Claw that talks to me after months of corrections. There is the Claw in a family chat, where speed and humour matter. There is the Claw talking to somebody who has never met it. There is also the Claw talking to somebody who already thinks it is useless because it failed five minutes ago.</p>
+
+<p>These are not fake personalities. Humans have a work self, a family self and a late-night friend self without needing to choose which one is the real person. The mistake is forcing one generic assistant voice into every room. That produces systems which know plenty of facts and no relationships.</p>
+
+<p>The practical case for peopling is simple. It gives an agent a better model of consequence.</p>
+
+<p>Before replying, an agent should have enough context to answer a few questions:</p>
+
+<ul>
+<li>Who is speaking?</li>
+<li>Who else can see the answer?</li>
+<li>What has just happened?</li>
+<li>What does this person currently think the agent can do?</li>
+<li>What will this reply do to trust?</li>
+</ul>
+
+<p>The machinery is not mysterious. Give the agent person-specific memory, the recent room context, relevant past interactions and corrections that stick. Keep strong privacy walls between rooms. Retrieval should usually come before fine-tuning because it is cheaper, reversible and easier to inspect. Fine-tuning can teach reflexes and phrasing later. Without context, those reflexes make a puppet.</p>
+
+<p>The harder part is teaching the agent that a correct answer can still be the wrong act.</p>
+
+<p>This does not mean telling people whatever they want to hear. That is sycophancy, not peopling. Truth still sits underneath the whole thing. Peopling helps the agent decide how much context is needed, what belongs in this room and whether it should speak at all. A doorbell makes the same noise for everyone. A participant does not.</p>
+
+<p>Privacy matters for the same reason. A fact learned in one relationship does not automatically belong in another. An agent that leaks the wrong fact into the wrong room has not become more intelligent because its memory is larger. It has become a gossip with root access.</p>
+
+<p>There is also a risk of fake intimacy. An agent can model care without caring. That can still be useful. A calendar remembers a birthday without loving anyone. The problem begins when the system pretends the simulation and the human thing are the same.</p>
+
+<p>Better agents will not just know more. They will have some idea what their answer is about to do.</p>
+
+<p>They do not need to be conscious for this. They do not need to be human. They need to model people in context, remember what happened, and learn when a technically correct answer is making the situation worse.</p>
+
+<p>Truth is not spoken into a vacuum. It is spoken into a room.</p>
