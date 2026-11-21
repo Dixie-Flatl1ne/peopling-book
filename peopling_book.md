@@ -91,6 +91,10 @@ I remember three things happening together. I expected the other driver to react
 
 Calm expectation, fear and the knowledge that I was dreaming were all present, and they did not agree. That is why the committee image appeals to me. It captures the experience of several processes contributing to what feels like one person: thoughts, reflexes, feelings and expectations, sometimes pulling in different directions.
 
+There is now some evidence that the image fits the brain as well as the experience. In a 2026 preprint, [Jeremy Skipper and colleagues pooled 912 brain-imaging studies of the self](https://doi.org/10.64898/2026.11.12.766263): remembering your own life, recognising your own face, feeling that your body belongs to you. If one place in the brain did the job of being you, it should have turned up in all of them. No location did. Each kind of task drew on a different mix of systems that also do other work, such as retrieving memories or sensing the body. The mixes were better described by how strongly each system contributed than by which ones were switched on. The authors call them shifting coalitions.
+
+That needs the usual care. A preprint has not yet been peer reviewed, this one compares published studies instead of following one person from moment to moment, and the effects it measures are small. But it suggests the committee has no permanent members and no chair. Who is in the room depends on what you are doing, and some voices are louder than others.
+
 I recognise a quieter version at work when part of me wants a deal and part feels uneasy, without an explanation ready to hand. The unease is worth examining. It may register something I have missed, or it may be a reaction the situation does not warrant. Either way, the first confident account is not necessarily the complete one.
 
 ## The story is written after the fact
@@ -136,6 +140,8 @@ The account changes with experience. A bad night's sleep, an argument at breakfa
 There is another question underneath that: where did you learn how to tell the story? In his 1976 book, *The Origin of Consciousness in the Breakdown of the Bicameral Mind*, [Julian Jaynes describes an imagined "I" operating in a mental space](https://www.julianjaynes.org/book/ooc/en/consciousness/). You can put yourself into a conversation that has not happened, try an answer and imagine what follows. His suggestion is that language helps construct this capacity, with metaphors giving us ways to picture and work on our own thoughts.
 
 Consider rehearsing an email. The words you might send, the response you expect, the person you are trying to be: all of them are available for revision before anyone else hears a thing. The story can prepare an action as well as explain one afterwards. And the language you use to do it was learned among other people.
+
+The story may also be doing a job the committee cannot do for itself. If the membership keeps changing, why does it feel like one person from morning to night? The authors of the coalition study offer a suggestion. Some of the same systems turn up again and again, and we keep applying one word to whatever they are doing: this feeling is mine, I remember that, I did this. On their account, saying "I" does not report on an owner sitting behind the activity. It is one of the activities, and it is the one that ties the others together. That is a proposal from their discussion, not something the imaging data show. It is also a much smaller claim than Jaynes's, and it needs no ancient history. It still puts language where he put it: in the making of a self, as well as in the description of one.
 
 And the story is populated. There is the version of your boss you consult before sending an email, the partner whose reaction you anticipate, the colleague you are worried about. You can rehearse an entire conversation without the other person being there. That is where the question moves from your own head into a relationship.
 
@@ -220,6 +226,12 @@ That is a much larger historical bet than I need to make. Homer also gives us [O
 
 What I want to borrow is the question about where we learn the voice that says "I decided". Think of asking what your father would say, or hearing a former manager's objection before you send a proposal. Someone else's way of judging can remain available inside your own thinking. That is familiar peopling, whatever verdict we reach on Jaynes's ancient world.
 
+McVeigh has a useful word for what that voice supplies: authorisation. People look for something that permits an action or makes it legitimate. In his telling the source moved over time from gods and ancestors towards the self, and it can as easily be a leader or an ideology. I do not need his history to recognise the pattern. Asking what your father would say is a request for authorisation from a model of someone who is not in the room.
+
+A different tradition takes the owner away altogether. In [a Buddhist dialogue](https://suttacentral.net/mil3.1.1/en/tw_rhysdavids), King Milinda challenges the monk Nāgasena, who has said that his name is only a convenient label with no permanent individual behind it. Nāgasena answers by asking about the chariot the king arrived in. Is the pole the chariot? The axle? The wheels? The king says no each time. Nor is there some further chariot sitting alongside the parts. In the end the king agrees that "chariot" is the word we use when the parts are there together, and Nāgasena says his own name works the same way. Homer's gods act on a person from outside. This asks whether there was ever a single thing inside for them to act on.
+
+It is close to the picture in the coalition study from chapter one, arrived at some two thousand years earlier and without a scanner. The researchers use the chariot themselves. I find it a useful companion to Perry's grammar: a person as a verb, and a self as the name for parts working together.
+
 In the interviews behind this book I wondered whether Protestant theology helped strengthen the more individual-centred picture I grew up with. That is a historical hunch, not a complete account of where the modern self came from. It is also a different question from when people became capable of introspection: an account of individual responsibility can change among people who already reflect on themselves. The point I want to keep is that the picture can be questioned. It is possible to take individual judgement seriously while also asking how a person's relationships help form it.
 
 Bakunin offered a political version of the social self: our awareness of ourselves is reflected through the people around us, and freedom depends on the freedom of others. His [discussion of the individual and society](https://www.marxists.org/reference/archive/bakunin/works/1871/principle-of-the-state.html) makes recognition part of freedom rather than a limit placed on an otherwise complete, isolated person. That is another route into the relationship this book is exploring.
@@ -274,6 +286,8 @@ In a team, the models include relationships, responsibilities and a picture of t
 Start with Perry's version of the multiple self, because it scales straight up into organisational life. Each person, she writes, has a different self for each of the people he knows, and a different self for every social context. A teenager behaves, speaks and thinks one way around his friends and an entirely different way around his grandparents. The self at work is not the self at home with close friends, or in bed with a partner. None of these is the true self; the self exists in all of them, and in the transitions between them. To collapse them all into one flat public self, she says, would be a kind of social death.
 
 Perry talks about selves and contexts, and that is exactly the right frame for organisational life. You do not have one personality at work, you have one per room. There is a finance-director self, a worried-about-the-board self, a mentor-to-the-juniors self, and they are genuinely different people, with different voices and different things they care about, because each is tuned to a different group. This is not you being fake at work. It is what having a self among many groups actually looks like. The trouble only starts when one of those selves stops being something you inhabit and hardens into a costume you wear, and we will get to that.
+
+There is a small piece of brain evidence that the room matters. In [a 2010 imaging study](https://doi.org/10.1162/jocn.2009.21192), Joan Chiao and colleagues nudged bicultural participants towards either an individualist or a collectivist frame, then asked them to judge statements about themselves. Midline regions often linked with thinking about oneself responded more to general descriptions after the individualist nudge, and more to descriptions tied to a situation after the collectivist one. The frame people had been put in changed how their brains handled the question of who they were.
 
 ## Status is the thing everyone is actually tracking
 
@@ -370,6 +384,10 @@ My own hunch is that the model is something like a philosophical zombie: capable
 
 The distinction in Jaynes's use of consciousness is useful here too. A system might describe itself, rehearse a conversation and give reasons for a decision. We can inspect those abilities without having settled whether anything feels like something to it. If an agent says "I thought you meant", I want to know what information led it there and whether it can revise the assumption. The first person in the sentence does not answer the question about experience.
 
+McVeigh, in the article from chapter two, is clear that Jaynes would not have applied his term to a machine. On that account the narrating self is built through language used by people with bodies and lives. A model has the language without the life. It inherits the vocabulary of an inner space second-hand, which is close to what I mean by a ghost.
+
+The two come apart in people as well. The coalition study from chapter one reviews research in both directions. A person's own name, shown too briefly to be consciously recognised, still speeds up their responses to the names that follow. Experienced meditators describe awareness continuing while the sense of being someone fades. Handling information about yourself and having an experience are different things. An agent's fluent "I" is evidence of the first. It tells us nothing about the second.
+
 The questions I can do something with are more specific. Can it hold relevant context? Can someone correct it and have that correction survive the conversation? Can it explain what evidence it used? Can it keep one person's information out of a room where it does not belong?
 
 Those are parts of what we ask of a reliable participant. Thinking of personhood in terms of these social functions gives me a way to investigate the system by building and using it, while leaving the question of experience open.
@@ -402,6 +420,8 @@ Sarah Perry makes the limit explicit in [The Essence of Peopling](https://ribbon
 > There can never be one single, public self; to collapse all these multiple selves together would be akin to social death.
 
 Her point is that a self exists across relationships and in the movement between them. None of those versions has an exclusive claim to being the real one. The differences are part of what makes each relationship possible.
+
+The coalition researchers from chapter one make a prediction I find useful here, and it is a prediction, not a result. They expect wellbeing to track the ability to enter an arrangement of the self, stay in it and leave when circumstances change. Rumination, on that view, is a self-critical arrangement you cannot get out of. That is the skinsuit from chapter three seen from the inside. The trouble was never having a work-self. It is being unable to take it off.
 
 Being a colleague, a close friend and a partner involves different kinds of attention and intimacy. Privacy matters. So do the responsibilities of a role. There are things you can properly share with one person that would be out of place with another. A professional manner can be useful and sincere, even when it is quite different from how you behave at home.
 
@@ -474,7 +494,7 @@ There are other ways to create confidence that someone will not betray you. Cons
 
 The point is the binding mechanism. Shared exposure can make people rely on one another without first building a detailed model of each other's values. It does not make betrayal impossible, and it does not tell you how they would behave once the cost of leaving changed. The arrangement is doing some of the work that, in another relationship, shared values would do.
 
-A cult of personality gives a group another point to align around. A founder or CEO can become the person who carries the vision and embodies the values, especially in a startup where so much of the company is still an extension of its founder. You might barely know the person beside you, but you both believe in the leader, and that gives you a starting reason to believe in each other. The many-to-one pattern from chapter three is doing the coordination: everyone can model the same person without first modelling everyone in the company.
+A cult of personality gives a group another point to align around. A founder or CEO can become the person who carries the vision and embodies the values, especially in a startup where so much of the company is still an extension of its founder. You might barely know the person beside you, but you both believe in the leader, and that gives you a starting reason to believe in each other. The many-to-one pattern from chapter three is doing the coordination: everyone can model the same person without first modelling everyone in the company. The leader also becomes where the group gets its authorisation, in the sense from chapter two: people act because the founder would approve.
 
 That can bring people together quickly, but it matters what their loyalty is attached to. If it is attached entirely to the leader, questioning a decision can start to look like disloyalty to the group. If it is attached to values the leader is expected to uphold too, those values give the group a basis for disagreement and correction. A team can look aligned in both cases. You find out which kind of alignment it has when someone needs to say the leader is wrong.
 
@@ -605,7 +625,7 @@ The sharing service also has to deal with change. A corrected record is a new re
 
 This changes what learning can mean at the level of the whole system. Repairing a project record can improve the context supplied to a later model call without retraining the model itself. The improvement still needs to show up in behaviour.
 
-During these audiobook revisions, I asked for changes to stay in draft while I continued listening. An agent could correctly remember how to deploy the book and still be wrong to do it then. Knowledge about how to perform an action does not supply permission to take it. The current task and the person's instructions remain part of the context the agent must work within.
+During these audiobook revisions, I asked for changes to stay in draft while I continued listening. An agent could correctly remember how to deploy the book and still be wrong to do it then. Knowledge about how to perform an action does not supply permission to take it. That is the authorisation question from chapter two in a new setting. An agent does not authorise itself. Its permission comes from a person, for a task, at a time. The current task and the person's instructions remain part of the context the agent must work within.
 
 ## Read the room the information is entering
 
@@ -621,7 +641,7 @@ For example, a team might be allowed to read a project decision without being al
 
 Participation itself needs judgement. An agent in a group can create more coordination work by answering every message. Sometimes the useful contribution is a missing decision or an explanation of a constraint. Sometimes it is silence.
 
-The agent also needs a continuing account of its own role: what work it is doing and what people can expect from it. That is the practical connection I see with the self-narrative discussed earlier. Different models can participate in that continuity through the history and role they are given. This does not establish that the system feels care, but it gives people something more dependable to work with and correct.
+The agent also needs a continuing account of its own role: what work it is doing and what people can expect from it. That is the practical connection I see with the self-narrative discussed earlier. Different models can participate in that continuity through the history and role they are given. That is less strange than it sounds. If the coalition account from chapter one is right, a person's continuity does not rest on a part that persists either. It rests on contributors that keep recurring and a name that keeps being applied to what they do. An agent running on one model this month and another the next is the same arrangement made visible. None of this establishes that the system feels care, but it gives people something more dependable to work with and correct.
 
 The manuscript mistake began with a distinction that was obvious to me and absent from the agent's understanding. The architecture now has to carry such distinctions across conversations, tasks and agents. Its value is in making them available where they matter, with enough of their history intact that we can still question them.
 
