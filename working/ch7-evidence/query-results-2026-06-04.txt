@@ -53,18 +53,19 @@
  full         |    27
  guild        |    22
 
+(Names other than the author and the agent replaced with placeholders on 2026-11-21.)
       person      | facts 
 ------------------+-------
  Stefan           |  8937
- realClaw         |  2448
- Parsa Yazdani    |  1265
- Clarence (Dad)   |   664
- Daniel           |   634
- Burak            |   617
- Dana M           |   426
- Dominic          |   324
- James Choi       |   314
- Dien             |   294
- Oliver Engelmann |   278
- Audacious        |   262
+ the agent        |  2448
+ Person 1         |  1265
+ Person 2         |   664
+ Person 3         |   634
+ Person 4         |   617
+ Person 5         |   426
+ Person 6         |   324
+ Person 7         |   314
+ Person 8         |   294
+ Person 9         |   278
+ Person 10        |   262
 

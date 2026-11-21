@@ -55,11 +55,7 @@ and *Relationships*.
 - Fact depth per person (top, by subject):
   - Stefan — 8,937 facts
   - the agent itself — 2,448
-  - Parsa Yazdani — 1,265
-  - Clarence (Dad) — 664
-  - Daniel — 634
-  - Burak — 617
-  - Dana M — 426
+  - the next five people — 1,265, 664, 634, 617 and 426 (names withheld)
 
 **The book image.** The same question — *"can you send me the file?"* — gets a
 different reply depending on who asks, because the model knows one person wants
@@ -87,8 +83,8 @@ to maintain.
   spans, where context from one room can legitimately inform another.
 - **1,870 relationship facts** — the explicit "who connects to whom" graph that
   makes bridging possible.
-- An **identity map** resolves raw WhatsApp IDs (e.g. `@278112151597144`) to
-  real names (Franziska Iseli), so a mention in one chat is legible everywhere.
+- An **identity map** resolves raw WhatsApp IDs to real names, so a mention in
+  one chat is legible everywhere.
 
 **The ethical spine — a governed bridge, not a gossip engine.** Access is
 structural, enforced in Postgres, not bolted on. Chat-scope distribution
