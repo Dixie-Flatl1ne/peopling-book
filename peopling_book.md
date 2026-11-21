@@ -621,19 +621,25 @@ It also shapes the explanation. Someone who helped make a decision may only need
 
 With several agents involved, there is another handover to manage. Hermes can be part of a WhatsApp conversation while Codex or Claude works on a repository. They may have different tools, different current tasks and different pieces of the history.
 
-I now have a service for sharing selected engineering knowledge between them. A checked account of a repository decision or a fix can be delivered into the relevant agents' memory banks, with its source and attribution. The service records whether each delivery completed. That makes the transfer something I can inspect. I no longer have to assume that telling one agent has told them all.
+In September I had a service for this. It delivered a checked account of a repository decision or a fix into each agent's own memory, with its source and attribution, and it recorded whether each delivery completed. I could inspect the transfer. I no longer had to assume that telling one agent had told them all.
 
-The selection matters. A useful technical finding can travel without the whole conversation it came from. The receiving agent needs to know what was established, what supports it and where it applies. Personal conversations do not become general engineering knowledge just because a coding agent might find them useful.
+In [October](https://github.com/Dixie-Flatl1ne/peopling-book/blob/main/working/ch7-evidence/november-2026-snapshot.md) I switched it off. Codex, Claude and a third coding agent called omp now write to one shared engineering memory. Each working session is kept automatically, along with the record of changes to the repository, and filed under the project it belongs to. Hermes can read that memory and does not write to it. Nothing has to be delivered, so no delivery can fail.
 
-There is a subtle trap here. If several agents repeat the same shared claim, they have not independently confirmed it. They may all be relying on one mistaken account. Keeping the original source attached helps us see that dependence and avoid mistaking repetition for corroboration.
+I gave something up for that. The old service passed on only what had been checked. The shared memory takes in the work as it happens, and the checking has to come afterwards.
+
+The selection still matters. It now happens when the memory is written and again when it is read. What goes in is meant to be engineering only. An agent's statement that it fixed something is meant to stay that agent's claim unless there is evidence for it. The agent reading it later needs to know what was established, what supports it and where it applies. Personal conversations stay in a separate memory. They do not become general engineering knowledge just because a coding agent might find them useful.
+
+There is a subtle trap here, and one shared memory brings it closer. If several agents repeat the same claim, they have not independently confirmed it. They may all be reading one mistaken record. Keeping the original source attached helps us see that dependence and avoid mistaking repetition for corroboration.
 
 This is the coordination problem of a team again. Giving several capable participants the same goal does not give them the same context. Shared memory can cut the work of bringing them up to speed. Each agent is still responsible for checking what matters to its task.
 
+Memory is only part of the handover. Two agents can also be working in the same folder at the same time. So there is now a register. An agent says which files it is working on before it changes them, and all the agents work in one copy of each project. In November an agent revising this book began in an older copy of it. The shared memory did not bring up which copy was current. The register did. That is the manuscript mistake again, five months on.
+
 What I want to carry across is the understanding of the work: why a decision was made, what has already been tried, what changed and what is still uncertain. The model can change while that account stays available. Whether the next agent uses it well is a further question.
 
-![Source communications feed interpreted memory. Hermes, Codex and Claude retrieve relevant context, while a separate service shares checked engineering records between their memory banks.](images/memory-bank.svg)
+![Source communications feed a personal memory. Working sessions feed one shared engineering memory that Codex, Claude and omp write to and Hermes can read. Each agent recalls the relevant context for the current request.](images/memory-bank.svg)
 
-*Current requests, roles and permissions govern how that context is used. Shared records retain their sources and correction history.*
+*Current requests, roles and permissions govern how that context is used. Records keep their sources, and stale ones are withdrawn.*
 
 ## Give corrections somewhere to take effect
 
@@ -641,7 +647,7 @@ The manuscript incident shows a repair: I explained the distinction and the agen
 
 If the mistake happens again, there are several places to look. Was the correction retained? Was it attached to the right project? Did it reach the agent doing the next task? Did that agent retrieve it, understand it and still do the wrong thing? Each answer points to a different problem.
 
-The sharing service also has to deal with change. A corrected record is a new revision. A recipient's old copy is retired once the replacement has arrived and been processed. If delivery fails, the failure stays visible. Otherwise a correction could look complete while one of the agents kept working from the old account.
+The shared memory also has to deal with change. Labelling an old record as superseded turned out not to work: the memory rebuilt a present-tense claim from it. A stale record has to be withdrawn, and the correction added with the evidence for it. Otherwise a correction could look complete while the agents kept reading the old account.
 
 This changes what learning can mean for the system as a whole. Repairing a project record can improve the context supplied to a later model call without retraining the model. The improvement still has to show up in behaviour.
 

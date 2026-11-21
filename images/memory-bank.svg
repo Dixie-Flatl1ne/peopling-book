@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" role="img">
   <title>Memory and continuity across agents</title>
-  <desc>Correspondence preserves original communications. Selected source material feeds Hermes memory in Hindsight. A separate service distributes checked engineering records to Hermes, Codex and Claude memory banks. Relevant recall and authorised source reads join the current request, role and permissions. Each agent responds or acts using its selected model. Results are checked, and suitable engineering corrections return to the sharing service.</desc>
+  <desc>Correspondence preserves original communications, and selected source material feeds a personal memory. Working sessions and repository history feed one shared engineering memory, which Codex, Claude and omp write to and Hermes can read. Relevant recall and authorised source reads join the current request, role and permissions. Each agent responds or acts using its selected model. Results are checked, and the work and its corrections return to the shared memory.</desc>
   <style>
     text { font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .ink { fill: #22201d; }
@@ -35,53 +35,54 @@
   <text x="210" y="123" text-anchor="middle" font-size="18" class="muted">Who, when, where and source</text>
 
   <rect x="420" y="26" width="330" height="112" rx="12" class="soft"/>
-  <text x="585" y="64" text-anchor="middle" font-size="25" font-weight="700" class="ink">Engineering sharing</text>
-  <text x="585" y="96" text-anchor="middle" font-size="20" class="accent">Selected, checked records</text>
-  <text x="585" y="123" text-anchor="middle" font-size="18" class="muted">Sources, revisions and delivery</text>
+  <text x="585" y="64" text-anchor="middle" font-size="25" font-weight="700" class="ink">Working sessions</text>
+  <text x="585" y="96" text-anchor="middle" font-size="20" class="accent">The work as it happens</text>
+  <text x="585" y="123" text-anchor="middle" font-size="18" class="muted">Sessions and repository history</text>
 
   <text x="55" y="165" font-size="18" class="muted">Selected source</text>
   <text x="55" y="187" font-size="18" class="muted">material</text>
-  <text x="400" y="194" text-anchor="middle" font-size="18" font-weight="700" class="muted">HINDSIGHT MEMORY BANKS</text>
+  <text x="745" y="165" text-anchor="end" font-size="18" class="muted">Kept</text>
+  <text x="745" y="187" text-anchor="end" font-size="18" class="muted">automatically</text>
+  <text x="400" y="232" text-anchor="middle" font-size="18" font-weight="700" class="muted">HINDSIGHT MEMORY</text>
 
   <rect x="50" y="248" width="700" height="142" rx="12" class="panel"/>
-  <path d="M210 138 V184 H155 V268" class="flow" marker-end="url(#flow-arrow)"/>
-  <path d="M585 138 V208 H230 V268" class="feedback" marker-end="url(#feedback-arrow)"/>
-  <path d="M585 208 H625 V268" class="feedback" marker-end="url(#feedback-arrow)"/>
-  <path d="M400 208 V268" class="feedback" marker-end="url(#feedback-arrow)"/>
-  <rect x="70" y="274" width="200" height="94" rx="8" class="softc"/>
-  <rect x="290" y="274" width="200" height="94" rx="8" class="softc"/>
-  <rect x="510" y="274" width="220" height="94" rx="8" class="softc"/>
-  <text x="170" y="308" text-anchor="middle" font-size="22" font-weight="700" class="ink">Hermes memory</text>
-  <text x="170" y="335" text-anchor="middle" font-size="17" class="muted">People, projects and</text>
-  <text x="170" y="356" text-anchor="middle" font-size="17" class="muted">selected engineering</text>
-  <text x="390" y="311" text-anchor="middle" font-size="22" font-weight="700" class="ink">Codex memory</text>
-  <text x="390" y="344" text-anchor="middle" font-size="18" class="muted">Engineering</text>
-  <text x="620" y="311" text-anchor="middle" font-size="22" font-weight="700" class="ink">Claude memory</text>
-  <text x="620" y="344" text-anchor="middle" font-size="18" class="muted">Engineering</text>
+  <path d="M210 138 V268" class="flow" marker-end="url(#flow-arrow)"/>
+  <path d="M585 138 V268" class="feedback" marker-end="url(#feedback-arrow)"/>
+  <rect x="70" y="274" width="280" height="94" rx="8" class="softc"/>
+  <rect x="370" y="274" width="360" height="94" rx="8" class="softc"/>
+  <text x="210" y="308" text-anchor="middle" font-size="22" font-weight="700" class="ink">Personal memory</text>
+  <text x="210" y="335" text-anchor="middle" font-size="17" class="muted">People, projects and</text>
+  <text x="210" y="356" text-anchor="middle" font-size="17" class="muted">relationships</text>
+  <text x="550" y="308" text-anchor="middle" font-size="22" font-weight="700" class="ink">Shared engineering memory</text>
+  <text x="550" y="335" text-anchor="middle" font-size="17" class="muted">Codex, Claude and omp write to it</text>
+  <text x="550" y="356" text-anchor="middle" font-size="17" class="muted">Hermes reads it</text>
 
-  <path d="M170 390 V399 M170 433 V444" class="flow" marker-end="url(#flow-arrow)"/>
-  <path d="M390 390 V399 M390 433 V444" class="flow" marker-end="url(#flow-arrow)"/>
-  <path d="M620 390 V399 M620 433 V444" class="flow" marker-end="url(#flow-arrow)"/>
+  <path d="M210 390 V399 M210 433 V444" class="flow" marker-end="url(#flow-arrow)"/>
+  <path d="M550 390 V399 M550 433 V444" class="flow" marker-end="url(#flow-arrow)"/>
   <text x="400" y="423" text-anchor="middle" font-size="19" class="muted">Relevant recall through each agent's access route</text>
   <path d="M50 84 H22 V474 H48" class="flow" marker-end="url(#flow-arrow)"/>
   <text transform="translate(15 316) rotate(-90)" text-anchor="middle" font-size="17" class="cool">Authorised source reads</text>
 
   <rect x="50" y="450" width="700" height="58" rx="8" class="soft"/>
   <text x="400" y="486" text-anchor="middle" font-size="23" font-weight="700" class="ink">Current request, role and permissions</text>
-  <path d="M170 508 V539" class="flow" marker-end="url(#flow-arrow)"/>
-  <path d="M390 508 V539" class="flow" marker-end="url(#flow-arrow)"/>
-  <path d="M620 508 V539" class="flow" marker-end="url(#flow-arrow)"/>
-  <rect x="70" y="544" width="200" height="94" rx="10" class="panel"/>
-  <rect x="290" y="544" width="200" height="94" rx="10" class="panel"/>
-  <rect x="510" y="544" width="220" height="94" rx="10" class="panel"/>
-  <text x="170" y="583" text-anchor="middle" font-size="28" font-weight="700" class="ink">Hermes</text>
-  <text x="170" y="615" text-anchor="middle" font-size="18" class="muted">WhatsApp and desktop</text>
-  <text x="390" y="583" text-anchor="middle" font-size="28" font-weight="700" class="ink">Codex</text>
-  <text x="390" y="615" text-anchor="middle" font-size="18" class="muted">Coding and projects</text>
-  <text x="620" y="583" text-anchor="middle" font-size="28" font-weight="700" class="ink">Claude</text>
-  <text x="620" y="615" text-anchor="middle" font-size="18" class="muted">Coding and projects</text>
+  <path d="M130 508 V539" class="flow" marker-end="url(#flow-arrow)"/>
+  <path d="M310 508 V539" class="flow" marker-end="url(#flow-arrow)"/>
+  <path d="M490 508 V539" class="flow" marker-end="url(#flow-arrow)"/>
+  <path d="M670 508 V539" class="flow" marker-end="url(#flow-arrow)"/>
+  <rect x="50" y="544" width="160" height="94" rx="10" class="panel"/>
+  <rect x="230" y="544" width="160" height="94" rx="10" class="panel"/>
+  <rect x="410" y="544" width="160" height="94" rx="10" class="panel"/>
+  <rect x="590" y="544" width="160" height="94" rx="10" class="panel"/>
+  <text x="130" y="583" text-anchor="middle" font-size="26" font-weight="700" class="ink">Hermes</text>
+  <text x="130" y="615" text-anchor="middle" font-size="16" class="muted">WhatsApp, desktop</text>
+  <text x="310" y="583" text-anchor="middle" font-size="26" font-weight="700" class="ink">Codex</text>
+  <text x="310" y="615" text-anchor="middle" font-size="16" class="muted">Coding, projects</text>
+  <text x="490" y="583" text-anchor="middle" font-size="26" font-weight="700" class="ink">Claude</text>
+  <text x="490" y="615" text-anchor="middle" font-size="16" class="muted">Coding, projects</text>
+  <text x="670" y="583" text-anchor="middle" font-size="26" font-weight="700" class="ink">omp</text>
+  <text x="670" y="615" text-anchor="middle" font-size="16" class="muted">Coding, projects</text>
 
-  <path d="M170 638 V672 H620 V638 M390 638 V672" class="flow"/>
+  <path d="M130 638 V672 H670 V638 M310 638 V672 M490 638 V672" class="flow"/>
   <path d="M400 672 V698" class="flow" marker-end="url(#flow-arrow)"/>
   <rect x="50" y="704" width="700" height="74" rx="10" class="softc"/>
   <text x="400" y="735" text-anchor="middle" font-size="23" font-weight="700" class="ink">Response or action using the selected model</text>
@@ -90,8 +91,8 @@
   <path d="M400 778 V818" class="flow" marker-end="url(#flow-arrow)"/>
   <rect x="210" y="824" width="380" height="80" rx="10" class="soft"/>
   <text x="400" y="859" text-anchor="middle" font-size="24" font-weight="700" class="ink">Check the result</text>
-  <text x="400" y="888" text-anchor="middle" font-size="20" class="accent">Retain an attributed correction</text>
+  <text x="400" y="888" text-anchor="middle" font-size="20" class="accent">Add a correction, withdraw the stale record</text>
   <path d="M590 864 H780 V82 H754" class="feedback" marker-end="url(#feedback-arrow)"/>
-  <text transform="translate(775 490) rotate(-90)" text-anchor="middle" font-size="17" class="accent">Suitable engineering corrections return to sharing</text>
-  <text x="400" y="940" text-anchor="middle" font-size="18" class="muted">Access boundaries apply to sources, memories and shared records.</text>
+  <text transform="translate(775 490) rotate(-90)" text-anchor="middle" font-size="17" class="accent">The work and its corrections return to the shared memory</text>
+  <text x="400" y="940" text-anchor="middle" font-size="18" class="muted">Access boundaries apply to sources and memories.</text>
 </svg>

@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "manuscript_sha256": "bb8575d221ce94741327b9ed19e5d803ce6d598f137c40c7b3e4bdd6b0e361f2",
-  "generated_at": "2026-11-21T07:54:17.016825+00:00",
+  "manuscript_sha256": "4dc217d96cd71872a05055cac61e29a2b39e9345bbac0fb672c0f83c4f8d39af",
+  "generated_at": "2026-11-21T10:07:47.107504+00:00",
   "narrator": {
     "provider": "Microsoft Edge text to speech",
     "voice": "en-AU-WilliamMultilingualNeural",
     "rate": "-3%",
     "synthetic": true
   },
-  "file": "peopling-4bd08182f45d.mp3",
-  "bytes": 44002629,
-  "sha256": "4bd08182f45df605975fc9dd924185fc0a13384eaca0b869119a57c5de2dfbb8",
-  "duration": 5500.096,
+  "file": "peopling-fef18ad907f8.mp3",
+  "bytes": 44587077,
+  "sha256": "fef18ad907f8f56e14279991da07ab28dfb7a48d0589f358cb9b971729199856",
+  "duration": 5573.16,
   "chapters": [
     {
       "id": "overview",
@@ -59,25 +59,25 @@
       "id": "ch7",
       "title": "Chapter 7: Peopling the Machine: Reading the Room",
       "start": 4124.608,
-      "end": 4803.768
+      "end": 4876.832
     },
     {
       "id": "ch8",
       "title": "Chapter 8: The Path Forward",
-      "start": 4803.768,
-      "end": 4958.576
+      "start": 4876.832,
+      "end": 5031.64
     },
     {
       "id": "epilogue",
       "title": "Epilogue: The Universe Trying to Wake Up",
-      "start": 4958.576,
-      "end": 5408.096
+      "start": 5031.64,
+      "end": 5481.16
     },
     {
       "id": "appendix",
       "title": "Appendix: Quick Reference Framework",
-      "start": 5408.096,
-      "end": 5500.096
+      "start": 5481.16,
+      "end": 5573.16
     }
   ]
 }
