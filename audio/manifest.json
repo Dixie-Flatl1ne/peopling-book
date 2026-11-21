@@ -1,83 +1,83 @@
 {
   "version": 1,
-  "manuscript_sha256": "e4222296a4cf14d1219ff8ecb5565dc69149568c588c51c76c811c40a8d5c881",
-  "generated_at": "2026-11-21T05:17:13.666119+00:00",
+  "manuscript_sha256": "bb8575d221ce94741327b9ed19e5d803ce6d598f137c40c7b3e4bdd6b0e361f2",
+  "generated_at": "2026-11-21T07:54:17.016825+00:00",
   "narrator": {
     "provider": "Microsoft Edge text to speech",
     "voice": "en-AU-WilliamMultilingualNeural",
     "rate": "-3%",
     "synthetic": true
   },
-  "file": "peopling-026bc8bb769d.mp3",
-  "bytes": 44855685,
-  "sha256": "026bc8bb769dd4ddaa2cba1b3fe23d1d170ba522d1b101af8d4c12a4248cc8fc",
-  "duration": 5606.736,
+  "file": "peopling-4bd08182f45d.mp3",
+  "bytes": 44002629,
+  "sha256": "4bd08182f45df605975fc9dd924185fc0a13384eaca0b869119a57c5de2dfbb8",
+  "duration": 5500.096,
   "chapters": [
     {
       "id": "overview",
       "title": "Overview",
       "start": 0.0,
-      "end": 128.312
+      "end": 122.408
     },
     {
       "id": "ch1",
       "title": "Chapter 1: Inside Your Head: Exploring You",
-      "start": 128.312,
-      "end": 826.6
+      "start": 122.408,
+      "end": 781.672
     },
     {
       "id": "ch2",
       "title": "Chapter 2: Between Two Heads: Exploring Others",
-      "start": 826.6,
-      "end": 1959.84
+      "start": 781.672,
+      "end": 1902.432
     },
     {
       "id": "ch3",
       "title": "Chapter 3: Across Many Heads: Most of Work Is Just Sync",
-      "start": 1959.84,
-      "end": 2724.064
+      "start": 1902.432,
+      "end": 2656.144
     },
     {
       "id": "ch4",
       "title": "Chapter 4: The Smart Cultural Ghost: Exploring the Machine",
-      "start": 2724.064,
-      "end": 3065.12
+      "start": 2656.144,
+      "end": 2988.944
     },
     {
       "id": "ch5",
       "title": "Chapter 5: Solving for You: Meaning and a Congruent Self",
-      "start": 3065.12,
-      "end": 3416.696
+      "start": 2988.944,
+      "end": 3334.92
     },
     {
       "id": "ch6",
       "title": "Chapter 6: Solving for the Corporation: Building Trust and Alignment",
-      "start": 3416.696,
-      "end": 4219.752
+      "start": 3334.92,
+      "end": 4124.608
     },
     {
       "id": "ch7",
       "title": "Chapter 7: Peopling the Machine: Reading the Room",
-      "start": 4219.752,
-      "end": 4906.136
+      "start": 4124.608,
+      "end": 4803.768
     },
     {
       "id": "ch8",
       "title": "Chapter 8: The Path Forward",
-      "start": 4906.136,
-      "end": 5061.472
+      "start": 4803.768,
+      "end": 4958.576
     },
     {
       "id": "epilogue",
       "title": "Epilogue: The Universe Trying to Wake Up",
-      "start": 5061.472,
-      "end": 5514.4
+      "start": 4958.576,
+      "end": 5408.096
     },
     {
       "id": "appendix",
       "title": "Appendix: Quick Reference Framework",
-      "start": 5514.4,
-      "end": 5606.736
+      "start": 5408.096,
+      "end": 5500.096
     }
   ]
 }
